@@ -1,5 +1,5 @@
 # RL-DA6400-Assignment_1
-
+## About
 Implementation of SARSA with EpsilonGreedy exploration and Q-learning with softmax exploration policy on three different Gymnasium environments.
 1.CartPole-v1
 2.MountainCar-v0

@@ -37,8 +37,8 @@ def plot_two_qlearning_results(
     plt.plot(sm_episodes, sm_mean1, color='red', label=f'temperature={temperature1}, alpha={alpha1}')
     plt.fill_between(
         sm_episodes,
-        sm_mean1 - 1*sm_std1,
-        sm_mean1 + 1*sm_std1,
+        sm_mean1 - .9*sm_std1,
+        sm_mean1 + .9*sm_std1,
         color='red', alpha=0.2
     )
 
@@ -46,8 +46,8 @@ def plot_two_qlearning_results(
     plt.plot(sm_episodes, sm_mean2, color='blue', label=f'temerature={temperature2}, alpha={alpha2}')
     plt.fill_between(
         sm_episodes,
-        sm_mean2 - 1*sm_std2,
-        sm_mean2 + 1*sm_std2,
+        sm_mean2 - .9*sm_std2,
+        sm_mean2 + .9*sm_std2,
         color='blue', alpha=0.2
     )
 
@@ -61,7 +61,7 @@ def plot_two_qlearning_results(
     plt.savefig(f"plots/qlearning_{alpha1}_{temperature1}vs{alpha2}_{temperature2}.png")
 
 if __name__ == "__main__":
-    alpha1, gamma1, temperature1 = 0.2, 0.9, 0.9
+    alpha1, gamma1, temperature1 = 0.1, 0.9, 0.9
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
     env_name = "CartPole-v1"
@@ -89,6 +89,6 @@ if __name__ == "__main__":
         episodes,
         mean1, std1,
         mean2, std2,
-        smooth_window=5,
+        smooth_window=10,
         title="Q-Learning (CartPole)"
     )

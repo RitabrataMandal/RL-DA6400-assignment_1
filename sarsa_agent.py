@@ -23,7 +23,7 @@ class SarasLearner:
         self.seed = seed
         self.policy = EpsilonGreedyPolicy(self.epsilon, self.q_table, self.env)
 
-    def compute_td_error(self, state, action, next_state, reward):
+    def compute_td_error(self, state, action, next_state,next_action, reward):
         """
             Description: This function computes the TD error.
             Args:
@@ -34,8 +34,8 @@ class SarasLearner:
             Returns:
                 td_error   : The TD error.
         """
-        return reward + self.gamma * self.q_table[next_state[0], next_state[1], next_state[2], next_state[3], np.argmax(self.q_table[next_state[0], next_state[1], next_state[2], next_state[3]])] - \
-               self.q_table[state[0], state[1], state[2], state[3], action]
+        return reward + self.gamma * self.q_table[next_state[0], next_state[1], next_state[2], next_state[3], next_action] - \
+           self.q_table[state[0], state[1], state[2], state[3], action]
 
     def update_q_table(self, state, action, td_error):
         """
@@ -45,48 +45,33 @@ class SarasLearner:
                 action     : The current action.
                 td_error   : The TD error.
                 Equations:
-                Q(s, a) <- Q(s, a) + alpha * (reward + gamma * Q(s', a') - Q(s, a))
+                Q(s, a) <- Q(s, a) + alpha * (td_error)
         """
         self.q_table[state[0], state[1], state[2], state[3], action] += self.alpha * td_error
 
     def learn(self, num_episodes, num_steps):
-        """
-            Description: This function implements the SARSA algorithm.
-            Args:
-                num_episodes : The number of episodes.
-                num_steps    : The number of steps.
-            Returns:
-                reward_list  : The list of rewards.
-        """
         reward_list = []
         for episode in range(num_episodes):
-            # initialize the environment
             state, _ = self.env.reset(seed=self.seed)
-            # discretize the state
             state_discrete = discretize_state(state, self.bins)
-            # initialize the reward
+            action = self.policy.get_action(state_discrete)  # SARSA selects initial action
             total_reward = 0
+
             for step in range(num_steps):
-                # get the action
-                action = self.policy.get_action(state_discrete)
-                # take the action
                 next_state, reward, done = self.env.step(action)[:3]
-                # discretize the next state
                 next_state_discrete = discretize_state(next_state, self.bins)
-                # update the q-table
-                td_error = self.compute_td_error(state_discrete, action, next_state_discrete, reward)
+                next_action = self.policy.get_action(next_state_discrete)  # Select next action
+                
+                td_error = self.compute_td_error(state_discrete, action, next_state_discrete, next_action, reward)
                 self.update_q_table(state_discrete, action, td_error)
-                # update the state
-                state = next_state
-                # update the state_discrete
-                state_discrete = next_state_discrete
-                # update the total reward
+                
+                state_discrete, action = next_state_discrete, next_action  # SARSA moves (s, a) -> (s', a')
                 total_reward += reward
-                # check if the episode is finished
-                if done or step == num_steps - 1:
-                    # print the total reward
-                    print("Episode: {}/{}, Total Reward: {}".format(episode + 1, num_episodes, total_reward))
-                    # append the total reward
-                    reward_list.append(total_reward)
+                
+                if done:
                     break
+
+            print(f"Episode: {episode + 1}/{num_episodes}, Total Reward: {total_reward}")
+            reward_list.append(total_reward)
+
         return reward_list

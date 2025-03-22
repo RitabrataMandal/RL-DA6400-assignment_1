@@ -1,35 +1,37 @@
 # RL-DA6400-Assignment_1
+
 ## About
-Implementation of SARSA with EpsilonGreedy exploration and Q-learning with softmax exploration policy on three different Gymnasium environments.
-    1.CartPole-v1
-    2.MountainCar-v0
-    3.MiniGrid-Dynamic-Obstacles-5x5-v0
+Implementation of SARSA with EpsilonGreedy exploration and Q-learning with softmax exploration policy on three different Gymnasium environments:
 
-## Environment installation
+- **CartPole-v1**  
+- **MountainCar-v0**  
+- **MiniGrid-Dynamic-Obstacles-5x5-v0**  
 
-Create a virtual environment using venv
+## Environment Installation
+
+Create a virtual environment using venv:
 ```bash
 python3 -m venv venv --prompt="rl"
 ```
 
-Activate the virutal environment
+Activate the virtual environment:
 ```bash
 source venv/bin/activate
 ```
 
-Install Requirements 
+Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Software packages
+## Software Packages
 
-To run file on the terminal, run it using 
+To run the file on the terminal, use:
 ```bash
 python3 main.py
 ```
-To recreate the results run plot_two(_q).py, using 
+
+To recreate the results, run `plot_two(_q).py` using:
 ```bash
 python3 plot_two.py
 python3 plot_two_q.py
-```

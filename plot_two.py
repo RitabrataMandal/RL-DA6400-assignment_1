@@ -63,7 +63,7 @@ def plot_two_sarsa_results(
     plt.savefig(f"plots/sarsa_{alpha1}_{epsilon1}vs{alpha2}_{epsilon2}.png")
 if __name__ == "__main__":
 
-    alpha1, gamma1, epsilon1 = 0.2, 0.9, 0.15
+    alpha1, gamma1, epsilon1 = 0.05, 0.9, 0.05
     alpha2, gamma2, epsilon2 = 0.2, 0.9, 0.2
 
     env_name = "CartPole-v1"

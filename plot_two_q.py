@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from q_runner import run_qlearning  # Updated from run_sarsa
+from q_runner import run_qlearning  
 
 def moving_average(data, window_size=10):
     """Applies a simple moving average to smooth the data."""
@@ -25,7 +25,7 @@ def plot_two_qlearning_results(
         sm_std1  = moving_average(std1, smooth_window)
         sm_mean2 = moving_average(mean2, smooth_window)
         sm_std2  = moving_average(std2, smooth_window)
-        sm_episodes = episodes[(smooth_window-1)//2 : -(smooth_window//2)]
+        sm_episodes = episodes[(smooth_window-1)//2 : -(smooth_window//2)] if smooth_window > 1 else episodes
     else:
         sm_mean1, sm_std1 = mean1, std1
         sm_mean2, sm_std2 = mean2, std2
@@ -37,17 +37,17 @@ def plot_two_qlearning_results(
     plt.plot(sm_episodes, sm_mean1, color='red', label=f'temperature={temperature1}, alpha={alpha1}')
     plt.fill_between(
         sm_episodes,
-        sm_mean1 - .9*sm_std1,
-        sm_mean1 + .9*sm_std1,
+        sm_mean1 - sm_std1,
+        sm_mean1 + sm_std1,
         color='red', alpha=0.2
     )
 
     # --- Type 2 (Blue) ---
-    plt.plot(sm_episodes, sm_mean2, color='blue', label=f'temerature={temperature2}, alpha={alpha2}')
+    plt.plot(sm_episodes, sm_mean2, color='blue', label=f'temperature={temperature2}, alpha={alpha2}')
     plt.fill_between(
         sm_episodes,
-        sm_mean2 - .9*sm_std2,
-        sm_mean2 + .9*sm_std2,
+        sm_mean2 - sm_std2,
+        sm_mean2 + sm_std2,
         color='blue', alpha=0.2
     )
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
     env_name = "CartPole-v1"
-    seeds = [100, 100, 100, 100, 100]
+    seeds = [100, 200, 100, 100, 100]
     num_episodes = 1000
     num_steps = 500
     num_bins = 20
@@ -89,6 +89,6 @@ if __name__ == "__main__":
         episodes,
         mean1, std1,
         mean2, std2,
-        smooth_window=10,
+        smooth_window=5,
         title="Q-Learning (CartPole)"
     )

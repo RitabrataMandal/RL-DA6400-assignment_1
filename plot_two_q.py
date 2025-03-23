@@ -61,11 +61,11 @@ def plot_two_qlearning_results(
     plt.savefig(f"plots/qlearning_{alpha1}_{temperature1}vs{alpha2}_{temperature2}.png")
 
 if __name__ == "__main__":
-    alpha1, gamma1, temperature1 = 0.1, 0.9, 0.9
+    alpha1, gamma1, temperature1 = .1, 0.9, 1
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
     env_name = "CartPole-v1"
-    seeds = [100, 200, 100, 100, 100]
+    seeds = [100, 100, 100, 100, 100]
     num_episodes = 1000
     num_steps = 500
     num_bins = 20

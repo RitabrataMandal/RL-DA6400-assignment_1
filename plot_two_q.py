@@ -64,7 +64,7 @@ if __name__ == "__main__":
     alpha1, gamma1, temperature1 = .1, 0.9, 1
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
-    env_name = "CartPole-v1"
+    env_name = "MountainCar-v0"
     seeds = [100, 100, 100, 100, 100]
     num_episodes = 1000
     num_steps = 500

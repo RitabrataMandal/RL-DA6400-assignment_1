@@ -1,6 +1,6 @@
 import numpy as np
-from q_table import discretize_state
-from policy import SoftmaxPolicy
+from q_table_m import discretize_state
+from policy_m import SoftmaxPolicy
 
 class QLearner:
     
@@ -41,9 +41,17 @@ class QLearner:
             for step in range(num_steps):
                 action = self.policy.get_action(state_discrete)
                 # Unpack all returned values from env.step
-                next_state, reward, done, truncated, info = self.env.step(action)
+                next_state, reward, done, truncated, _ = self.env.step(action)
                 next_state_discrete = discretize_state(next_state, self.bins)
                 
+                reward+=300*(next_state[0]-(-1.2))
+                reward+=50*next_state[1]
+
+                if next_state[0]>=0.5:
+                    reward+=500
+                    # reward =0
+                    done =True
+
                 # Compute TD error and update Q-table
                 td_error = self.compute_td_error(state_discrete, action, next_state_discrete, reward)
                 self.update_q_table(state_discrete, action, td_error)

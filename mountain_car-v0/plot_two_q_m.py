@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from q_runner import run_qlearning  
+from q_runner_m import run_qlearning  
 
 def moving_average(data, window_size=10):
     """Applies a simple moving average to smooth the data."""
@@ -64,11 +64,11 @@ if __name__ == "__main__":
     alpha1, gamma1, temperature1 = 0.1, 0.9, 0.9
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
-    env_name = "CartPole-v1"
-    seeds = [100, 200, 100, 100, 100]
-    num_episodes = 1000
-    num_steps = 500
-    num_bins = 20
+    env_name = "MountainCar-v0"
+    seeds = [100]
+    num_episodes = 10000
+    num_steps = 200
+    num_bins = 50
 
     # Run Q-Learning for Type 1
     rewards_type1 = run_qlearning(env_name, alpha1, gamma1, temperature1, seeds, num_episodes, num_steps, num_bins)

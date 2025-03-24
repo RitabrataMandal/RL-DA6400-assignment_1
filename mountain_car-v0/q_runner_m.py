@@ -1,7 +1,7 @@
 import gymnasium as gym
 import numpy as np
-from q_agent import QLearner
-from q_table import Qtable
+from q_agent_m import QLearner
+from q_table_m import Qtable
 
 def run_qlearning(env_name, alpha, gamma, temperature, seeds, num_episodes, num_steps, num_bins):
     all_rewards = []

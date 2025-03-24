@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import gymnasium as gym
-from q_table import discretize_state
+from q_table_m import discretize_state
 
 def save_frames_as_gif(frames, path="./", filename="gym_animation.gif"):
     """

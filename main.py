@@ -5,7 +5,7 @@ import os
 from q_table import Qtable
 from q_agent import QLearner
 from sarsa_agent import SarasLearner
-from utils import plot_reward_with_variance, render_and_save_frames
+from utils import plot_reward_with_variance
 
 # Get the arguments
 parser = argparse.ArgumentParser()

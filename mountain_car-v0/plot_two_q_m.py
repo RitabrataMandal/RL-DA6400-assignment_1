@@ -61,14 +61,14 @@ def plot_two_qlearning_results(
     plt.savefig(f"plots/qlearningmountaincar_{alpha1}_{temperature1}vs{alpha2}_{temperature2}.png")
 
 if __name__ == "__main__":
-    alpha1, gamma1, temperature1 = 0.1, 0.9, 0.9
+    alpha1, gamma1, temperature1 = 0.1, 0.9, 0.5
     alpha2, gamma2, temperature2 = 0.2, 0.9, 1.0
 
     env_name = "MountainCar-v0"
     seeds = [100]
-    num_episodes = 10000
+    num_episodes = 20000
     num_steps = 200
-    num_bins = 50
+    num_bins = 100
 
     # Run Q-Learning for Type 1
     rewards_type1 = run_qlearning(env_name, alpha1, gamma1, temperature1, seeds, num_episodes, num_steps, num_bins)

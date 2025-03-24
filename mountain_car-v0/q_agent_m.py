@@ -44,7 +44,7 @@ class QLearner:
                 next_state, reward, done, truncated, _ = self.env.step(action)
                 next_state_discrete = discretize_state(next_state, self.bins)
                 
-                reward+=300*(next_state[0]-(-1.2))
+                reward+=10*(next_state[0]-(-1.2))
                 reward+=50*next_state[1]
 
                 if next_state[0]>=0.5:
@@ -60,8 +60,11 @@ class QLearner:
                 total_reward += reward
                 
                 if done or truncated:
+                # if done:
                     break
-                    
+                if step%100==0:
+                    print(f"Episode:{episode+1}:step={step+100},temperature: {self.temperature},total_reward = {total_reward}")
+                
             print(f"Episode: {episode + 1}/{num_episodes}, Total Reward: {total_reward}")
             reward_list.append(total_reward)
         

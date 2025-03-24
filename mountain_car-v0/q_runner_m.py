@@ -8,7 +8,8 @@ def run_qlearning(env_name, alpha, gamma, temperature, seeds, num_episodes, num_
     
     for seed in seeds:
         env = gym.make(env_name)
-        np.random.seed(seed)
+        # np.random.seed(seed)
+        env.reset(seed=seed)
 
         # Assuming Qtable is a class and should be instantiated
         q_table, bins = Qtable(env.observation_space, env.action_space, num_bins)

@@ -12,7 +12,7 @@ def take_action(q_value, epsilon):
     else:
         return np.argmax(q_value)
 
-seeds = [100, 200, 300, 400, 500]
+seeds = [100, 100, 100, 100, 100]
 episode = 1000
 epsilon = 0.2
 gamma = 0.9
@@ -86,6 +86,6 @@ plt.title("Episodic Return vs Episode Number")
 plt.grid()
 plt.show()
 
-base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_lamda_{lamda}.npy"
+base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_lamda_{lamda}_episode_{episode}.npy"
 os.makedirs("results", exist_ok=True)
 save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

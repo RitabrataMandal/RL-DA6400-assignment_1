@@ -1,0 +1,71 @@
+\documentclass[11pt, a4]{article}
+
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{amsmath}
+%\usepackage{tfrupee}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{multirow}
+%\usepackage{fancyhdr}
+%\usepackage{lastpage}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{multirow}
+\usepackage{wrapfig,lipsum,booktabs}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{lemma}[theorem]{Lemma}
+
+
+%\topmargin -0.1in
+% \textheight 11in
+%\oddsidemargin -.01in
+%\evensidemargin .0in
+%\textwidth 6.5in
+
+\begin{document}
+
+	\author{Ritabrata Mandal\\ EE24E009}
+	\title{DA6400 : Reinforcement Learning\\ Programming Assignment \#1}
+	\maketitle
+	
+	\medskip
+	
+	\newpage
+	\section{Introduction;}
+		\subsection{Environments}
+		In this programming task, we are utilize the following Gymnasium environments for training
+		and evaluating your policies. The links associated with the environments contain descriptions
+		of each environment.
+		\begin{itemize}
+			\item \textcolor{magenta}{CartPole-v1} : A pole is attached by an un-actuated joint to a cart, which moves along	a frictionless track. The pendulum is placed upright on the cart and the goal is to
+			balance the pole by applying forces in the left and right direction on the cart.
+			\item \textcolor{magenta}{MountainCar-v0} : The Mountain Car MDP is a deterministic MDP that consists of a
+			car placed stochastically at the bottom of a sinusoidal valley, with the only possible
+			actions being the accelerations that can be applied to the car in either direction. The
+			goal of the MDP is to strategically accelerate the car to reach the goal state on top of
+			the right hill. There are two versions of the mountain car domain in gymnasium: one
+			with \textit{discrete actions} and one with \textit{continuous}. This version is the one with discrete
+			actions.
+			\item \textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0} : This environment is an empty
+			room with moving obstacles. The goal of the agent is to reach the green goal square
+			without colliding with any obstacle. A large penalty is subtracted if the agent collides
+			with an obstacle and the episode finishes. This environment is useful to test Dynamic
+			Obstacle Avoidance for mobile robots with Reinforcement Learning in Partial Observability.
+		\end{itemize}
+		\subsection{Algorithms}
+		Training each of the above algorithms and assessing their comparative performance.
+		\begin{itemize}
+			\item \textbf{SARSA}$\rightarrow$ with $\epsilon$-\textbf{greedy exploration}
+			\item \textbf{Q-Learning}$\rightarrow$ with \textbf{Softmax exploration}
+		\end{itemize}
+	\section{Implementation:}
+		\subsection{\textcolor{magenta}{CartPole-v1}\{SARSA\}}
+	
+\end{document}

@@ -71,4 +71,4 @@ plt.show()
 
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episodes_{episodes}.npy"
 os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})
+# save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

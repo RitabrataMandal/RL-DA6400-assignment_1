@@ -7,8 +7,8 @@ import os
 # data1 = load(os.path.join("results", "q_learning_softmax_alpha_0.1_tau_0.9_episodes_10000.npy"), allow_pickle=True).item()
 # data2 = load(os.path.join("results", "q_learning_softmax_alpha_0.5_tau_1_episodes_10000.npy"), allow_pickle=True).item()
 
-data1 = load(os.path.join("results", "sarsa_alpha_0.1_epsilon_0.1_episode_2000.npy"), allow_pickle=True).item()
-data2 = load(os.path.join("results", "sarsa_alpha_0.1_epsilon_0.01_episode_2000.npy"), allow_pickle=True).item()
+data1 = load(os.path.join("results", "sarsa_alpha_0.1_epsilon_0.1_episode_5000.npy"), allow_pickle=True).item()
+data2 = load(os.path.join("results", "sarsa_alpha_0.1_epsilon_0.01_episode_5000.npy"), allow_pickle=True).item()
 #best alpgha=.15 epsilon=.015 for SARSA
 
 mean_rewards1 = data1['mean']

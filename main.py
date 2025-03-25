@@ -11,13 +11,13 @@ from utils import plot_reward_with_variance
 parser = argparse.ArgumentParser()
 parser.add_argument('--algorithm', type=str, default='q_learning', help='Algorithm: q_learning or sarsa.')
 parser.add_argument('--alpha', type=float, default=0.1, help='Learning rate.')
-parser.add_argument('--gamma', type=float, default=0.9, help='Discount factor.')
+parser.add_argument('--gamma', type=float, default=0.99, help='Discount factor.')
 parser.add_argument('--epsilon', type=float, default=0.1, help='Exploration rate (for epsilon-greedy).')
 parser.add_argument('--num_episodes', type=int, default=1000, help='Number of episodes.')
 parser.add_argument('--num_steps', type=int, default=500, help='Number of steps per episode.')
 parser.add_argument('--num_bins', type=int, default=20, help='Number of bins for discretizing the state space.')
 # Instead of a single seed, we allow a list of seeds for averaging
-parser.add_argument('--seeds', type=int, nargs='*', default=[100, 200, 300, 100, 100],
+parser.add_argument('--seeds', type=int, nargs='*', default=[100, 200, 300, 400, 500],
                     help='List of seeds for multiple experiments.')
 parser.add_argument('--policy', type=str, default='epsilon', choices=['epsilon', 'softmax'],help='Exploration policy: "epsilon" or "softmax".')
 parser.add_argument('--temperature', type=float, default=1.0,help='Temperature parameter for the softmax policy (if used).')

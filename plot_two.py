@@ -59,8 +59,8 @@ def plot_two_sarsa_results(
     plt.legend(loc='best')
     plt.grid(False)
     plt.tight_layout()
-    # plt.show()
-    plt.savefig(f"plots/sarsa_{alpha1}_{epsilon1}vs{alpha2}_{epsilon2}.png")
+    plt.show()
+    # plt.savefig(f"plots/sarsa_{alpha1}_{epsilon1}vs{alpha2}_{epsilon2}.png")
 if __name__ == "__main__":
 
     alpha1, gamma1, epsilon1 = 0.05, 0.9, 0.1

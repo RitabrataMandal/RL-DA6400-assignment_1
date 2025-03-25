@@ -6,14 +6,14 @@ import os
 from numpy import save
 
 # Hyperparameters
-epsilon = 0.01  # Fixed epsilon for exploration
+epsilon = 0.1  # Fixed epsilon for exploration
 gamma = 0.99  # Discount factor
 alpha = 0.1  # Learning rate
-episode = 2000  # Number of episodes
+episode = 1000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500]  # 5 random seeds
 
-env = gym.make('MountainCar-v0')
+env = gym.make('MountainCar-v0',render_mode='rgb_array')
 n_action = env.action_space.n
 env_low = env.observation_space.low
 env_high = env.observation_space.high
@@ -64,7 +64,17 @@ for seed in seeds:
             next_state, reward, done, truncated, _ = env.step(action)
             next_pos, next_vel = getState(next_state)
             next_action = chooseAction(next_pos, next_vel, q_table_sarsa, epsilon)
+            
+            # Reward shaping
+            if next_state[0] > state[0]:  
+                reward += 0.1  # Reward moving forward
 
+            reward += abs(next_state[1]) * 0.1  # Reward velocity
+
+            if next_state[0] > -0.2:
+                reward += 0.5
+            if next_state[0] > 0.3:
+                reward += 1.0
             if done or truncated:
                 q_table_sarsa[pos][vel][action] += alpha * (reward - q_table_sarsa[pos][vel][action])
             else:
@@ -111,7 +121,7 @@ plt.show()
 
 # Save Q-table and results
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episode_{episode}.npy"
-os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
+# os.makedirs("results", exist_ok=True)
+# save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
 
 print(f"Results saved in: results/{base_file_name}")

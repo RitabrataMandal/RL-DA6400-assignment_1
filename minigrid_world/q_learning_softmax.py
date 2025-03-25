@@ -13,14 +13,14 @@ def softmax_action(q_value, tau):
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
 episodes = 1000
-tau = 1.0  # Temperature for softmax
+tau = 1  # Temperature for softmax
 gamma = 0.9
-alpha = 0.15
+alpha = 0.5
 
 all_rewards = []
 
 for seed in seeds:
-    env = gym.make('MiniGrid-Dynamic-Obstacles-Random-5x5-v0')
+    env = gym.make('MiniGrid-Dynamic-Obstacles-Random-5x5-v0',render_mode="human")
     env.reset(seed=seed)
     q_value = np.zeros((3, 25, 4, 2))  # 5x5 Grid
     total_reward = np.zeros(episodes)
@@ -68,7 +68,7 @@ plt.xlabel("Episodes")
 plt.ylabel("Return")
 plt.title("Episodic Return vs Episode Number (Q-learning with Softmax)")
 plt.grid()
-plt.show()
+# plt.show()
 
 base_file_name = f"q_learning_softmax_alpha_{alpha}_tau_{tau}_episodes_{episodes}.npy"
 os.makedirs("results", exist_ok=True)

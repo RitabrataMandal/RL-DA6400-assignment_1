@@ -1,0 +1,16 @@
+{"time":"2025-03-26T23:53:38.383388761+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250326_235338-mgfwl175/logs/debug-core.log"}
+{"time":"2025-03-26T23:53:38.487631533+05:30","level":"INFO","msg":"created new stream","id":"mgfwl175"}
+{"time":"2025-03-26T23:53:38.487705556+05:30","level":"INFO","msg":"stream: started","id":"mgfwl175"}
+{"time":"2025-03-26T23:53:38.487794538+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:38.487840141+05:30","level":"INFO","msg":"sender: started","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:38.487977755+05:30","level":"INFO","msg":"handler: started","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:38.920292122+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T23:53:54.82888932+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T23:53:54.829283197+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T23:53:55.830934094+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.656790172,"progress":"186.5KB/186.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.326366866,"progress":"466B/466B"}],"total_operations":2}}
+{"time":"2025-03-26T23:53:56.473750406+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T23:53:56.798004415+05:30","level":"INFO","msg":"stream: closing","id":"mgfwl175"}
+{"time":"2025-03-26T23:53:56.798039507+05:30","level":"INFO","msg":"handler: closed","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:56.798061389+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:56.7981192+05:30","level":"INFO","msg":"sender: closed","stream_id":"mgfwl175"}
+{"time":"2025-03-26T23:53:56.798210281+05:30","level":"INFO","msg":"stream: closed","id":"mgfwl175"}

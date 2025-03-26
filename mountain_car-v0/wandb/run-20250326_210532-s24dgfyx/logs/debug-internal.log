@@ -1,0 +1,16 @@
+{"time":"2025-03-26T21:05:32.487026538+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_210532-s24dgfyx/logs/debug-core.log"}
+{"time":"2025-03-26T21:05:32.595307768+05:30","level":"INFO","msg":"created new stream","id":"s24dgfyx"}
+{"time":"2025-03-26T21:05:32.595369181+05:30","level":"INFO","msg":"stream: started","id":"s24dgfyx"}
+{"time":"2025-03-26T21:05:32.595459741+05:30","level":"INFO","msg":"handler: started","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:05:32.595506919+05:30","level":"INFO","msg":"sender: started","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:05:32.595481729+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:05:32.99144329+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T21:08:50.247913865+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T21:08:50.248254728+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T21:08:51.249261455+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.366861153,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.05486588,"progress":"468B/468B"}],"total_operations":2}}
+{"time":"2025-03-26T21:08:51.56273186+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T21:08:52.072626943+05:30","level":"INFO","msg":"stream: closing","id":"s24dgfyx"}
+{"time":"2025-03-26T21:08:52.072681981+05:30","level":"INFO","msg":"handler: closed","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:08:52.072710879+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:08:52.072737112+05:30","level":"INFO","msg":"sender: closed","stream_id":"s24dgfyx"}
+{"time":"2025-03-26T21:08:52.072871998+05:30","level":"INFO","msg":"stream: closed","id":"s24dgfyx"}

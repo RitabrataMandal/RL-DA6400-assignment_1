@@ -6,9 +6,9 @@ import os
 from numpy import save
 
 # Hyperparameters
-epsilon = 0.1  # Fixed epsilon for exploration
+epsilon = 0.05  # Fixed epsilon for exploration
 gamma = 0.99  # Discount factor
-alpha = 0.1  # Learning rate
+alpha = 0.5  # Learning rate
 episode = 1000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500]  # 5 random seeds
@@ -60,22 +60,24 @@ for seed in seeds:
         pos, vel = getState(state)
         action = chooseAction(pos, vel, q_table_sarsa, epsilon)
 
-        while not (done or truncated):  
+        # while not (done or truncated): 
+        while not done: 
             next_state, reward, done, truncated, _ = env.step(action)
             next_pos, next_vel = getState(next_state)
             next_action = chooseAction(next_pos, next_vel, q_table_sarsa, epsilon)
             
             # Reward shaping
-            if next_state[0] > state[0]:  
-                reward += 0.1  # Reward moving forward
+            # if next_state[0] > state[0]:  
+            #     reward += 0.1  # Reward moving forward
 
-            reward += abs(next_state[1]) * 0.1  # Reward velocity
+            # reward += abs(next_state[1]) * 0.1  # Reward velocity
 
-            if next_state[0] > -0.2:
-                reward += 0.5
-            if next_state[0] > 0.3:
-                reward += 1.0
-            if done or truncated:
+            # if next_state[0] > -0.2:
+            #     reward += 0.5
+            # if next_state[0] > 0.3:
+            #     reward += 1.0
+            # if done or truncated:
+            if done:
                 q_table_sarsa[pos][vel][action] += alpha * (reward - q_table_sarsa[pos][vel][action])
             else:
                 q_table_sarsa[pos][vel][action] += alpha * (
@@ -117,11 +119,11 @@ plt.ylabel("Return (Smoothed)")
 plt.title("Episodic Return vs Episode Number (SARSA with epsilon greedy)")
 plt.legend()
 # plt.grid()
-plt.show()
+# plt.show()
 
 # Save Q-table and results
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episode_{episode}.npy"
 # os.makedirs("results", exist_ok=True)
-# save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
+save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
 
 print(f"Results saved in: results/{base_file_name}")

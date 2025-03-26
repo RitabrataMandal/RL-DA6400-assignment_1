@@ -1,0 +1,16 @@
+{"time":"2025-03-26T20:34:53.682069277+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_203453-y99tnc9l/logs/debug-core.log"}
+{"time":"2025-03-26T20:34:53.786175442+05:30","level":"INFO","msg":"created new stream","id":"y99tnc9l"}
+{"time":"2025-03-26T20:34:53.786265464+05:30","level":"INFO","msg":"stream: started","id":"y99tnc9l"}
+{"time":"2025-03-26T20:34:53.786327787+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:34:53.786365635+05:30","level":"INFO","msg":"handler: started","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:34:53.786425432+05:30","level":"INFO","msg":"sender: started","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:34:54.211972323+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T20:37:57.989467986+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T20:37:57.990171351+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T20:37:58.949932109+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.335985402,"progress":"148B/148B"},{"desc":"uploading output.log","runtime_seconds":0.335960741,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.030786417,"progress":"470B/470B"}],"total_operations":3}}
+{"time":"2025-03-26T20:37:59.291172561+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T20:37:59.613161159+05:30","level":"INFO","msg":"stream: closing","id":"y99tnc9l"}
+{"time":"2025-03-26T20:37:59.613214294+05:30","level":"INFO","msg":"handler: closed","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:37:59.613247063+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:37:59.61326438+05:30","level":"INFO","msg":"sender: closed","stream_id":"y99tnc9l"}
+{"time":"2025-03-26T20:37:59.613423028+05:30","level":"INFO","msg":"stream: closed","id":"y99tnc9l"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T00:02:40.149103302+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_000240-j9esuljs/logs/debug-core.log"}
+{"time":"2025-03-27T00:02:40.256520745+05:30","level":"INFO","msg":"created new stream","id":"j9esuljs"}
+{"time":"2025-03-27T00:02:40.256651021+05:30","level":"INFO","msg":"stream: started","id":"j9esuljs"}
+{"time":"2025-03-27T00:02:40.256735804+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:02:40.256795177+05:30","level":"INFO","msg":"sender: started","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:02:40.256862913+05:30","level":"INFO","msg":"handler: started","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:02:40.717099484+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T00:02:59.52019663+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T00:02:59.520685152+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T00:03:00.521489819+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.674857908,"progress":"186.3KB/186.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.384082663,"progress":"467B/467B"}],"total_operations":2}}
+{"time":"2025-03-27T00:03:01.12860852+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T00:03:01.520598707+05:30","level":"INFO","msg":"stream: closing","id":"j9esuljs"}
+{"time":"2025-03-27T00:03:01.520661692+05:30","level":"INFO","msg":"handler: closed","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:03:01.520684172+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:03:01.520705454+05:30","level":"INFO","msg":"sender: closed","stream_id":"j9esuljs"}
+{"time":"2025-03-27T00:03:01.520801405+05:30","level":"INFO","msg":"stream: closed","id":"j9esuljs"}

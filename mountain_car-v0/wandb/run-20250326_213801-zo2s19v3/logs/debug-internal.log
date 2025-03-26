@@ -1,0 +1,16 @@
+{"time":"2025-03-26T21:38:01.435766174+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_213801-zo2s19v3/logs/debug-core.log"}
+{"time":"2025-03-26T21:38:01.539901669+05:30","level":"INFO","msg":"created new stream","id":"zo2s19v3"}
+{"time":"2025-03-26T21:38:01.539963117+05:30","level":"INFO","msg":"stream: started","id":"zo2s19v3"}
+{"time":"2025-03-26T21:38:01.540064493+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:38:01.540077442+05:30","level":"INFO","msg":"handler: started","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:38:01.540182156+05:30","level":"INFO","msg":"sender: started","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:38:01.891680039+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T21:42:17.251859987+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T21:42:17.25220293+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T21:42:18.253799127+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.08129926,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.081278513,"progress":"150B/150B"}],"total_operations":2}}
+{"time":"2025-03-26T21:42:19.038830858+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T21:42:19.370532569+05:30","level":"INFO","msg":"stream: closing","id":"zo2s19v3"}
+{"time":"2025-03-26T21:42:19.3705632+05:30","level":"INFO","msg":"handler: closed","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:42:19.370590767+05:30","level":"INFO","msg":"sender: closed","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:42:19.370582167+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zo2s19v3"}
+{"time":"2025-03-26T21:42:19.370672443+05:30","level":"INFO","msg":"stream: closed","id":"zo2s19v3"}

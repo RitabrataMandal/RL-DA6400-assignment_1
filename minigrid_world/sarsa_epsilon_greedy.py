@@ -13,9 +13,9 @@ def take_action(q_value, epsilon):
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
 episodes = 1000
-epsilon = 0.2
-gamma = 0.9
-alpha = 0.15
+epsilon = 0.05
+gamma = 0.99
+alpha = 0.1
 
 all_rewards = []
 
@@ -67,8 +67,8 @@ plt.xlabel("Episodes")
 plt.ylabel("Return")
 plt.title("Episodic Return vs Episode Number (SARSA)")
 plt.grid()
-plt.show()
+# plt.show()
 
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episodes_{episodes}.npy"
-os.makedirs("results", exist_ok=True)
-# save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})
+# os.makedirs("results", exist_ok=True)
+save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

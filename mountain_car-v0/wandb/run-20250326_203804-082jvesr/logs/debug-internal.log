@@ -1,0 +1,16 @@
+{"time":"2025-03-26T20:38:04.38836279+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_203804-082jvesr/logs/debug-core.log"}
+{"time":"2025-03-26T20:38:04.492843996+05:30","level":"INFO","msg":"created new stream","id":"082jvesr"}
+{"time":"2025-03-26T20:38:04.49295036+05:30","level":"INFO","msg":"stream: started","id":"082jvesr"}
+{"time":"2025-03-26T20:38:04.492966148+05:30","level":"INFO","msg":"handler: started","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:38:04.492985438+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:38:04.493067232+05:30","level":"INFO","msg":"sender: started","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:38:04.894956184+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T20:41:53.7729696+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T20:41:53.773394533+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T20:41:54.775100571+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.317741492,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.31772566,"progress":"150B/150B"},{"desc":"uploading config.yaml","runtime_seconds":0.017740054,"progress":"470B/470B"}],"total_operations":3}}
+{"time":"2025-03-26T20:41:55.124405098+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T20:41:55.470519881+05:30","level":"INFO","msg":"stream: closing","id":"082jvesr"}
+{"time":"2025-03-26T20:41:55.470576351+05:30","level":"INFO","msg":"handler: closed","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:41:55.470599642+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:41:55.470633445+05:30","level":"INFO","msg":"sender: closed","stream_id":"082jvesr"}
+{"time":"2025-03-26T20:41:55.470752923+05:30","level":"INFO","msg":"stream: closed","id":"082jvesr"}

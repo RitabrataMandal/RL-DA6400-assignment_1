@@ -21,6 +21,7 @@
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{xcolor}
+
 %\newtheorem{theorem}{Theorem}[section]
 %\newtheorem{lemma}[theorem]{Lemma}
 
@@ -58,13 +59,12 @@
 \begin{document}
 
 	\author{Ritabrata Mandal\\ EE24E009}
-	\title{DA6400 : Reinforcement Learning\\ Programming Assignment \#1}
+	\title{DA6400 : Reinforcement Learning\\ Programming Assignment \#1\\ Report}
 	\maketitle
-	
 	\medskip
-	
 	\newpage
-	\section{Introduction;}
+	\tableofcontents
+	\section{Introduction}
 		\subsection{Environments}
 		In this programming task, we are utilize the following \href{https://gymnasium.farama.org/}{\textcolor{magenta}{Gymnasium environments}} for training
 		and evaluating your policies. The links associated with the environments contain descriptions
@@ -86,17 +86,15 @@
 			Obstacle Avoidance for mobile robots with Reinforcement Learning in Partial Observability.
 		\end{itemize}
 		\subsection{Algorithms}
-		Training each of the above algorithms and assessing their comparative performance.
+		Training each of the below algorithms and assessing their comparative performance.
 		\begin{itemize}
 			\item \textbf{SARSA}$\rightarrow$ with $\epsilon$-\textbf{greedy exploration}
 			\item \textbf{Q-Learning}$\rightarrow$ with \textbf{Softmax exploration}
 		\end{itemize}
-	\section{Implementation:}
+	\section{Implementation}
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\textcolor{magenta}{CartPole-v1}}}
-			\subsubsection{SARSA Code Snippets:}
-				\lstinputlisting[language=Python, caption=SARSA - Agent]{../sarsa_agent.py}
-				
-				\newpage
+			\subsubsection{SARSA Code Snippets}
+%				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
 			\subsubsection{SARSA Runs}
 			below are the graphs of runs of SARSA with different hyper-parameter
 			\noindent
@@ -105,19 +103,19 @@
 				% Row 1
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.05_0.05vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png}
 					\caption{$\alpha = 0.05$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.05_0.1vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png}
 					\caption{$\epsilon = 0.1$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.05_0.15vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png}
 					\caption{$\epsilon = 0.15$}
 				\end{subfigure}
 				
@@ -126,19 +124,19 @@
 				% Row 2
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.05_0.2vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png}
 					\caption{$\epsilon = 0.2$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.1_0.05vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png}
 					\caption{$\epsilon = 0.25$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.1_0.1vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png}
 					\caption{$\epsilon = 0.3$}
 				\end{subfigure}
 				
@@ -147,19 +145,19 @@
 				% Row 3
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.1_0.15vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png}
 					\caption{$\epsilon = 0.35$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.1_0.2vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png}
 					\caption{$\epsilon = 0.4$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.15_0.05vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png}
 					\caption{$\epsilon = 0.45$}
 				\end{subfigure}
 				
@@ -168,19 +166,19 @@
 				% Row 4
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.15_0.1vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png}
 					\caption{$\epsilon = 0.5$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.15_0.15vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png}
 					\caption{$\epsilon = 0.55$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.15_0.2vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png}
 					\caption{$\epsilon = 0.6$}
 				\end{subfigure}
 				
@@ -189,23 +187,47 @@
 				% Row 5
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.2_0.05vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png}
 					\caption{$\epsilon = 0.65$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.2_0.1vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png}
 					\caption{$\epsilon = 0.7$}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[h]{0.3\textwidth}
 					\centering
-					\includegraphics[width=\textwidth]{../plots/sarsa_0.2_0.15vs0.2_0.2.png}
+					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png}
 					\caption{$\epsilon = 0.75$}
 				\end{subfigure}
 				
-				\caption{Phase portraits for different values of $\epsilon$}
+				\caption{SARSA(Cartpole) with different $\epsilon$ and $\alpha$}
 				\label{fig:phase_portraits}
 			\end{figure}
+			\subsubsection{SARSA best $3$ results}
+			\subsubsection{Q-Learning Code Snippets}
+			\subsubsection{Q-Learning Runs}
+			\subsubsection{Q-Learning best $3$ results}
+			\subsubsection{Result(SARSA vs Q-Learning)}
+		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor{magenta}{MountainCar-v0}}}
+			\subsubsection{SARSA Code Snippets}
+			\subsubsection{SARSA Runs}
+			\subsubsection{SARSA best $3$ results}
+			\subsubsection{Q-Learning Code Snippets}
+			\subsubsection{Q-Learning Runs}
+			\subsubsection{Q-Learning best $3$ results}
+			\subsubsection{Result(SARSA vs Q-Learning)}
+		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
+			\subsubsection{SARSA Code Snippets}
+			\subsubsection{SARSA Runs}
+			\subsubsection{SARSA best $3$ results}
+			\subsubsection{Q-Learning Code Snippets}
+			\subsubsection{Q-Learning Runs}
+			\subsubsection{Q-Learning best $3$ results}
+			\subsubsection{Result(SARSA vs Q-Learning)}
+	\section{Conclusion}
+	\section{Github link}	
+	\section{References}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  25 MAR 2025 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  26 MAR 2025 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,24 +864,24 @@ LaTeX Warning: Unused global option(s):
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 \c@lstlisting=\count349
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -909,23 +909,23 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 58.
+ on input line 59.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 (./report.out) (./report.out)
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -934,157 +934,216 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
-)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./report.toc)
+\tf@toc=\write5
+\openout5 = `report.toc'.
 
-[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 97.
 
-(../sarsa_agent.py
 
-[3]
+[2]
+<../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png, id=186, 578.16pt x 361.35pt
+>
+File: ../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png Graphic file (type png)
 
-[4])
+<use ../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png  use
+d on input line 106.
+(pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
+<../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png, id=188, 578.16pt x 361.35pt>
 
-[5]
-<../plots/sarsa_0.05_0.05vs0.2_0.2.png, id=152, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.05_0.05vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.05_0.05vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.05_0.05vs0.2_0.2.png  used on input l
-ine 108.
+File: ../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png  used
+ on input line 112.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.05_0.1vs0.2_0.2.png, id=154, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.05_0.1vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.05_0.1vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.05_0.1vs0.2_0.2.png  used on input li
-ne 114.
+<../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png, id=189, 578.16pt x 361.35pt
+>
+File: ../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png Graphic file (type png)
+
+<use ../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png  use
+d on input line 118.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.05_0.15vs0.2_0.2.png, id=155, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.05_0.15vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.05_0.15vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.05_0.15vs0.2_0.2.png  used on input l
-ine 120.
+<../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png, id=190, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png  used
+ on input line 127.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.05_0.2vs0.2_0.2.png, id=156, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.05_0.2vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.05_0.2vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.05_0.2vs0.2_0.2.png  used on input li
-ne 129.
+<../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png, id=191, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png  used
+ on input line 133.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.1_0.05vs0.2_0.2.png, id=157, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.1_0.05vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.1_0.05vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.1_0.05vs0.2_0.2.png  used on input li
-ne 135.
+<../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png, id=192, 578.16pt x 361.35pt>
+File: ../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png  used 
+on input line 139.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.1_0.1vs0.2_0.2.png, id=158, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.1_0.1vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.1_0.1vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.1_0.1vs0.2_0.2.png  used on input lin
-e 141.
+<../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png, id=193, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png  used
+ on input line 148.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.1_0.15vs0.2_0.2.png, id=159, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.1_0.15vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.1_0.15vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.1_0.15vs0.2_0.2.png  used on input li
-ne 150.
+<../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png, id=194, 578.16pt x 361.35pt>
+File: ../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png  used 
+on input line 154.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.1_0.2vs0.2_0.2.png, id=160, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.1_0.2vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.1_0.2vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.1_0.2vs0.2_0.2.png  used on input lin
-e 156.
+<../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png, id=195, 578.16pt x 361.35pt
+>
+File: ../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png Graphic file (type png)
+
+<use ../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png  use
+d on input line 160.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.15_0.05vs0.2_0.2.png, id=161, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.15_0.05vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.15_0.05vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.15_0.05vs0.2_0.2.png  used on input l
-ine 162.
+<../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png, id=196, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png  used
+ on input line 169.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.15_0.1vs0.2_0.2.png, id=162, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.15_0.1vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.15_0.1vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.15_0.1vs0.2_0.2.png  used on input li
-ne 171.
+<../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png, id=197, 578.16pt x 361.35pt
+>
+File: ../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png Graphic file (type png)
+
+<use ../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png  use
+d on input line 175.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.15_0.15vs0.2_0.2.png, id=163, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.15_0.15vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.15_0.15vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.15_0.15vs0.2_0.2.png  used on input l
-ine 177.
+<../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png, id=198, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png  used
+ on input line 181.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.15_0.2vs0.2_0.2.png, id=164, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.15_0.2vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.15_0.2vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.15_0.2vs0.2_0.2.png  used on input li
-ne 183.
+<../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png, id=199, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png  used
+ on input line 190.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.2_0.05vs0.2_0.2.png, id=165, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.2_0.05vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.2_0.05vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.2_0.05vs0.2_0.2.png  used on input li
-ne 192.
+<../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png, id=200, 578.16pt x 361.35pt>
+File: ../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png  used 
+on input line 196.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.2_0.1vs0.2_0.2.png, id=166, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.2_0.1vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.2_0.1vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.2_0.1vs0.2_0.2.png  used on input lin
-e 198.
-(pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
-<../plots/sarsa_0.2_0.15vs0.2_0.2.png, id=167, 578.16pt x 361.35pt>
-File: ../plots/sarsa_0.2_0.15vs0.2_0.2.png Graphic file (type png)
-<use ../plots/sarsa_0.2_0.15vs0.2_0.2.png>
-Package pdftex.def Info: ../plots/sarsa_0.2_0.15vs0.2_0.2.png  used on input li
-ne 204.
+<../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png, id=201, 578.16pt x 361.35pt>
+
+File: ../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png Graphic file (type png)
+<use ../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png>
+Package pdftex.def Info: ../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png  used
+ on input line 202.
 (pdftex.def)             Requested size: 108.0011pt x 67.49931pt.
 
+
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 209.
 
-[6]
 
-[7 <../plots/sarsa_0.05_0.05vs0.2_0.2.png> <../plots/sarsa_0.05_0.1vs0.2_0.2.pn
-g> <../plots/sarsa_0.05_0.15vs0.2_0.2.png> <../plots/sarsa_0.05_0.2vs0.2_0.2.pn
-g> <../plots/sarsa_0.1_0.05vs0.2_0.2.png> <../plots/sarsa_0.1_0.1vs0.2_0.2.png>
- <../plots/sarsa_0.1_0.15vs0.2_0.2.png> <../plots/sarsa_0.1_0.2vs0.2_0.2.png> <
-../plots/sarsa_0.15_0.05vs0.2_0.2.png> <../plots/sarsa_0.15_0.1vs0.2_0.2.png> <
-../plots/sarsa_0.15_0.15vs0.2_0.2.png> <../plots/sarsa_0.15_0.2vs0.2_0.2.png> <
-../plots/sarsa_0.2_0.05vs0.2_0.2.png> <../plots/sarsa_0.2_0.1vs0.2_0.2.png> <..
-/plots/sarsa_0.2_0.15vs0.2_0.2.png>] (./report.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 209.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 212.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 212.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 220.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 220.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 225.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 225.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 228.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 228.
+
+
+
+[4]
+
+[5]
+
+[6 <../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png> <../cartpole-v1/plots/sa
+rsa_0.05_0.1vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png> 
+<../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_
+0.1_0.05vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png> <../ca
+rtpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.1_0.
+2vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png> <../cartpol
+e-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.15_0.15vs
+0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png> <../cartpole-v1
+/plots/sarsa_0.2_0.05vs0.2_0.2.png> <../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.
+2.png> <../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png>] (./report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 8819B0EFED6F6D921F47DDFDE101F674;855.
+(rerunfilecheck)             Checksum: 7AC86CA73340510B2279FC9C5DC54F60;4861.
  ) 
 Here is how much of TeX's memory you used:
- 36669 strings out of 473600
- 824022 string characters out of 5732737
- 2328908 words of memory out of 5000000
- 58883 multiletter control sequences out of 15000+600000
- 568801 words of font info for 78 fonts, out of 8000000 for 9000
+ 36181 strings out of 473600
+ 820710 string characters out of 5732737
+ 1939908 words of memory out of 5000000
+ 58457 multiletter control sequences out of 15000+600000
+ 568167 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,117p,719b,2307s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,117p,719b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/202
-4/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on report.pdf (7 pages, 1754053 bytes).
+/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on report.pdf (6 pages, 1729949 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 94 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

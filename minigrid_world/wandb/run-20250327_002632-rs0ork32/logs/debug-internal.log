@@ -1,0 +1,16 @@
+{"time":"2025-03-27T00:26:32.102178181+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_002632-rs0ork32/logs/debug-core.log"}
+{"time":"2025-03-27T00:26:32.20631959+05:30","level":"INFO","msg":"created new stream","id":"rs0ork32"}
+{"time":"2025-03-27T00:26:32.206381186+05:30","level":"INFO","msg":"stream: started","id":"rs0ork32"}
+{"time":"2025-03-27T00:26:32.206503382+05:30","level":"INFO","msg":"sender: started","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:32.206493972+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:32.206572644+05:30","level":"INFO","msg":"handler: started","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:32.610562954+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T00:26:50.545780738+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T00:26:50.546118466+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T00:26:51.547523357+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.662205144,"progress":"187.0KB/187.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.33666296,"progress":"468B/468B"}],"total_operations":2}}
+{"time":"2025-03-27T00:26:52.03318128+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T00:26:52.405621446+05:30","level":"INFO","msg":"stream: closing","id":"rs0ork32"}
+{"time":"2025-03-27T00:26:52.405681057+05:30","level":"INFO","msg":"handler: closed","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:52.405713022+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:52.40574114+05:30","level":"INFO","msg":"sender: closed","stream_id":"rs0ork32"}
+{"time":"2025-03-27T00:26:52.405842142+05:30","level":"INFO","msg":"stream: closed","id":"rs0ork32"}

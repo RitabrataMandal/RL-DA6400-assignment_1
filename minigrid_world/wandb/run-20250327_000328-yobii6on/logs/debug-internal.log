@@ -1,0 +1,16 @@
+{"time":"2025-03-27T00:03:28.217748742+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_000328-yobii6on/logs/debug-core.log"}
+{"time":"2025-03-27T00:03:28.325533677+05:30","level":"INFO","msg":"created new stream","id":"yobii6on"}
+{"time":"2025-03-27T00:03:28.325631668+05:30","level":"INFO","msg":"stream: started","id":"yobii6on"}
+{"time":"2025-03-27T00:03:28.325685284+05:30","level":"INFO","msg":"handler: started","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:03:28.325675939+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:03:28.325762733+05:30","level":"INFO","msg":"sender: started","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:03:28.711811542+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T00:04:06.272462608+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T00:04:06.272815954+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T00:04:07.27442964+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.371742903,"progress":"146B/146B"},{"desc":"uploading output.log","runtime_seconds":0.371720989,"progress":"183.9KB/183.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.049605237,"progress":"467B/467B"}],"total_operations":3}}
+{"time":"2025-03-27T00:04:08.245019746+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T00:04:08.626586374+05:30","level":"INFO","msg":"stream: closing","id":"yobii6on"}
+{"time":"2025-03-27T00:04:08.626629703+05:30","level":"INFO","msg":"handler: closed","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:04:08.626653394+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:04:08.626680536+05:30","level":"INFO","msg":"sender: closed","stream_id":"yobii6on"}
+{"time":"2025-03-27T00:04:08.626872173+05:30","level":"INFO","msg":"stream: closed","id":"yobii6on"}

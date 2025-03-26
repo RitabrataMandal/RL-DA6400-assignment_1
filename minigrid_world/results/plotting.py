@@ -4,10 +4,10 @@ from numpy import load
 import os
 
 # Load the saved mean and variance rewards
-data1 = load(os.path.join("results", "q_learning_softmax_alpha_0.1_tau_0.9_episodes_1000.npy"), allow_pickle=True).item()
+# data1 = load(os.path.join("results", "q_learning_softmax_alpha_0.1_tau_0.9_episodes_1000.npy"), allow_pickle=True).item()
 # data2 = load(os.path.join("results", "q_learning_softmax_alpha_0.5_tau_1_episodes_1000.npy"), allow_pickle=True).item()
 
-# data1 = load(os.path.join("results", "sarsa_alpha_0.15_epsilon_0.2_episodes_1000.npy"), allow_pickle=True).item()
+data1 = load(os.path.join("results", "sarsa_alpha_0.1_epsilon_0.01_episodes_1000.npy"), allow_pickle=True).item()
 data2 = load(os.path.join("results", "sarsa_alpha_0.15_epsilon_0.015_episodes_1000.npy"), allow_pickle=True).item()
 #best alpgha=.15 epsilon=.015 for SARSA
 

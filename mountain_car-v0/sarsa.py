@@ -6,10 +6,10 @@ import os
 from numpy import save
 
 # Hyperparameters
-epsilon = 0.01  # Fixed epsilon for exploration
+epsilon = 0.05  # Fixed epsilon for exploration
 gamma = 0.99  # Discount factor
-alpha = 0.1  # Learning rate
-episode = 2000  # Number of episodes
+alpha = 0.5  # Learning rate
+episode = 1000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500]  # 5 random seeds
 
@@ -119,7 +119,7 @@ plt.ylabel("Return (Smoothed)")
 plt.title("Episodic Return vs Episode Number (SARSA with epsilon greedy)")
 plt.legend()
 # plt.grid()
-plt.show()
+# plt.show()
 
 # Save Q-table and results
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episode_{episode}.npy"

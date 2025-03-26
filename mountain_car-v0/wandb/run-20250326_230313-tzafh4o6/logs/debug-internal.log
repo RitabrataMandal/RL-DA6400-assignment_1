@@ -1,0 +1,16 @@
+{"time":"2025-03-26T23:03:14.002146612+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_230313-tzafh4o6/logs/debug-core.log"}
+{"time":"2025-03-26T23:03:14.109519358+05:30","level":"INFO","msg":"created new stream","id":"tzafh4o6"}
+{"time":"2025-03-26T23:03:14.109595193+05:30","level":"INFO","msg":"stream: started","id":"tzafh4o6"}
+{"time":"2025-03-26T23:03:14.109649242+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:03:14.109708355+05:30","level":"INFO","msg":"sender: started","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:03:14.109735939+05:30","level":"INFO","msg":"handler: started","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:03:14.533852515+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T23:04:35.104435812+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T23:04:35.104865881+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T23:04:36.107639977+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.327368143,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.327361042,"progress":"156B/156B"},{"desc":"uploading config.yaml","runtime_seconds":0.016535783,"progress":"467B/467B"}],"total_operations":3}}
+{"time":"2025-03-26T23:04:36.466195339+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T23:04:36.922607835+05:30","level":"INFO","msg":"stream: closing","id":"tzafh4o6"}
+{"time":"2025-03-26T23:04:36.922651225+05:30","level":"INFO","msg":"handler: closed","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:04:36.922677881+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:04:36.922706472+05:30","level":"INFO","msg":"sender: closed","stream_id":"tzafh4o6"}
+{"time":"2025-03-26T23:04:36.922832335+05:30","level":"INFO","msg":"stream: closed","id":"tzafh4o6"}

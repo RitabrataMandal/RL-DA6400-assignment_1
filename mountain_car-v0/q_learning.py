@@ -6,14 +6,14 @@ import os
 from numpy import save
 
 # Hyperparameters
-temperature = 1.0  # Temperature for softmax
+temperature = 0.1  # Temperature for softmax
 gamma = 0.99  # Discount factor
-alpha = 0.1  # Learning rate
+alpha = 0.7
 episode = 1000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500] 
 
-env = gym.make('MountainCar-v0', render_mode='rgb_array')
+env = gym.make('MountainCar-v0')
 n_action = env.action_space.n
 env_low = env.observation_space.low
 env_high = env.observation_space.high
@@ -58,7 +58,8 @@ for seed in seeds:
         state, _ = env.reset(seed=seed)
         pos, vel = getState(state)
 
-        while not (done or truncated):
+        # while not (done or truncated):
+        while not done:
             action = chooseAction(pos, vel, q_table_qlearn, temperature)
             next_state, reward, done, truncated, _ = env.step(action)
             next_pos, next_vel = getState(next_state)
@@ -73,7 +74,8 @@ for seed in seeds:
             # if next_state[0] > 0.3:
             #     reward += 1.0
 
-            if done or truncated:
+            # if done or truncated:
+            if done:
                 q_table_qlearn[pos][vel][action] += alpha * (reward - q_table_qlearn[pos][vel][action])
             else:
                 max_next_q = np.max(q_table_qlearn[next_pos][next_vel])
@@ -110,10 +112,10 @@ plt.xlabel("Episodes")
 plt.ylabel("Return (Smoothed)")
 plt.title("Episodic Return vs Episode Number (Q-learning with Softmax)")
 plt.legend()
-plt.show()
+# plt.show()
 
 base_file_name = f"qlearn_softmax_alpha_{alpha}_temp_{temperature}_episode_{episode}.npy"
 # os.makedirs("results", exist_ok=True)
-# save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
+save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
 
 print(f"Results saved in: results/{base_file_name}")

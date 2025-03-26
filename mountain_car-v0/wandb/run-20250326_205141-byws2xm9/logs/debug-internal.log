@@ -1,0 +1,16 @@
+{"time":"2025-03-26T20:51:41.029605231+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_205141-byws2xm9/logs/debug-core.log"}
+{"time":"2025-03-26T20:51:41.133206396+05:30","level":"INFO","msg":"created new stream","id":"byws2xm9"}
+{"time":"2025-03-26T20:51:41.133317938+05:30","level":"INFO","msg":"stream: started","id":"byws2xm9"}
+{"time":"2025-03-26T20:51:41.133354983+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:51:41.133368106+05:30","level":"INFO","msg":"handler: started","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:51:41.133454288+05:30","level":"INFO","msg":"sender: started","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:51:41.544547386+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T20:57:42.370424046+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T20:57:42.370758933+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T20:57:43.373318039+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.369332777,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.369320088,"progress":"151B/151B"},{"desc":"uploading config.yaml","runtime_seconds":0.048886833,"progress":"470B/470B"}],"total_operations":3}}
+{"time":"2025-03-26T20:57:43.878379594+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T20:57:44.242817349+05:30","level":"INFO","msg":"stream: closing","id":"byws2xm9"}
+{"time":"2025-03-26T20:57:44.242852776+05:30","level":"INFO","msg":"handler: closed","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:57:44.242871748+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:57:44.242899821+05:30","level":"INFO","msg":"sender: closed","stream_id":"byws2xm9"}
+{"time":"2025-03-26T20:57:44.243015013+05:30","level":"INFO","msg":"stream: closed","id":"byws2xm9"}

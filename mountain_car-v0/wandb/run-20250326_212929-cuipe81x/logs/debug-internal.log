@@ -1,0 +1,16 @@
+{"time":"2025-03-26T21:29:29.882896898+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250326_212929-cuipe81x/logs/debug-core.log"}
+{"time":"2025-03-26T21:29:29.986926681+05:30","level":"INFO","msg":"created new stream","id":"cuipe81x"}
+{"time":"2025-03-26T21:29:29.987001063+05:30","level":"INFO","msg":"stream: started","id":"cuipe81x"}
+{"time":"2025-03-26T21:29:29.987120658+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:29:29.987152599+05:30","level":"INFO","msg":"handler: started","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:29:29.987246684+05:30","level":"INFO","msg":"sender: started","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:29:30.368246859+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T21:31:41.585677913+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T21:31:41.58644222+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T21:31:42.545827575+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.314485705,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.314467292,"progress":"149B/149B"},{"desc":"uploading config.yaml","runtime_seconds":0.02417724,"progress":"470B/470B"}],"total_operations":3}}
+{"time":"2025-03-26T21:31:43.566791244+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T21:31:43.926952826+05:30","level":"INFO","msg":"stream: closing","id":"cuipe81x"}
+{"time":"2025-03-26T21:31:43.926995812+05:30","level":"INFO","msg":"handler: closed","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:31:43.927016703+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:31:43.927076796+05:30","level":"INFO","msg":"sender: closed","stream_id":"cuipe81x"}
+{"time":"2025-03-26T21:31:43.927151969+05:30","level":"INFO","msg":"stream: closed","id":"cuipe81x"}

@@ -5,15 +5,15 @@ from numpy import save
 from gym_minigrid.wrappers import *
 import os
 
-def softmax_action(q_value, tau):
-    exp_values = np.exp(q_value / tau)
+def softmax_action(q_value, temperature):
+    exp_values = np.exp(q_value / temperature)
     probabilities = exp_values / np.sum(exp_values)
     return np.random.choice(len(q_value), p=probabilities)
 
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
 episodes = 1000
-tau = 1  # Temperature for softmax
+temperature = 1  # Temperature for softmax
 gamma = 0.99
 alpha = 0.1
 
@@ -32,7 +32,7 @@ for seed in seeds:
         x2 = env.agent_dir
         front_cell = env.grid.get(*env.front_pos)
         x3 = 1 if (front_cell and front_cell.type != "goal") else 0
-        action = softmax_action(q_value[:, x1, x2, x3], tau)
+        action = softmax_action(q_value[:, x1, x2, x3], temperature)
         
         while not (terminated or truncated):
             observation, reward, terminated, truncated, info = env.step(action)
@@ -47,7 +47,7 @@ for seed in seeds:
             
             # Move to next state
             x1, x2, x3 = new_x1, new_x2, new_x3
-            action = softmax_action(q_value[:, x1, x2, x3], tau)
+            action = softmax_action(q_value[:, x1, x2, x3], temperature)
             total_reward[ep] += reward
         
         print(f"Seed: {seed} Episode: {ep+1} Reward: {total_reward[ep]}")
@@ -70,6 +70,6 @@ plt.title("Episodic Return vs Episode Number (Q-learning with Softmax)")
 plt.grid()
 plt.show()
 
-base_file_name = f"q_learning_softmax_alpha_{alpha}_tau_{tau}_episodes_{episodes}.npy"
+base_file_name = f"q_learning_softmax_alpha_{alpha}_tau_{temperature}_episodes_{episodes}.npy"
 # os.makedirs("results", exist_ok=True)
 save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

@@ -1,0 +1,13 @@
+{"time":"2025-03-27T13:23:37.121975054+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_132337-q7llewqu/logs/debug-core.log"}
+{"time":"2025-03-27T13:23:37.22915137+05:30","level":"INFO","msg":"created new stream","id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.229276449+05:30","level":"INFO","msg":"stream: started","id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.229349492+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.229399959+05:30","level":"INFO","msg":"handler: started","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.229603092+05:30","level":"INFO","msg":"sender: started","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.612649287+05:30","level":"INFO","msg":"stream: closing","id":"q7llewqu"}
+{"time":"2025-03-27T13:23:37.639953197+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-27T13:23:38.380904078+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:23:38.381073712+05:30","level":"INFO","msg":"handler: closed","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:38.381122503+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:38.381142099+05:30","level":"INFO","msg":"sender: closed","stream_id":"q7llewqu"}
+{"time":"2025-03-27T13:23:38.381219317+05:30","level":"INFO","msg":"stream: closed","id":"q7llewqu"}

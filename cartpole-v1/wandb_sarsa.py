@@ -14,7 +14,7 @@ def train():
 
     gamma =0.99
     env_name = "CartPole-v1"
-    seeds = [100, 100, 100, 100, 100]
+    seeds = [100, 200, 300, 400, 500]
     num_episodes = 1000
     num_steps = 500
     num_bins = 20
@@ -26,6 +26,7 @@ def train():
         config.epsilon,
         seeds,
         num_episodes,
+        num_steps,
         num_bins
     )
     mean_rewards = np.mean(rewards, axis=0)

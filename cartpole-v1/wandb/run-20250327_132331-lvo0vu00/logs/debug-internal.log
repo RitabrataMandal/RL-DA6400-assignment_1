@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:23:31.767767757+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_132331-lvo0vu00/logs/debug-core.log"}
+{"time":"2025-03-27T13:23:31.875955995+05:30","level":"INFO","msg":"created new stream","id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:31.87606487+05:30","level":"INFO","msg":"stream: started","id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:31.876137738+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:31.876186557+05:30","level":"INFO","msg":"handler: started","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:31.876227361+05:30","level":"INFO","msg":"sender: started","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:32.268517289+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:23:32.429261759+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:23:32.429804236+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:23:33.39711126+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.314294655},{"desc":"uploading wandb-summary.json","runtime_seconds":0.019185549,"progress":"24B/24B"},{"desc":"uploading output.log","runtime_seconds":0.019153577}],"total_operations":3}}
+{"time":"2025-03-27T13:23:34.077445025+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:23:34.383329729+05:30","level":"INFO","msg":"stream: closing","id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:34.383385791+05:30","level":"INFO","msg":"handler: closed","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:34.383430357+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:34.383463618+05:30","level":"INFO","msg":"sender: closed","stream_id":"lvo0vu00"}
+{"time":"2025-03-27T13:23:34.383649036+05:30","level":"INFO","msg":"stream: closed","id":"lvo0vu00"}

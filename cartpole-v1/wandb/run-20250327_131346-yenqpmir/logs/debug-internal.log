@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:13:46.304850411+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_131346-yenqpmir/logs/debug-core.log"}
+{"time":"2025-03-27T13:13:46.407082582+05:30","level":"INFO","msg":"created new stream","id":"yenqpmir"}
+{"time":"2025-03-27T13:13:46.407107164+05:30","level":"INFO","msg":"stream: started","id":"yenqpmir"}
+{"time":"2025-03-27T13:13:46.408418097+05:30","level":"INFO","msg":"handler: started","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:13:46.408462619+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:13:46.408620875+05:30","level":"INFO","msg":"sender: started","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:13:46.764491179+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:14:02.811107939+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:14:02.811448063+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:14:03.812126001+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.687214379,"progress":"185.9KB/185.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.378915575,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T13:14:04.202954316+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:14:04.515309816+05:30","level":"INFO","msg":"stream: closing","id":"yenqpmir"}
+{"time":"2025-03-27T13:14:04.51533194+05:30","level":"INFO","msg":"handler: closed","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:14:04.515338654+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:14:04.515345251+05:30","level":"INFO","msg":"sender: closed","stream_id":"yenqpmir"}
+{"time":"2025-03-27T13:14:04.515399406+05:30","level":"INFO","msg":"stream: closed","id":"yenqpmir"}

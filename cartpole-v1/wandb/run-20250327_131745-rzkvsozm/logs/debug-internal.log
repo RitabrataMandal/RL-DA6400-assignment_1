@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:17:45.369864437+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_131745-rzkvsozm/logs/debug-core.log"}
+{"time":"2025-03-27T13:17:45.472322314+05:30","level":"INFO","msg":"created new stream","id":"rzkvsozm"}
+{"time":"2025-03-27T13:17:45.472349167+05:30","level":"INFO","msg":"stream: started","id":"rzkvsozm"}
+{"time":"2025-03-27T13:17:45.472368996+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:17:45.472413555+05:30","level":"INFO","msg":"sender: started","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:17:45.472422426+05:30","level":"INFO","msg":"handler: started","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:17:45.851378569+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:18:02.093779888+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:18:02.094119995+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:18:03.096123647+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.688229627,"progress":"186.1KB/186.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.304432689,"progress":"494B/494B"}],"total_operations":2}}
+{"time":"2025-03-27T13:18:03.502732911+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:18:03.821437428+05:30","level":"INFO","msg":"stream: closing","id":"rzkvsozm"}
+{"time":"2025-03-27T13:18:03.821472202+05:30","level":"INFO","msg":"handler: closed","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:18:03.821492399+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:18:03.821559927+05:30","level":"INFO","msg":"sender: closed","stream_id":"rzkvsozm"}
+{"time":"2025-03-27T13:18:03.821646082+05:30","level":"INFO","msg":"stream: closed","id":"rzkvsozm"}

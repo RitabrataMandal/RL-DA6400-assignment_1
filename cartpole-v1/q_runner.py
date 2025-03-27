@@ -14,7 +14,7 @@ def run_qlearning(env_name, alpha, gamma, temperature, seeds, num_episodes, num_
         q_table, bins = Qtable(env.observation_space, env.action_space, num_bins)
 
         # Corrected parameter passing
-        q_learner = QLearner(alpha, gamma, temperature, q_table=q_table,bins=bins,env= env, seed=seed)
+        q_learner = QLearner(alpha, gamma, temperature, q_table,bins,env, seed)
 
         # Use the provided num_episodes and num_steps
         reward_list = q_learner.learn(num_episodes, num_steps)

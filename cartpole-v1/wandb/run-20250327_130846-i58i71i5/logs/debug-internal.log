@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:08:46.794508464+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_130846-i58i71i5/logs/debug-core.log"}
+{"time":"2025-03-27T13:08:46.900439186+05:30","level":"INFO","msg":"created new stream","id":"i58i71i5"}
+{"time":"2025-03-27T13:08:46.900465371+05:30","level":"INFO","msg":"stream: started","id":"i58i71i5"}
+{"time":"2025-03-27T13:08:46.900510379+05:30","level":"INFO","msg":"handler: started","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:08:46.900516872+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:08:46.900548339+05:30","level":"INFO","msg":"sender: started","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:08:47.232643502+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:09:03.102682159+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:09:03.10307187+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:09:04.104913812+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.700299594,"progress":"186.0KB/186.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.170643663,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T13:09:04.51901403+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:09:04.825393555+05:30","level":"INFO","msg":"stream: closing","id":"i58i71i5"}
+{"time":"2025-03-27T13:09:04.825409091+05:30","level":"INFO","msg":"handler: closed","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:09:04.82541877+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:09:04.825424813+05:30","level":"INFO","msg":"sender: closed","stream_id":"i58i71i5"}
+{"time":"2025-03-27T13:09:04.825463172+05:30","level":"INFO","msg":"stream: closed","id":"i58i71i5"}

@@ -1,0 +1,31 @@
+{
+  "os": "Linux-5.15.0-124-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-03-27T07:47:13.028550Z",
+  "program": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb_sarsa.py",
+  "codePath": "cartpole-v1/wandb_sarsa.py",
+  "git": {
+    "remote": "https://github.com/RitabrataMandal/RL-DA6400-assignment_1.git",
+    "commit": "7aa936541a9824ac3877b4796a870180f7962f2b"
+  },
+  "email": "ee24e009@smail.iitm.ac.in",
+  "root": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1",
+  "host": "gametheorylab",
+  "executable": "/home/gametheorylab/miniconda3/bin/python",
+  "codePathLocal": "wandb_sarsa.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "61330796544"
+    }
+  },
+  "memory": {
+    "total": "25052352512"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

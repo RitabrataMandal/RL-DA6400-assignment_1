@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:18:17.797718805+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_131817-sd1iguof/logs/debug-core.log"}
+{"time":"2025-03-27T13:18:17.901787832+05:30","level":"INFO","msg":"created new stream","id":"sd1iguof"}
+{"time":"2025-03-27T13:18:17.901876057+05:30","level":"INFO","msg":"stream: started","id":"sd1iguof"}
+{"time":"2025-03-27T13:18:17.901918929+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:17.901966015+05:30","level":"INFO","msg":"handler: started","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:17.902068213+05:30","level":"INFO","msg":"sender: started","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:18.272496991+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:18:31.309261751+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:18:31.3100549+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:18:32.311598118+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.702105767,"progress":"185.7KB/185.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.387585142,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T13:18:32.875917052+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:18:33.301315303+05:30","level":"INFO","msg":"stream: closing","id":"sd1iguof"}
+{"time":"2025-03-27T13:18:33.30137493+05:30","level":"INFO","msg":"handler: closed","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:33.301408289+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:33.301420362+05:30","level":"INFO","msg":"sender: closed","stream_id":"sd1iguof"}
+{"time":"2025-03-27T13:18:33.301615493+05:30","level":"INFO","msg":"stream: closed","id":"sd1iguof"}

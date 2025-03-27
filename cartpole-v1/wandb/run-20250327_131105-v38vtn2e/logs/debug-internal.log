@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:11:05.523374594+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_131105-v38vtn2e/logs/debug-core.log"}
+{"time":"2025-03-27T13:11:05.626093386+05:30","level":"INFO","msg":"created new stream","id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:05.626112429+05:30","level":"INFO","msg":"stream: started","id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:05.626129692+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:05.62612842+05:30","level":"INFO","msg":"handler: started","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:05.626153922+05:30","level":"INFO","msg":"sender: started","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:05.9238051+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:11:17.985375142+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:11:17.986702495+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:11:18.987359543+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.673482691,"progress":"185.3KB/185.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.673464229,"progress":"169B/169B"},{"desc":"uploading config.yaml","runtime_seconds":0.420585594,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-27T13:11:20.360648804+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:11:20.731858507+05:30","level":"INFO","msg":"stream: closing","id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:20.731907083+05:30","level":"INFO","msg":"handler: closed","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:20.731935363+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:20.73201449+05:30","level":"INFO","msg":"sender: closed","stream_id":"v38vtn2e"}
+{"time":"2025-03-27T13:11:20.732159383+05:30","level":"INFO","msg":"stream: closed","id":"v38vtn2e"}

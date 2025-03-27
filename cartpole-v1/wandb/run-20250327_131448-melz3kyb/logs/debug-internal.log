@@ -1,0 +1,16 @@
+{"time":"2025-03-27T13:14:48.983072654+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_131448-melz3kyb/logs/debug-core.log"}
+{"time":"2025-03-27T13:14:49.090803233+05:30","level":"INFO","msg":"created new stream","id":"melz3kyb"}
+{"time":"2025-03-27T13:14:49.090920441+05:30","level":"INFO","msg":"stream: started","id":"melz3kyb"}
+{"time":"2025-03-27T13:14:49.090996975+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:14:49.091596156+05:30","level":"INFO","msg":"sender: started","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:14:49.091659671+05:30","level":"INFO","msg":"handler: started","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:14:49.445754211+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T13:15:05.331568591+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T13:15:05.331990623+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T13:15:06.333781161+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.686548991,"progress":"185.9KB/185.9KB"}],"total_operations":1}}
+{"time":"2025-03-27T13:15:06.76999862+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T13:15:07.055996357+05:30","level":"INFO","msg":"stream: closing","id":"melz3kyb"}
+{"time":"2025-03-27T13:15:07.056024181+05:30","level":"INFO","msg":"handler: closed","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:15:07.05603833+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:15:07.056047041+05:30","level":"INFO","msg":"sender: closed","stream_id":"melz3kyb"}
+{"time":"2025-03-27T13:15:07.056100083+05:30","level":"INFO","msg":"stream: closed","id":"melz3kyb"}

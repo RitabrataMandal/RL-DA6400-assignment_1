@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:47:29.274513724+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_114729-zswvdfut/logs/debug-core.log"}
+{"time":"2025-03-27T11:47:29.378624242+05:30","level":"INFO","msg":"created new stream","id":"zswvdfut"}
+{"time":"2025-03-27T11:47:29.378748077+05:30","level":"INFO","msg":"stream: started","id":"zswvdfut"}
+{"time":"2025-03-27T11:47:29.378785961+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:47:29.378827191+05:30","level":"INFO","msg":"sender: started","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:47:29.378839045+05:30","level":"INFO","msg":"handler: started","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:47:29.718241366+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:49:28.805175027+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:49:28.805576101+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:49:29.766734523+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.378951193,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.37891159,"progress":"186B/186B"},{"desc":"uploading config.yaml","runtime_seconds":0.04700424,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-27T11:49:30.083696465+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:49:30.36940375+05:30","level":"INFO","msg":"stream: closing","id":"zswvdfut"}
+{"time":"2025-03-27T11:49:30.369459898+05:30","level":"INFO","msg":"handler: closed","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:49:30.36948686+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:49:30.369620804+05:30","level":"INFO","msg":"sender: closed","stream_id":"zswvdfut"}
+{"time":"2025-03-27T11:49:30.369655152+05:30","level":"INFO","msg":"stream: closed","id":"zswvdfut"}

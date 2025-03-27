@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:51:43.668694319+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_115143-7wkydrvf/logs/debug-core.log"}
+{"time":"2025-03-27T11:51:43.77563231+05:30","level":"INFO","msg":"created new stream","id":"7wkydrvf"}
+{"time":"2025-03-27T11:51:43.775684541+05:30","level":"INFO","msg":"stream: started","id":"7wkydrvf"}
+{"time":"2025-03-27T11:51:43.775804612+05:30","level":"INFO","msg":"sender: started","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:51:43.775795527+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:51:43.775839157+05:30","level":"INFO","msg":"handler: started","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:51:44.173071753+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:53:37.565186926+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:53:37.565589398+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:53:38.526209532+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.381128429,"progress":"184B/184B"},{"desc":"uploading output.log","runtime_seconds":0.381110904,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.108079417,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T11:53:39.467673389+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:53:39.777332499+05:30","level":"INFO","msg":"stream: closing","id":"7wkydrvf"}
+{"time":"2025-03-27T11:53:39.777383465+05:30","level":"INFO","msg":"handler: closed","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:53:39.777403864+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:53:39.777437916+05:30","level":"INFO","msg":"sender: closed","stream_id":"7wkydrvf"}
+{"time":"2025-03-27T11:53:39.77755053+05:30","level":"INFO","msg":"stream: closed","id":"7wkydrvf"}

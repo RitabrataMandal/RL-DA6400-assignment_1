@@ -1,0 +1,16 @@
+{"time":"2025-03-27T12:02:08.090777648+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_120208-t93oiioo/logs/debug-core.log"}
+{"time":"2025-03-27T12:02:08.195179987+05:30","level":"INFO","msg":"created new stream","id":"t93oiioo"}
+{"time":"2025-03-27T12:02:08.195291958+05:30","level":"INFO","msg":"stream: started","id":"t93oiioo"}
+{"time":"2025-03-27T12:02:08.195363597+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:02:08.195424793+05:30","level":"INFO","msg":"handler: started","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:02:08.195504347+05:30","level":"INFO","msg":"sender: started","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:02:08.525599791+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T12:03:57.950368379+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T12:03:57.950699665+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T12:03:58.95233452+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.408906679,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.122900864,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T12:03:59.236090069+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T12:03:59.555005626+05:30","level":"INFO","msg":"stream: closing","id":"t93oiioo"}
+{"time":"2025-03-27T12:03:59.55504755+05:30","level":"INFO","msg":"handler: closed","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:03:59.555083809+05:30","level":"INFO","msg":"sender: closed","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:03:59.555075866+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t93oiioo"}
+{"time":"2025-03-27T12:03:59.555215104+05:30","level":"INFO","msg":"stream: closed","id":"t93oiioo"}

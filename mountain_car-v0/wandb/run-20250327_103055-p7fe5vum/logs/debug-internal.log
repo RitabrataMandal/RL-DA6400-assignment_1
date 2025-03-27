@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:30:55.707459811+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_103055-p7fe5vum/logs/debug-core.log"}
+{"time":"2025-03-27T10:30:55.810200292+05:30","level":"INFO","msg":"created new stream","id":"p7fe5vum"}
+{"time":"2025-03-27T10:30:55.810224548+05:30","level":"INFO","msg":"stream: started","id":"p7fe5vum"}
+{"time":"2025-03-27T10:30:55.810280523+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:30:55.810288279+05:30","level":"INFO","msg":"handler: started","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:30:55.810312323+05:30","level":"INFO","msg":"sender: started","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:30:56.147194941+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:31:52.441176298+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:31:52.441605749+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:31:53.399991171+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.357139257,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.072733277,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T10:31:53.687737943+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:31:53.998829459+05:30","level":"INFO","msg":"stream: closing","id":"p7fe5vum"}
+{"time":"2025-03-27T10:31:53.998864968+05:30","level":"INFO","msg":"handler: closed","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:31:53.99889265+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:31:53.998949363+05:30","level":"INFO","msg":"sender: closed","stream_id":"p7fe5vum"}
+{"time":"2025-03-27T10:31:53.999014529+05:30","level":"INFO","msg":"stream: closed","id":"p7fe5vum"}

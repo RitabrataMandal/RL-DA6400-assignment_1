@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:51:37.290284405+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_095137-zn1qjfy6/logs/debug-core.log"}
+{"time":"2025-03-27T09:51:37.398126171+05:30","level":"INFO","msg":"created new stream","id":"zn1qjfy6"}
+{"time":"2025-03-27T09:51:37.398199976+05:30","level":"INFO","msg":"stream: started","id":"zn1qjfy6"}
+{"time":"2025-03-27T09:51:37.398279608+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:51:37.39831555+05:30","level":"INFO","msg":"sender: started","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:51:37.398351349+05:30","level":"INFO","msg":"handler: started","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:51:37.7741869+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:52:37.185080739+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:52:37.185614539+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:52:38.145136516+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.380855389,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.110097082,"progress":"496B/496B"}],"total_operations":2}}
+{"time":"2025-03-27T09:52:39.094248704+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:52:39.399546695+05:30","level":"INFO","msg":"stream: closing","id":"zn1qjfy6"}
+{"time":"2025-03-27T09:52:39.399601929+05:30","level":"INFO","msg":"handler: closed","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:52:39.399631387+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:52:39.399649745+05:30","level":"INFO","msg":"sender: closed","stream_id":"zn1qjfy6"}
+{"time":"2025-03-27T09:52:39.399817931+05:30","level":"INFO","msg":"stream: closed","id":"zn1qjfy6"}

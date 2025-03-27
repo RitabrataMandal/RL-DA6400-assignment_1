@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:54:58.742520892+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_095458-pndcht75/logs/debug-core.log"}
+{"time":"2025-03-27T09:54:58.844758144+05:30","level":"INFO","msg":"created new stream","id":"pndcht75"}
+{"time":"2025-03-27T09:54:58.844794209+05:30","level":"INFO","msg":"stream: started","id":"pndcht75"}
+{"time":"2025-03-27T09:54:58.844795577+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:54:58.844800344+05:30","level":"INFO","msg":"handler: started","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:54:58.844804043+05:30","level":"INFO","msg":"sender: started","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:54:59.191663249+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:55:49.946320869+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:55:49.946777049+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:55:50.947355395+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.384559598,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.384544818,"progress":"181B/181B"},{"desc":"uploading config.yaml","runtime_seconds":0.080523598,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-27T09:55:51.906967227+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:55:52.422133129+05:30","level":"INFO","msg":"stream: closing","id":"pndcht75"}
+{"time":"2025-03-27T09:55:52.422147341+05:30","level":"INFO","msg":"handler: closed","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:55:52.422156806+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:55:52.422187507+05:30","level":"INFO","msg":"sender: closed","stream_id":"pndcht75"}
+{"time":"2025-03-27T09:55:52.422206992+05:30","level":"INFO","msg":"stream: closed","id":"pndcht75"}

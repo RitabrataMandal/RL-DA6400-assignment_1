@@ -1,0 +1,16 @@
+{"time":"2025-03-27T12:31:10.013293403+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_123110-f0ekltcx/logs/debug-core.log"}
+{"time":"2025-03-27T12:31:10.11717718+05:30","level":"INFO","msg":"created new stream","id":"f0ekltcx"}
+{"time":"2025-03-27T12:31:10.117241183+05:30","level":"INFO","msg":"stream: started","id":"f0ekltcx"}
+{"time":"2025-03-27T12:31:10.117334963+05:30","level":"INFO","msg":"handler: started","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:31:10.117319396+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:31:10.117335171+05:30","level":"INFO","msg":"sender: started","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:31:10.727382381+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T12:33:38.905171369+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T12:33:38.905620397+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T12:33:39.864890838+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.39659686,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.396581074,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.112340476,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T12:33:41.045815191+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T12:33:41.363696924+05:30","level":"INFO","msg":"stream: closing","id":"f0ekltcx"}
+{"time":"2025-03-27T12:33:41.363746156+05:30","level":"INFO","msg":"handler: closed","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:33:41.363779002+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:33:41.363832402+05:30","level":"INFO","msg":"sender: closed","stream_id":"f0ekltcx"}
+{"time":"2025-03-27T12:33:41.36394728+05:30","level":"INFO","msg":"stream: closed","id":"f0ekltcx"}

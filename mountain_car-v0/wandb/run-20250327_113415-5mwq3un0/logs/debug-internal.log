@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:34:15.072589699+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_113415-5mwq3un0/logs/debug-core.log"}
+{"time":"2025-03-27T11:34:15.178733542+05:30","level":"INFO","msg":"created new stream","id":"5mwq3un0"}
+{"time":"2025-03-27T11:34:15.1788203+05:30","level":"INFO","msg":"stream: started","id":"5mwq3un0"}
+{"time":"2025-03-27T11:34:15.178858778+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:34:15.178886179+05:30","level":"INFO","msg":"sender: started","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:34:15.178939995+05:30","level":"INFO","msg":"handler: started","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:34:15.58100244+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:36:04.066730294+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:36:04.067148018+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:36:05.068767471+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.447710812,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.175195894,"progress":"502B/502B"}],"total_operations":2}}
+{"time":"2025-03-27T11:36:05.95168485+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:36:06.273539902+05:30","level":"INFO","msg":"stream: closing","id":"5mwq3un0"}
+{"time":"2025-03-27T11:36:06.273570985+05:30","level":"INFO","msg":"handler: closed","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:36:06.273597466+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:36:06.273624424+05:30","level":"INFO","msg":"sender: closed","stream_id":"5mwq3un0"}
+{"time":"2025-03-27T11:36:06.273757113+05:30","level":"INFO","msg":"stream: closed","id":"5mwq3un0"}

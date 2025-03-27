@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:10:09.346390871+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_101009-9zuahcud/logs/debug-core.log"}
+{"time":"2025-03-27T10:10:09.454247291+05:30","level":"INFO","msg":"created new stream","id":"9zuahcud"}
+{"time":"2025-03-27T10:10:09.454386286+05:30","level":"INFO","msg":"stream: started","id":"9zuahcud"}
+{"time":"2025-03-27T10:10:09.454461546+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:10:09.454491123+05:30","level":"INFO","msg":"sender: started","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:10:09.454531491+05:30","level":"INFO","msg":"handler: started","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:10:09.820368418+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:10:58.883645863+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:10:58.884005241+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:10:59.885488116+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.427822377,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.178333333,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-27T10:11:00.059444968+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:11:00.568320203+05:30","level":"INFO","msg":"stream: closing","id":"9zuahcud"}
+{"time":"2025-03-27T10:11:00.568341192+05:30","level":"INFO","msg":"handler: closed","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:11:00.568353351+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:11:00.56836602+05:30","level":"INFO","msg":"sender: closed","stream_id":"9zuahcud"}
+{"time":"2025-03-27T10:11:00.568435151+05:30","level":"INFO","msg":"stream: closed","id":"9zuahcud"}

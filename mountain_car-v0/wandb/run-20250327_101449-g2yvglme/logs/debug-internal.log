@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:14:49.587154018+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_101449-g2yvglme/logs/debug-core.log"}
+{"time":"2025-03-27T10:14:49.690245424+05:30","level":"INFO","msg":"created new stream","id":"g2yvglme"}
+{"time":"2025-03-27T10:14:49.690300851+05:30","level":"INFO","msg":"stream: started","id":"g2yvglme"}
+{"time":"2025-03-27T10:14:49.690393743+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:14:49.690432413+05:30","level":"INFO","msg":"handler: started","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:14:49.690535962+05:30","level":"INFO","msg":"sender: started","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:14:50.077456387+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:15:40.136647195+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:15:40.13704713+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:15:41.138531056+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.368256275,"progress":"180B/180B"},{"desc":"uploading config.yaml","runtime_seconds":0.068348417,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T10:15:42.098481704+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:15:42.419883494+05:30","level":"INFO","msg":"stream: closing","id":"g2yvglme"}
+{"time":"2025-03-27T10:15:42.419924218+05:30","level":"INFO","msg":"handler: closed","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:15:42.419964755+05:30","level":"INFO","msg":"sender: closed","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:15:42.419946565+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g2yvglme"}
+{"time":"2025-03-27T10:15:42.420083048+05:30","level":"INFO","msg":"stream: closed","id":"g2yvglme"}

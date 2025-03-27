@@ -1,0 +1,6 @@
+wandb_version: 1
+
+alpha:
+  value: 0.423820845333964
+epsilon:
+  value: 0.07798401235981463

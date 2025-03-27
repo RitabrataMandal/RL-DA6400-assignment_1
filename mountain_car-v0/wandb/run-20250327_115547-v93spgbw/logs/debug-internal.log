@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:55:47.522184283+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_115547-v93spgbw/logs/debug-core.log"}
+{"time":"2025-03-27T11:55:47.626669919+05:30","level":"INFO","msg":"created new stream","id":"v93spgbw"}
+{"time":"2025-03-27T11:55:47.626795609+05:30","level":"INFO","msg":"stream: started","id":"v93spgbw"}
+{"time":"2025-03-27T11:55:47.626856231+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:55:47.626926833+05:30","level":"INFO","msg":"sender: started","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:55:47.626948738+05:30","level":"INFO","msg":"handler: started","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:55:47.94788355+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:57:57.617269696+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:57:57.618083455+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:57:58.578451448+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.374690732,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.374676062,"progress":"183B/183B"},{"desc":"uploading config.yaml","runtime_seconds":0.100795332,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T11:57:59.523124569+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:57:59.856003385+05:30","level":"INFO","msg":"stream: closing","id":"v93spgbw"}
+{"time":"2025-03-27T11:57:59.856019641+05:30","level":"INFO","msg":"handler: closed","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:57:59.856029001+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:57:59.856048212+05:30","level":"INFO","msg":"sender: closed","stream_id":"v93spgbw"}
+{"time":"2025-03-27T11:57:59.856081274+05:30","level":"INFO","msg":"stream: closed","id":"v93spgbw"}

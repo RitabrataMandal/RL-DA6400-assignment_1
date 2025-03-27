@@ -1,0 +1,6 @@
+wandb_version: 1
+
+alpha:
+  value: 0.21521590226421275
+temperature:
+  value: 0.5755759892900785

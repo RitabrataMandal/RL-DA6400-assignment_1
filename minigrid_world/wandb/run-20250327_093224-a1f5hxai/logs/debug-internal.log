@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:32:24.880312498+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_093224-a1f5hxai/logs/debug-core.log"}
+{"time":"2025-03-27T09:32:24.983621889+05:30","level":"INFO","msg":"created new stream","id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:24.983682132+05:30","level":"INFO","msg":"stream: started","id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:24.983780392+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:24.983780261+05:30","level":"INFO","msg":"handler: started","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:24.983873826+05:30","level":"INFO","msg":"sender: started","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:25.360911617+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:32:40.168876272+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:32:40.169397628+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:32:41.170608939+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.688266184,"progress":"186.6KB/186.6KB"},{"desc":"uploading history steps 0-0, summary, console lines 0-5001","runtime_seconds":0.069432508}],"total_operations":2}}
+{"time":"2025-03-27T09:32:41.607732802+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:32:41.885398316+05:30","level":"INFO","msg":"stream: closing","id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:41.885414751+05:30","level":"INFO","msg":"handler: closed","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:41.885423358+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:41.885450393+05:30","level":"INFO","msg":"sender: closed","stream_id":"a1f5hxai"}
+{"time":"2025-03-27T09:32:41.885480334+05:30","level":"INFO","msg":"stream: closed","id":"a1f5hxai"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:13:57.861809619+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_101357-b1ndc0xx/logs/debug-core.log"}
+{"time":"2025-03-27T10:13:57.965326906+05:30","level":"INFO","msg":"created new stream","id":"b1ndc0xx"}
+{"time":"2025-03-27T10:13:57.965412902+05:30","level":"INFO","msg":"stream: started","id":"b1ndc0xx"}
+{"time":"2025-03-27T10:13:57.965474893+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:13:57.965496571+05:30","level":"INFO","msg":"handler: started","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:13:57.965587184+05:30","level":"INFO","msg":"sender: started","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:13:58.359227966+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:14:45.016112869+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:14:45.016511314+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:14:46.018162835+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.236594963,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.236580842,"progress":"182B/182B"}],"total_operations":2}}
+{"time":"2025-03-27T10:14:46.449868145+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:14:46.856281399+05:30","level":"INFO","msg":"stream: closing","id":"b1ndc0xx"}
+{"time":"2025-03-27T10:14:46.856295861+05:30","level":"INFO","msg":"handler: closed","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:14:46.85630395+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:14:46.85631217+05:30","level":"INFO","msg":"sender: closed","stream_id":"b1ndc0xx"}
+{"time":"2025-03-27T10:14:46.856357852+05:30","level":"INFO","msg":"stream: closed","id":"b1ndc0xx"}

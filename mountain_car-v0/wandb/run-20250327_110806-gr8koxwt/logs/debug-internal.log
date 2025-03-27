@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:08:06.400034053+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_110806-gr8koxwt/logs/debug-core.log"}
+{"time":"2025-03-27T11:08:06.503457022+05:30","level":"INFO","msg":"created new stream","id":"gr8koxwt"}
+{"time":"2025-03-27T11:08:06.503532071+05:30","level":"INFO","msg":"stream: started","id":"gr8koxwt"}
+{"time":"2025-03-27T11:08:06.503586882+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:08:06.503599194+05:30","level":"INFO","msg":"sender: started","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:08:06.503692853+05:30","level":"INFO","msg":"handler: started","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:08:06.88297642+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:10:38.320938565+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:10:38.321351284+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:10:39.280431751+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.361334076,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.361316048,"progress":"176B/176B"},{"desc":"uploading config.yaml","runtime_seconds":0.047586516,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-27T11:10:40.243794862+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:10:40.764988281+05:30","level":"INFO","msg":"stream: closing","id":"gr8koxwt"}
+{"time":"2025-03-27T11:10:40.765022063+05:30","level":"INFO","msg":"handler: closed","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:10:40.765040522+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:10:40.765079997+05:30","level":"INFO","msg":"sender: closed","stream_id":"gr8koxwt"}
+{"time":"2025-03-27T11:10:40.765197913+05:30","level":"INFO","msg":"stream: closed","id":"gr8koxwt"}

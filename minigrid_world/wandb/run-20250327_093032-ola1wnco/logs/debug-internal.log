@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:30:32.057672636+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_093032-ola1wnco/logs/debug-core.log"}
+{"time":"2025-03-27T09:30:32.160629439+05:30","level":"INFO","msg":"created new stream","id":"ola1wnco"}
+{"time":"2025-03-27T09:30:32.160663044+05:30","level":"INFO","msg":"stream: started","id":"ola1wnco"}
+{"time":"2025-03-27T09:30:32.164765478+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:32.164811572+05:30","level":"INFO","msg":"handler: started","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:32.164772128+05:30","level":"INFO","msg":"sender: started","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:32.539779804+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:30:50.154234944+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:30:50.154643313+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:30:51.156318432+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.676152003,"progress":"186.9KB/186.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.356131821,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T09:30:51.82222193+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:30:52.13593506+05:30","level":"INFO","msg":"stream: closing","id":"ola1wnco"}
+{"time":"2025-03-27T09:30:52.135975682+05:30","level":"INFO","msg":"handler: closed","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:52.135995801+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:52.136022179+05:30","level":"INFO","msg":"sender: closed","stream_id":"ola1wnco"}
+{"time":"2025-03-27T09:30:52.136174814+05:30","level":"INFO","msg":"stream: closed","id":"ola1wnco"}

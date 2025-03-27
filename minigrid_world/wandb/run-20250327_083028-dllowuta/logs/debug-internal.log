@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:30:28.459405398+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_083028-dllowuta/logs/debug-core.log"}
+{"time":"2025-03-27T08:30:28.808437851+05:30","level":"INFO","msg":"created new stream","id":"dllowuta"}
+{"time":"2025-03-27T08:30:28.808533085+05:30","level":"INFO","msg":"stream: started","id":"dllowuta"}
+{"time":"2025-03-27T08:30:28.808611554+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:28.808678106+05:30","level":"INFO","msg":"sender: started","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:28.808909733+05:30","level":"INFO","msg":"handler: started","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:29.28133319+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:30:47.743923507+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:30:47.744391693+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:30:48.731790785+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.340538703,"progress":"177.6KB/177.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3405135,"progress":"173B/173B"}],"total_operations":2}}
+{"time":"2025-03-27T08:30:50.538158673+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:30:51.011675847+05:30","level":"INFO","msg":"stream: closing","id":"dllowuta"}
+{"time":"2025-03-27T08:30:51.011737359+05:30","level":"INFO","msg":"handler: closed","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:51.011771173+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:51.011819574+05:30","level":"INFO","msg":"sender: closed","stream_id":"dllowuta"}
+{"time":"2025-03-27T08:30:51.011990728+05:30","level":"INFO","msg":"stream: closed","id":"dllowuta"}

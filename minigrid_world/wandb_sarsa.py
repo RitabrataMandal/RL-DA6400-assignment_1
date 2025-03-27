@@ -1,16 +1,15 @@
 import wandb
+import yaml
 from sarsa import train_minigrid
 
-sweep_config_grid = {
-    "method": "grid",
-    "metric": {"name": "mean_reward", "goal": "maximize"},
-    "parameters": {
-        "epsilon": {"values": [0.01, 0.05, 0.1, 0.15]},
-        "alpha": {"values": [0.1, 0.15, 0.3, 0.5]},
-    },
-}
 
-sweep_id = wandb.sweep(sweep_config_grid, project="minigrid-sarsa-tuning")
+
+with open("sweep_sarsa.yaml", "r") as f:
+    sweep_config = yaml.safe_load(f)
+
+
+
+sweep_id = wandb.sweep(sweep_config, project="minigrid-sarsa-tuning")
 
 def train():
     run = wandb.init()
@@ -18,8 +17,9 @@ def train():
     alpha = wandb.config.alpha
 
     mean_reward, _ = train_minigrid(epsilon, alpha)
+    regret = 1-mean_reward
     # Log results
-    wandb.log({"mean_reward": mean_reward, "epsilon": epsilon, "alpha": alpha})
+    wandb.log({"regret": regret, "epsilon": epsilon, "alpha": alpha})
     run.finish()
 
-wandb.agent(sweep_id, train)
+wandb.agent(sweep_id, train, count=50)

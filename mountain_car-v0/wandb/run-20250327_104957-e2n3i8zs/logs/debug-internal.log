@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:49:57.272498892+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_104957-e2n3i8zs/logs/debug-core.log"}
+{"time":"2025-03-27T10:49:57.376579582+05:30","level":"INFO","msg":"created new stream","id":"e2n3i8zs"}
+{"time":"2025-03-27T10:49:57.376682325+05:30","level":"INFO","msg":"stream: started","id":"e2n3i8zs"}
+{"time":"2025-03-27T10:49:57.376746255+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:49:57.376770836+05:30","level":"INFO","msg":"handler: started","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:49:57.376865094+05:30","level":"INFO","msg":"sender: started","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:49:57.836558947+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:51:54.265262535+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:51:54.266109146+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:51:55.225707238+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.39362974,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.096918839,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T10:51:56.154643669+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:51:56.442045058+05:30","level":"INFO","msg":"stream: closing","id":"e2n3i8zs"}
+{"time":"2025-03-27T10:51:56.442083145+05:30","level":"INFO","msg":"handler: closed","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:51:56.442108217+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:51:56.442127969+05:30","level":"INFO","msg":"sender: closed","stream_id":"e2n3i8zs"}
+{"time":"2025-03-27T10:51:56.442207124+05:30","level":"INFO","msg":"stream: closed","id":"e2n3i8zs"}

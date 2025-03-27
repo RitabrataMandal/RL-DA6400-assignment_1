@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:59:41.562829804+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_085941-1g5zzppy/logs/debug-core.log"}
+{"time":"2025-03-27T08:59:41.666590719+05:30","level":"INFO","msg":"created new stream","id":"1g5zzppy"}
+{"time":"2025-03-27T08:59:41.666753919+05:30","level":"INFO","msg":"stream: started","id":"1g5zzppy"}
+{"time":"2025-03-27T08:59:41.666800818+05:30","level":"INFO","msg":"handler: started","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T08:59:41.666814718+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T08:59:41.66736781+05:30","level":"INFO","msg":"sender: started","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T08:59:42.044215862+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:59:58.81421515+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:59:58.81464128+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:59:59.81654382+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.673022056,"progress":"178.3KB/178.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.360239685,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-27T09:00:00.419683769+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:00:00.747277801+05:30","level":"INFO","msg":"stream: closing","id":"1g5zzppy"}
+{"time":"2025-03-27T09:00:00.747337431+05:30","level":"INFO","msg":"handler: closed","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T09:00:00.747372348+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T09:00:00.747402986+05:30","level":"INFO","msg":"sender: closed","stream_id":"1g5zzppy"}
+{"time":"2025-03-27T09:00:00.747605928+05:30","level":"INFO","msg":"stream: closed","id":"1g5zzppy"}

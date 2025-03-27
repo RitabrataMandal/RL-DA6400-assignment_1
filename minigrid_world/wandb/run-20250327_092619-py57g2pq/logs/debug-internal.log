@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:26:19.219271123+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_092619-py57g2pq/logs/debug-core.log"}
+{"time":"2025-03-27T09:26:19.322467347+05:30","level":"INFO","msg":"created new stream","id":"py57g2pq"}
+{"time":"2025-03-27T09:26:19.322498736+05:30","level":"INFO","msg":"stream: started","id":"py57g2pq"}
+{"time":"2025-03-27T09:26:19.322508786+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:19.32253944+05:30","level":"INFO","msg":"handler: started","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:19.322574235+05:30","level":"INFO","msg":"sender: started","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:19.65341518+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:26:37.310365494+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:26:37.310916138+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:26:38.312627059+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.672565165,"progress":"185.0KB/185.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.672542627,"progress":"169B/169B"},{"desc":"uploading config.yaml","runtime_seconds":0.305908747,"progress":"496B/496B"}],"total_operations":3}}
+{"time":"2025-03-27T09:26:39.680350656+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:26:40.025152232+05:30","level":"INFO","msg":"stream: closing","id":"py57g2pq"}
+{"time":"2025-03-27T09:26:40.025201613+05:30","level":"INFO","msg":"handler: closed","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:40.025227182+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:40.025257419+05:30","level":"INFO","msg":"sender: closed","stream_id":"py57g2pq"}
+{"time":"2025-03-27T09:26:40.02542625+05:30","level":"INFO","msg":"stream: closed","id":"py57g2pq"}

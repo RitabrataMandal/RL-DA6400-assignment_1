@@ -1,0 +1,16 @@
+{"time":"2025-03-27T10:33:47.903971808+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_103347-lc1bpea1/logs/debug-core.log"}
+{"time":"2025-03-27T10:33:48.010375145+05:30","level":"INFO","msg":"created new stream","id":"lc1bpea1"}
+{"time":"2025-03-27T10:33:48.01045147+05:30","level":"INFO","msg":"stream: started","id":"lc1bpea1"}
+{"time":"2025-03-27T10:33:48.010569196+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:33:48.010574234+05:30","level":"INFO","msg":"handler: started","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:33:48.010636092+05:30","level":"INFO","msg":"sender: started","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:33:48.392014945+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T10:34:33.409149727+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T10:34:33.416200237+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T10:34:34.369007365+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.352079188,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.352062657,"progress":"182B/182B"},{"desc":"uploading history steps 0-0, summary","runtime_seconds":0.243218174},{"desc":"uploading config.yaml","runtime_seconds":0.092191878,"progress":"499B/499B"}],"total_operations":4}}
+{"time":"2025-03-27T10:34:34.635818751+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T10:34:34.9237777+05:30","level":"INFO","msg":"stream: closing","id":"lc1bpea1"}
+{"time":"2025-03-27T10:34:34.923822609+05:30","level":"INFO","msg":"handler: closed","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:34:34.923847924+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:34:34.9238687+05:30","level":"INFO","msg":"sender: closed","stream_id":"lc1bpea1"}
+{"time":"2025-03-27T10:34:34.923967721+05:30","level":"INFO","msg":"stream: closed","id":"lc1bpea1"}

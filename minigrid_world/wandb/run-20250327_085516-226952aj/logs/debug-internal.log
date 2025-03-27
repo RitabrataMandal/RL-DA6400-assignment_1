@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:55:16.544892055+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_085516-226952aj/logs/debug-core.log"}
+{"time":"2025-03-27T08:55:16.652376148+05:30","level":"INFO","msg":"created new stream","id":"226952aj"}
+{"time":"2025-03-27T08:55:16.652458848+05:30","level":"INFO","msg":"stream: started","id":"226952aj"}
+{"time":"2025-03-27T08:55:16.652521821+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:16.65254772+05:30","level":"INFO","msg":"handler: started","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:16.652699666+05:30","level":"INFO","msg":"sender: started","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:17.034304295+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:55:33.318446664+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:55:33.318747615+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:55:34.320823841+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.683795912,"progress":"177.8KB/177.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.33576833,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T08:55:34.929763957+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:55:35.263029869+05:30","level":"INFO","msg":"stream: closing","id":"226952aj"}
+{"time":"2025-03-27T08:55:35.263078821+05:30","level":"INFO","msg":"handler: closed","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:35.263111146+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:35.263131374+05:30","level":"INFO","msg":"sender: closed","stream_id":"226952aj"}
+{"time":"2025-03-27T08:55:35.263326641+05:30","level":"INFO","msg":"stream: closed","id":"226952aj"}

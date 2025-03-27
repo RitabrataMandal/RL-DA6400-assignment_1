@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:06:05.477810929+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_110605-9bdods1r/logs/debug-core.log"}
+{"time":"2025-03-27T11:06:05.586323354+05:30","level":"INFO","msg":"created new stream","id":"9bdods1r"}
+{"time":"2025-03-27T11:06:05.586399996+05:30","level":"INFO","msg":"stream: started","id":"9bdods1r"}
+{"time":"2025-03-27T11:06:05.586486815+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:06:05.586533627+05:30","level":"INFO","msg":"sender: started","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:06:05.586597518+05:30","level":"INFO","msg":"handler: started","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:06:05.954459818+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:07:53.38192095+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:07:53.382251573+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:07:54.383640163+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.406591446,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.150459524,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T11:07:55.346536101+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:07:55.648321479+05:30","level":"INFO","msg":"stream: closing","id":"9bdods1r"}
+{"time":"2025-03-27T11:07:55.648360186+05:30","level":"INFO","msg":"handler: closed","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:07:55.648396708+05:30","level":"INFO","msg":"sender: closed","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:07:55.6483893+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"9bdods1r"}
+{"time":"2025-03-27T11:07:55.648531507+05:30","level":"INFO","msg":"stream: closed","id":"9bdods1r"}

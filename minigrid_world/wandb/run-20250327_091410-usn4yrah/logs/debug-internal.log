@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:14:10.88505425+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_091410-usn4yrah/logs/debug-core.log"}
+{"time":"2025-03-27T09:14:10.988969107+05:30","level":"INFO","msg":"created new stream","id":"usn4yrah"}
+{"time":"2025-03-27T09:14:10.989006213+05:30","level":"INFO","msg":"stream: started","id":"usn4yrah"}
+{"time":"2025-03-27T09:14:10.989050666+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:10.98905858+05:30","level":"INFO","msg":"handler: started","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:10.989099264+05:30","level":"INFO","msg":"sender: started","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:11.336601559+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:14:31.350288415+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:14:31.350886271+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:14:32.352654305+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.683884413,"progress":"186.5KB/186.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.286298414,"progress":"496B/496B"}],"total_operations":2}}
+{"time":"2025-03-27T09:14:32.941291951+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:14:33.256124375+05:30","level":"INFO","msg":"stream: closing","id":"usn4yrah"}
+{"time":"2025-03-27T09:14:33.256136812+05:30","level":"INFO","msg":"handler: closed","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:33.25614507+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:33.256182324+05:30","level":"INFO","msg":"sender: closed","stream_id":"usn4yrah"}
+{"time":"2025-03-27T09:14:33.256214961+05:30","level":"INFO","msg":"stream: closed","id":"usn4yrah"}

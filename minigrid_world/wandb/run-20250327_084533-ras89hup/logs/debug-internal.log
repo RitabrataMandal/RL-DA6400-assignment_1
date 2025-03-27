@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:45:33.284660555+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_084533-ras89hup/logs/debug-core.log"}
+{"time":"2025-03-27T08:45:33.389450345+05:30","level":"INFO","msg":"created new stream","id":"ras89hup"}
+{"time":"2025-03-27T08:45:33.389566657+05:30","level":"INFO","msg":"stream: started","id":"ras89hup"}
+{"time":"2025-03-27T08:45:33.389647103+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:33.389664699+05:30","level":"INFO","msg":"sender: started","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:33.389916172+05:30","level":"INFO","msg":"handler: started","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:33.753491155+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:45:47.892684209+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:45:47.893058965+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:45:48.894500007+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.681804352,"progress":"177.7KB/177.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.131321374,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T08:45:49.492202609+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:45:50.200326966+05:30","level":"INFO","msg":"stream: closing","id":"ras89hup"}
+{"time":"2025-03-27T08:45:50.200378636+05:30","level":"INFO","msg":"handler: closed","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:50.20041165+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:50.200428821+05:30","level":"INFO","msg":"sender: closed","stream_id":"ras89hup"}
+{"time":"2025-03-27T08:45:50.200604537+05:30","level":"INFO","msg":"stream: closed","id":"ras89hup"}

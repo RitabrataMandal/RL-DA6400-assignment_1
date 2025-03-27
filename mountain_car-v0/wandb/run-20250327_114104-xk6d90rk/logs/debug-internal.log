@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:41:04.337927676+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_114104-xk6d90rk/logs/debug-core.log"}
+{"time":"2025-03-27T11:41:04.442283921+05:30","level":"INFO","msg":"created new stream","id":"xk6d90rk"}
+{"time":"2025-03-27T11:41:04.442353028+05:30","level":"INFO","msg":"stream: started","id":"xk6d90rk"}
+{"time":"2025-03-27T11:41:04.442445849+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:41:04.44248401+05:30","level":"INFO","msg":"sender: started","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:41:04.442500509+05:30","level":"INFO","msg":"handler: started","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:41:04.768868473+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:43:12.930664132+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:43:12.930984334+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:43:13.932661214+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.125965903,"progress":"500B/500B"}],"total_operations":1}}
+{"time":"2025-03-27T11:43:14.176479097+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:43:14.488040706+05:30","level":"INFO","msg":"stream: closing","id":"xk6d90rk"}
+{"time":"2025-03-27T11:43:14.48808133+05:30","level":"INFO","msg":"handler: closed","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:43:14.488106637+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:43:14.488132141+05:30","level":"INFO","msg":"sender: closed","stream_id":"xk6d90rk"}
+{"time":"2025-03-27T11:43:14.488261177+05:30","level":"INFO","msg":"stream: closed","id":"xk6d90rk"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:10:37.803162838+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_091037-agdtp50g/logs/debug-core.log"}
+{"time":"2025-03-27T09:10:37.907449053+05:30","level":"INFO","msg":"created new stream","id":"agdtp50g"}
+{"time":"2025-03-27T09:10:37.907541866+05:30","level":"INFO","msg":"stream: started","id":"agdtp50g"}
+{"time":"2025-03-27T09:10:37.907587364+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:10:37.907587852+05:30","level":"INFO","msg":"handler: started","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:10:37.907705054+05:30","level":"INFO","msg":"sender: started","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:10:38.30796884+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:11:00.328461799+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:11:00.328888359+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:11:01.332163338+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.670800941,"progress":"186.7KB/186.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.670775343,"progress":"181B/181B"},{"desc":"uploading config.yaml","runtime_seconds":0.370122491,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-27T09:11:02.021947113+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:11:02.350418568+05:30","level":"INFO","msg":"stream: closing","id":"agdtp50g"}
+{"time":"2025-03-27T09:11:02.350468495+05:30","level":"INFO","msg":"handler: closed","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:11:02.350511474+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:11:02.350528236+05:30","level":"INFO","msg":"sender: closed","stream_id":"agdtp50g"}
+{"time":"2025-03-27T09:11:02.350644808+05:30","level":"INFO","msg":"stream: closed","id":"agdtp50g"}

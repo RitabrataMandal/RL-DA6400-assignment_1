@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:55:38.008850661+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_085538-dnmwel29/logs/debug-core.log"}
+{"time":"2025-03-27T08:55:38.112204349+05:30","level":"INFO","msg":"created new stream","id":"dnmwel29"}
+{"time":"2025-03-27T08:55:38.112278932+05:30","level":"INFO","msg":"stream: started","id":"dnmwel29"}
+{"time":"2025-03-27T08:55:38.112363508+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:55:38.112437683+05:30","level":"INFO","msg":"sender: started","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:55:38.112459648+05:30","level":"INFO","msg":"handler: started","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:55:38.465675426+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:56:02.792238152+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:56:02.792673461+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:56:03.794475506+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.659321897,"progress":"179.8KB/179.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.207388675,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T08:56:04.506877118+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:56:04.937916177+05:30","level":"INFO","msg":"stream: closing","id":"dnmwel29"}
+{"time":"2025-03-27T08:56:04.937949042+05:30","level":"INFO","msg":"handler: closed","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:56:04.937967105+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:56:04.937995677+05:30","level":"INFO","msg":"sender: closed","stream_id":"dnmwel29"}
+{"time":"2025-03-27T08:56:04.93816182+05:30","level":"INFO","msg":"stream: closed","id":"dnmwel29"}

@@ -1,0 +1,17 @@
+{"time":"2025-03-27T09:00:11.50743961+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_090011-c3oidsup/logs/debug-core.log"}
+{"time":"2025-03-27T09:00:11.610677152+05:30","level":"INFO","msg":"created new stream","id":"c3oidsup"}
+{"time":"2025-03-27T09:00:11.610751824+05:30","level":"INFO","msg":"stream: started","id":"c3oidsup"}
+{"time":"2025-03-27T09:00:11.610812337+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:11.61085641+05:30","level":"INFO","msg":"handler: started","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:11.61096798+05:30","level":"INFO","msg":"sender: started","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:12.277722125+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:00:38.854743051+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:00:38.855086772+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:00:39.85701802+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.678095499,"progress":"175B/175B"},{"desc":"uploading output.log","runtime_seconds":0.678073316,"progress":"180.2KB/180.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.367042066,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-27T09:00:40.8892876+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:00:41.241915266+05:30","level":"INFO","msg":"stream: closing","id":"c3oidsup"}
+{"time":"2025-03-27T09:00:41.241979638+05:30","level":"INFO","msg":"handler: closed","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:41.242009224+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:41.242059472+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-27T09:00:41.24207983+05:30","level":"INFO","msg":"sender: closed","stream_id":"c3oidsup"}
+{"time":"2025-03-27T09:00:41.242211483+05:30","level":"INFO","msg":"stream: closed","id":"c3oidsup"}

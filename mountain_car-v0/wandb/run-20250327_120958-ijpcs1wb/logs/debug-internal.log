@@ -1,0 +1,16 @@
+{"time":"2025-03-27T12:09:58.091361442+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_120958-ijpcs1wb/logs/debug-core.log"}
+{"time":"2025-03-27T12:09:58.195702588+05:30","level":"INFO","msg":"created new stream","id":"ijpcs1wb"}
+{"time":"2025-03-27T12:09:58.195805339+05:30","level":"INFO","msg":"stream: started","id":"ijpcs1wb"}
+{"time":"2025-03-27T12:09:58.19585512+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:09:58.195898222+05:30","level":"INFO","msg":"handler: started","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:09:58.195984085+05:30","level":"INFO","msg":"sender: started","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:09:58.559046311+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T12:12:31.168939765+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T12:12:31.169368443+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T12:12:32.131244606+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.385697959,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.093935836,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T12:12:33.073818912+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T12:12:33.399621112+05:30","level":"INFO","msg":"stream: closing","id":"ijpcs1wb"}
+{"time":"2025-03-27T12:12:33.399675765+05:30","level":"INFO","msg":"handler: closed","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:12:33.399703164+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:12:33.399734742+05:30","level":"INFO","msg":"sender: closed","stream_id":"ijpcs1wb"}
+{"time":"2025-03-27T12:12:33.39986084+05:30","level":"INFO","msg":"stream: closed","id":"ijpcs1wb"}

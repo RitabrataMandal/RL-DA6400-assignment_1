@@ -1,0 +1,16 @@
+{"time":"2025-03-27T12:37:46.356412126+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_123746-33bp2y61/logs/debug-core.log"}
+{"time":"2025-03-27T12:37:46.460008711+05:30","level":"INFO","msg":"created new stream","id":"33bp2y61"}
+{"time":"2025-03-27T12:37:46.46008547+05:30","level":"INFO","msg":"stream: started","id":"33bp2y61"}
+{"time":"2025-03-27T12:37:46.460140361+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:37:46.460174018+05:30","level":"INFO","msg":"handler: started","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:37:46.460244022+05:30","level":"INFO","msg":"sender: started","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:37:46.811900835+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T12:39:32.582910029+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T12:39:32.583286337+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T12:39:33.58474394+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.453201665,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.173080107,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T12:39:34.483491656+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T12:39:34.797058668+05:30","level":"INFO","msg":"stream: closing","id":"33bp2y61"}
+{"time":"2025-03-27T12:39:34.797091883+05:30","level":"INFO","msg":"handler: closed","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:39:34.797111478+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:39:34.797142489+05:30","level":"INFO","msg":"sender: closed","stream_id":"33bp2y61"}
+{"time":"2025-03-27T12:39:34.797241021+05:30","level":"INFO","msg":"stream: closed","id":"33bp2y61"}

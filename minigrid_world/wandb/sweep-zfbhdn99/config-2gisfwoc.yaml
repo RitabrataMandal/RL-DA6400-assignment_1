@@ -1,0 +1,8 @@
+wandb_version: 1
+
+alpha:
+  value: 0.2724661634729968
+epsilon:
+  value: 0.05188889135977986
+temperature:
+  value: 1.3149549819931974

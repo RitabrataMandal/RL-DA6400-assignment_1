@@ -1,0 +1,16 @@
+{"time":"2025-03-27T11:38:24.952284338+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250327_113824-b7o18lpo/logs/debug-core.log"}
+{"time":"2025-03-27T11:38:25.056305426+05:30","level":"INFO","msg":"created new stream","id":"b7o18lpo"}
+{"time":"2025-03-27T11:38:25.056388851+05:30","level":"INFO","msg":"stream: started","id":"b7o18lpo"}
+{"time":"2025-03-27T11:38:25.056496387+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:38:25.056496019+05:30","level":"INFO","msg":"handler: started","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:38:25.056599922+05:30","level":"INFO","msg":"sender: started","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:38:25.385348923+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T11:40:59.837259031+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T11:40:59.838150677+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T11:41:00.795532723+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.349493024,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.035145707,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T11:41:01.310079251+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T11:41:01.619034624+05:30","level":"INFO","msg":"stream: closing","id":"b7o18lpo"}
+{"time":"2025-03-27T11:41:01.619092458+05:30","level":"INFO","msg":"handler: closed","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:41:01.619142662+05:30","level":"INFO","msg":"sender: closed","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:41:01.61912827+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"b7o18lpo"}
+{"time":"2025-03-27T11:41:01.619284944+05:30","level":"INFO","msg":"stream: closed","id":"b7o18lpo"}

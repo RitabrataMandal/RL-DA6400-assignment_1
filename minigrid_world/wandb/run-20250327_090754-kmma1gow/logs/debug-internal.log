@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:07:54.810270491+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_090754-kmma1gow/logs/debug-core.log"}
+{"time":"2025-03-27T09:07:54.912515392+05:30","level":"INFO","msg":"created new stream","id":"kmma1gow"}
+{"time":"2025-03-27T09:07:54.912540708+05:30","level":"INFO","msg":"stream: started","id":"kmma1gow"}
+{"time":"2025-03-27T09:07:54.912558313+05:30","level":"INFO","msg":"handler: started","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:07:54.912611331+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:07:54.912616372+05:30","level":"INFO","msg":"sender: started","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:07:55.365424416+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:08:15.213457938+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:08:15.214026928+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:08:16.215326674+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.679883561,"progress":"186.2KB/186.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.351392508,"progress":"540B/540B"}],"total_operations":2}}
+{"time":"2025-03-27T09:08:16.617823521+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:08:16.956718433+05:30","level":"INFO","msg":"stream: closing","id":"kmma1gow"}
+{"time":"2025-03-27T09:08:16.9567566+05:30","level":"INFO","msg":"handler: closed","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:08:16.956771422+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:08:16.956780931+05:30","level":"INFO","msg":"sender: closed","stream_id":"kmma1gow"}
+{"time":"2025-03-27T09:08:16.956846839+05:30","level":"INFO","msg":"stream: closed","id":"kmma1gow"}

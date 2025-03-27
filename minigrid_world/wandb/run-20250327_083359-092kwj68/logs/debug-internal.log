@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:33:59.718924654+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_083359-092kwj68/logs/debug-core.log"}
+{"time":"2025-03-27T08:33:59.822797586+05:30","level":"INFO","msg":"created new stream","id":"092kwj68"}
+{"time":"2025-03-27T08:33:59.822862455+05:30","level":"INFO","msg":"stream: started","id":"092kwj68"}
+{"time":"2025-03-27T08:33:59.822963651+05:30","level":"INFO","msg":"sender: started","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:33:59.822968648+05:30","level":"INFO","msg":"handler: started","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:33:59.822944776+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:34:00.20917674+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:34:25.406620336+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:34:25.407048438+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:34:26.408834847+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.676230015,"progress":"179.7KB/179.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.357565523,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T08:34:27.827297077+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:34:28.169499245+05:30","level":"INFO","msg":"stream: closing","id":"092kwj68"}
+{"time":"2025-03-27T08:34:28.169583098+05:30","level":"INFO","msg":"handler: closed","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:34:28.169614905+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:34:28.169620384+05:30","level":"INFO","msg":"sender: closed","stream_id":"092kwj68"}
+{"time":"2025-03-27T08:34:28.169812646+05:30","level":"INFO","msg":"stream: closed","id":"092kwj68"}

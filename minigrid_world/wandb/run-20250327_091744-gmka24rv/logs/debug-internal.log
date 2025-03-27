@@ -1,0 +1,16 @@
+{"time":"2025-03-27T09:17:44.830861638+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_091744-gmka24rv/logs/debug-core.log"}
+{"time":"2025-03-27T09:17:44.933852584+05:30","level":"INFO","msg":"created new stream","id":"gmka24rv"}
+{"time":"2025-03-27T09:17:44.933880743+05:30","level":"INFO","msg":"stream: started","id":"gmka24rv"}
+{"time":"2025-03-27T09:17:44.933934777+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:17:44.933934946+05:30","level":"INFO","msg":"handler: started","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:17:44.933957471+05:30","level":"INFO","msg":"sender: started","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:17:45.326533307+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T09:18:12.966813303+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T09:18:12.967949887+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T09:18:13.968902133+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.685901453,"progress":"185.3KB/185.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.378272075,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-27T09:18:14.559078133+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T09:18:14.894974484+05:30","level":"INFO","msg":"stream: closing","id":"gmka24rv"}
+{"time":"2025-03-27T09:18:14.895055179+05:30","level":"INFO","msg":"handler: closed","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:18:14.895090434+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:18:14.895104269+05:30","level":"INFO","msg":"sender: closed","stream_id":"gmka24rv"}
+{"time":"2025-03-27T09:18:14.895347401+05:30","level":"INFO","msg":"stream: closed","id":"gmka24rv"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:35:48.316051776+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_083548-kpe39rbm/logs/debug-core.log"}
+{"time":"2025-03-27T08:35:48.419780397+05:30","level":"INFO","msg":"created new stream","id":"kpe39rbm"}
+{"time":"2025-03-27T08:35:48.419862522+05:30","level":"INFO","msg":"stream: started","id":"kpe39rbm"}
+{"time":"2025-03-27T08:35:48.419972049+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:35:48.420004944+05:30","level":"INFO","msg":"sender: started","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:35:48.420066739+05:30","level":"INFO","msg":"handler: started","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:35:48.86779056+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:36:21.257473194+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:36:21.25791803+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:36:22.259630938+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.398419882,"progress":"180.8KB/180.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.082495852,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T08:36:22.963597881+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:36:23.298768545+05:30","level":"INFO","msg":"stream: closing","id":"kpe39rbm"}
+{"time":"2025-03-27T08:36:23.298806016+05:30","level":"INFO","msg":"handler: closed","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:36:23.298818329+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:36:23.298831467+05:30","level":"INFO","msg":"sender: closed","stream_id":"kpe39rbm"}
+{"time":"2025-03-27T08:36:23.298926997+05:30","level":"INFO","msg":"stream: closed","id":"kpe39rbm"}

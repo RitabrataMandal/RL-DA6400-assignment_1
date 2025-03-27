@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:42:54.408918487+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_084254-ywcc98ah/logs/debug-core.log"}
+{"time":"2025-03-27T08:42:54.512932957+05:30","level":"INFO","msg":"created new stream","id":"ywcc98ah"}
+{"time":"2025-03-27T08:42:54.513053438+05:30","level":"INFO","msg":"stream: started","id":"ywcc98ah"}
+{"time":"2025-03-27T08:42:54.513155876+05:30","level":"INFO","msg":"handler: started","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:42:54.51322582+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:42:54.5132806+05:30","level":"INFO","msg":"sender: started","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:42:54.876041939+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:43:18.845383921+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:43:18.845760395+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:43:19.847555645+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.672876768,"progress":"180.6KB/180.6KB"}],"total_operations":1}}
+{"time":"2025-03-27T08:43:20.276905606+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:43:20.605593369+05:30","level":"INFO","msg":"stream: closing","id":"ywcc98ah"}
+{"time":"2025-03-27T08:43:20.605650181+05:30","level":"INFO","msg":"handler: closed","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:43:20.605687551+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:43:20.605697758+05:30","level":"INFO","msg":"sender: closed","stream_id":"ywcc98ah"}
+{"time":"2025-03-27T08:43:20.605919049+05:30","level":"INFO","msg":"stream: closed","id":"ywcc98ah"}

@@ -1,0 +1,31 @@
+{
+  "os": "Linux-5.15.0-124-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-03-27T03:51:36.226121Z",
+  "program": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb_sarsa.py",
+  "codePath": "minigrid_world/wandb_sarsa.py",
+  "git": {
+    "remote": "https://github.com/RitabrataMandal/RL-DA6400-assignment_1.git",
+    "commit": "5da1083e01a607cded6a2eb34edc04799988db42"
+  },
+  "email": "ee24e009@smail.iitm.ac.in",
+  "root": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world",
+  "host": "gametheorylab",
+  "executable": "/home/gametheorylab/miniconda3/bin/python",
+  "codePathLocal": "wandb_sarsa.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "61183209472"
+    }
+  },
+  "memory": {
+    "total": "25052352512"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

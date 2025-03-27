@@ -1,0 +1,16 @@
+{"time":"2025-03-27T08:49:31.343388194+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_084931-rayt6ccv/logs/debug-core.log"}
+{"time":"2025-03-27T08:49:31.447006251+05:30","level":"INFO","msg":"created new stream","id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:31.447067589+05:30","level":"INFO","msg":"stream: started","id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:31.447173715+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:31.447204584+05:30","level":"INFO","msg":"handler: started","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:31.447188719+05:30","level":"INFO","msg":"sender: started","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:31.83120935+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T08:49:46.900052915+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T08:49:46.900418046+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T08:49:47.902047861+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.670397022,"progress":"177.5KB/177.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.367083307,"progress":"500B/500B"},{"desc":"uploading history steps 0-0, summary, console lines 4-5001","runtime_seconds":0.268706093}],"total_operations":3}}
+{"time":"2025-03-27T08:49:49.254243449+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T08:49:49.559224337+05:30","level":"INFO","msg":"stream: closing","id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:49.55927226+05:30","level":"INFO","msg":"handler: closed","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:49.559315451+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:49.559333624+05:30","level":"INFO","msg":"sender: closed","stream_id":"rayt6ccv"}
+{"time":"2025-03-27T08:49:49.559513038+05:30","level":"INFO","msg":"stream: closed","id":"rayt6ccv"}

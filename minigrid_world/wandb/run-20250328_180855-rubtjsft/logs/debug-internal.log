@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:08:55.542174379+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_180855-rubtjsft/logs/debug-core.log"}
+{"time":"2025-03-28T18:08:55.64535528+05:30","level":"INFO","msg":"created new stream","id":"rubtjsft"}
+{"time":"2025-03-28T18:08:55.645388571+05:30","level":"INFO","msg":"stream: started","id":"rubtjsft"}
+{"time":"2025-03-28T18:08:55.645408939+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:08:55.645446188+05:30","level":"INFO","msg":"handler: started","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:08:55.645464293+05:30","level":"INFO","msg":"sender: started","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:08:55.998780789+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:10:08.750746394+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:10:08.751090428+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:10:09.75294756+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.372865803,"progress":"958.8KB/958.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.065617223,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-28T18:10:11.530197907+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:10:12.076834365+05:30","level":"INFO","msg":"stream: closing","id":"rubtjsft"}
+{"time":"2025-03-28T18:10:12.076888447+05:30","level":"INFO","msg":"handler: closed","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:10:12.076941261+05:30","level":"INFO","msg":"sender: closed","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:10:12.076924599+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rubtjsft"}
+{"time":"2025-03-28T18:10:12.077071565+05:30","level":"INFO","msg":"stream: closed","id":"rubtjsft"}

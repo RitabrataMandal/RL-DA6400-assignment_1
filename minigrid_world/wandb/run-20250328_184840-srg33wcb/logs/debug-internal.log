@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:48:40.94270594+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_184840-srg33wcb/logs/debug-core.log"}
+{"time":"2025-03-28T18:48:41.045578975+05:30","level":"INFO","msg":"created new stream","id":"srg33wcb"}
+{"time":"2025-03-28T18:48:41.045600544+05:30","level":"INFO","msg":"stream: started","id":"srg33wcb"}
+{"time":"2025-03-28T18:48:41.045619632+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:48:41.045660101+05:30","level":"INFO","msg":"handler: started","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:48:41.045667657+05:30","level":"INFO","msg":"sender: started","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:48:41.491879339+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:50:25.154869665+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:50:25.155267114+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:50:26.156535873+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.38650772,"progress":"963.6KB/963.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.083069305,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-28T18:50:27.709668031+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:50:28.039646824+05:30","level":"INFO","msg":"stream: closing","id":"srg33wcb"}
+{"time":"2025-03-28T18:50:28.039680031+05:30","level":"INFO","msg":"handler: closed","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:50:28.039699259+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:50:28.039726515+05:30","level":"INFO","msg":"sender: closed","stream_id":"srg33wcb"}
+{"time":"2025-03-28T18:50:28.03991906+05:30","level":"INFO","msg":"stream: closed","id":"srg33wcb"}

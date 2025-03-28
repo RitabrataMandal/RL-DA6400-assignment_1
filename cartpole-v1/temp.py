@@ -63,12 +63,12 @@ def plot_two_sarsa_results(
     # plt.savefig(f"plots/sarsa_{alpha1}_{epsilon1}vs{alpha2}_{epsilon2}.png")
 if __name__ == "__main__":
 
-    alpha1, gamma1, epsilon1 = 0.29365, 0.99, 0.14854
-    alpha2, gamma2, epsilon2 = 0.3764, 0.99, 0.13724
+    alpha1, gamma1, epsilon1 = 0.29568, 0.99, 0.12786
+    alpha2, gamma2, epsilon2 = 0.24299, 0.99, 0.14852
 
     env_name = "CartPole-v1"
     seeds = [100, 200, 300, 400, 500]
-    num_episodes = 2000
+    num_episodes = 4000
     num_steps = 500
     num_bins = 20
 

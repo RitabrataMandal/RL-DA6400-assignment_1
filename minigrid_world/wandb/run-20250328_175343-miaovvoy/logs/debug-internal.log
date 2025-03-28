@@ -1,0 +1,16 @@
+{"time":"2025-03-28T17:53:43.370002851+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_175343-miaovvoy/logs/debug-core.log"}
+{"time":"2025-03-28T17:53:43.473947538+05:30","level":"INFO","msg":"created new stream","id":"miaovvoy"}
+{"time":"2025-03-28T17:53:43.474056828+05:30","level":"INFO","msg":"stream: started","id":"miaovvoy"}
+{"time":"2025-03-28T17:53:43.474095995+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:53:43.474118209+05:30","level":"INFO","msg":"sender: started","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:53:43.474210535+05:30","level":"INFO","msg":"handler: started","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:53:43.841854744+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T17:55:30.863198957+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T17:55:30.86367059+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T17:55:31.865148477+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.342162519,"progress":"182B/182B"},{"desc":"uploading output.log","runtime_seconds":0.342140877,"progress":"963.9KB/963.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.026500446,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T17:55:33.435711605+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T17:55:33.762766731+05:30","level":"INFO","msg":"stream: closing","id":"miaovvoy"}
+{"time":"2025-03-28T17:55:33.762816321+05:30","level":"INFO","msg":"handler: closed","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:55:33.76284426+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:55:33.76288254+05:30","level":"INFO","msg":"sender: closed","stream_id":"miaovvoy"}
+{"time":"2025-03-28T17:55:33.76301935+05:30","level":"INFO","msg":"stream: closed","id":"miaovvoy"}

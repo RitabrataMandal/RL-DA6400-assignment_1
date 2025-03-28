@@ -1,0 +1,16 @@
+{"time":"2025-03-28T17:51:57.501100541+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_175157-e067etcb/logs/debug-core.log"}
+{"time":"2025-03-28T17:51:57.603518009+05:30","level":"INFO","msg":"created new stream","id":"e067etcb"}
+{"time":"2025-03-28T17:51:57.603552182+05:30","level":"INFO","msg":"stream: started","id":"e067etcb"}
+{"time":"2025-03-28T17:51:57.603607467+05:30","level":"INFO","msg":"sender: started","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:51:57.603605432+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:51:57.603620407+05:30","level":"INFO","msg":"handler: started","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:51:57.971374079+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T17:53:37.664191447+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T17:53:37.664549215+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T17:53:38.6663022+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.274411249,"progress":"962.6KB/962.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.274392189,"progress":"170B/170B"}],"total_operations":2}}
+{"time":"2025-03-28T17:53:40.247592752+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T17:53:40.607841162+05:30","level":"INFO","msg":"stream: closing","id":"e067etcb"}
+{"time":"2025-03-28T17:53:40.607895695+05:30","level":"INFO","msg":"handler: closed","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:53:40.607924367+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:53:40.607948135+05:30","level":"INFO","msg":"sender: closed","stream_id":"e067etcb"}
+{"time":"2025-03-28T17:53:40.608106322+05:30","level":"INFO","msg":"stream: closed","id":"e067etcb"}

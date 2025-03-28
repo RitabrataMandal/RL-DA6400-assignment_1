@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:16:57.744260058+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_181657-aliov8sx/logs/debug-core.log"}
+{"time":"2025-03-28T18:16:57.847921701+05:30","level":"INFO","msg":"created new stream","id":"aliov8sx"}
+{"time":"2025-03-28T18:16:57.847997181+05:30","level":"INFO","msg":"stream: started","id":"aliov8sx"}
+{"time":"2025-03-28T18:16:57.84803718+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:16:57.848094362+05:30","level":"INFO","msg":"sender: started","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:16:57.848196104+05:30","level":"INFO","msg":"handler: started","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:16:58.239921628+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:17:35.148833627+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:17:35.149191414+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:17:36.150865944+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.38975796,"progress":"951.4KB/951.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.053279083,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-28T18:17:37.676225344+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:17:38.286630126+05:30","level":"INFO","msg":"stream: closing","id":"aliov8sx"}
+{"time":"2025-03-28T18:17:38.286689921+05:30","level":"INFO","msg":"handler: closed","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:17:38.286723149+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:17:38.286749764+05:30","level":"INFO","msg":"sender: closed","stream_id":"aliov8sx"}
+{"time":"2025-03-28T18:17:38.286935837+05:30","level":"INFO","msg":"stream: closed","id":"aliov8sx"}

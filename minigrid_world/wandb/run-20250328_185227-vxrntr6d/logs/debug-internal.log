@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:52:27.791477105+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_185227-vxrntr6d/logs/debug-core.log"}
+{"time":"2025-03-28T18:52:27.89494388+05:30","level":"INFO","msg":"created new stream","id":"vxrntr6d"}
+{"time":"2025-03-28T18:52:27.895040437+05:30","level":"INFO","msg":"stream: started","id":"vxrntr6d"}
+{"time":"2025-03-28T18:52:27.895113284+05:30","level":"INFO","msg":"handler: started","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:52:27.895115825+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:52:27.895188064+05:30","level":"INFO","msg":"sender: started","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:52:28.255276008+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:54:05.62880215+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:54:05.62913643+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:54:06.630476451+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.372669788,"progress":"962.0KB/962.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.372655444,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.040109411,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T18:54:08.370279112+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:54:08.733782285+05:30","level":"INFO","msg":"stream: closing","id":"vxrntr6d"}
+{"time":"2025-03-28T18:54:08.733833292+05:30","level":"INFO","msg":"handler: closed","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:54:08.733863297+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:54:08.733923528+05:30","level":"INFO","msg":"sender: closed","stream_id":"vxrntr6d"}
+{"time":"2025-03-28T18:54:08.734029835+05:30","level":"INFO","msg":"stream: closed","id":"vxrntr6d"}

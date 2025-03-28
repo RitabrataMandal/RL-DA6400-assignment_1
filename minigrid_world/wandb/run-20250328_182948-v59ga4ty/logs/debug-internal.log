@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:29:48.602182167+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_182948-v59ga4ty/logs/debug-core.log"}
+{"time":"2025-03-28T18:29:48.70636479+05:30","level":"INFO","msg":"created new stream","id":"v59ga4ty"}
+{"time":"2025-03-28T18:29:48.706453343+05:30","level":"INFO","msg":"stream: started","id":"v59ga4ty"}
+{"time":"2025-03-28T18:29:48.706498102+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:29:48.70654307+05:30","level":"INFO","msg":"sender: started","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:29:48.706610531+05:30","level":"INFO","msg":"handler: started","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:29:49.330905205+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:31:11.765621813+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:31:11.766103152+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:31:12.769028555+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.396097279,"progress":"959.7KB/959.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.396074705,"progress":"181B/181B"},{"desc":"uploading config.yaml","runtime_seconds":0.061346255,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T18:31:14.792883819+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:31:15.141112981+05:30","level":"INFO","msg":"stream: closing","id":"v59ga4ty"}
+{"time":"2025-03-28T18:31:15.141156507+05:30","level":"INFO","msg":"handler: closed","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:31:15.141190807+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:31:15.141279901+05:30","level":"INFO","msg":"sender: closed","stream_id":"v59ga4ty"}
+{"time":"2025-03-28T18:31:15.141376233+05:30","level":"INFO","msg":"stream: closed","id":"v59ga4ty"}

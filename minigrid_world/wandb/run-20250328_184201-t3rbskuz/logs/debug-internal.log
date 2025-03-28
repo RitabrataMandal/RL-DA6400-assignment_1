@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:42:01.208744082+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_184201-t3rbskuz/logs/debug-core.log"}
+{"time":"2025-03-28T18:42:01.311133239+05:30","level":"INFO","msg":"created new stream","id":"t3rbskuz"}
+{"time":"2025-03-28T18:42:01.311166881+05:30","level":"INFO","msg":"stream: started","id":"t3rbskuz"}
+{"time":"2025-03-28T18:42:01.311184448+05:30","level":"INFO","msg":"handler: started","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:42:01.311178654+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:42:01.31121443+05:30","level":"INFO","msg":"sender: started","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:42:01.677946825+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:43:40.747908251+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:43:40.74833195+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:43:41.749705+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.333689876,"progress":"961.7KB/961.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.333680701,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.02071654,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-28T18:43:43.541870947+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:43:43.929691692+05:30","level":"INFO","msg":"stream: closing","id":"t3rbskuz"}
+{"time":"2025-03-28T18:43:43.929730022+05:30","level":"INFO","msg":"handler: closed","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:43:43.929751759+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:43:43.929781807+05:30","level":"INFO","msg":"sender: closed","stream_id":"t3rbskuz"}
+{"time":"2025-03-28T18:43:43.929895883+05:30","level":"INFO","msg":"stream: closed","id":"t3rbskuz"}

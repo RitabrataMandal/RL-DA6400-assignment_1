@@ -1,0 +1,16 @@
+{"time":"2025-03-28T17:32:48.411242573+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_173248-p119fvf4/logs/debug-core.log"}
+{"time":"2025-03-28T17:32:48.51438829+05:30","level":"INFO","msg":"created new stream","id":"p119fvf4"}
+{"time":"2025-03-28T17:32:48.514422657+05:30","level":"INFO","msg":"stream: started","id":"p119fvf4"}
+{"time":"2025-03-28T17:32:48.514432064+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:32:48.514432729+05:30","level":"INFO","msg":"handler: started","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:32:48.514505625+05:30","level":"INFO","msg":"sender: started","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:32:48.942522986+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T17:34:31.629205853+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T17:34:31.629634758+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T17:34:32.631205925+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.370981845,"progress":"962.9KB/962.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.044057539,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-28T17:34:34.4156789+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T17:34:34.752394918+05:30","level":"INFO","msg":"stream: closing","id":"p119fvf4"}
+{"time":"2025-03-28T17:34:34.752431708+05:30","level":"INFO","msg":"handler: closed","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:34:34.75245211+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:34:34.752487438+05:30","level":"INFO","msg":"sender: closed","stream_id":"p119fvf4"}
+{"time":"2025-03-28T17:34:34.752640148+05:30","level":"INFO","msg":"stream: closed","id":"p119fvf4"}

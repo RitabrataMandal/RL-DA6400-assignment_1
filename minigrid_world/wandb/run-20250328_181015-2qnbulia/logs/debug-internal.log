@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:10:15.818825982+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_181015-2qnbulia/logs/debug-core.log"}
+{"time":"2025-03-28T18:10:15.921557094+05:30","level":"INFO","msg":"created new stream","id":"2qnbulia"}
+{"time":"2025-03-28T18:10:15.921603484+05:30","level":"INFO","msg":"stream: started","id":"2qnbulia"}
+{"time":"2025-03-28T18:10:15.921617796+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:10:15.921615071+05:30","level":"INFO","msg":"handler: started","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:10:15.921629535+05:30","level":"INFO","msg":"sender: started","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:10:16.267572447+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:11:39.053007359+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:11:39.053317872+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:11:40.054953125+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.256595601,"progress":"960.1KB/960.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.256579157,"progress":"169B/169B"}],"total_operations":2}}
+{"time":"2025-03-28T18:11:41.703567716+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:11:42.060406809+05:30","level":"INFO","msg":"stream: closing","id":"2qnbulia"}
+{"time":"2025-03-28T18:11:42.06044613+05:30","level":"INFO","msg":"handler: closed","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:11:42.060468496+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:11:42.060532+05:30","level":"INFO","msg":"sender: closed","stream_id":"2qnbulia"}
+{"time":"2025-03-28T18:11:42.060606448+05:30","level":"INFO","msg":"stream: closed","id":"2qnbulia"}

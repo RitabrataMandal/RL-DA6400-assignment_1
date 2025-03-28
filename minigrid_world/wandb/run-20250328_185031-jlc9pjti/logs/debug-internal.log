@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:50:31.799937452+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_185031-jlc9pjti/logs/debug-core.log"}
+{"time":"2025-03-28T18:50:31.903410128+05:30","level":"INFO","msg":"created new stream","id":"jlc9pjti"}
+{"time":"2025-03-28T18:50:31.903467454+05:30","level":"INFO","msg":"stream: started","id":"jlc9pjti"}
+{"time":"2025-03-28T18:50:31.90352743+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:50:31.90354993+05:30","level":"INFO","msg":"handler: started","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:50:31.903612114+05:30","level":"INFO","msg":"sender: started","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:50:32.273079663+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:52:13.962432951+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:52:13.962805908+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:52:14.964373745+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.402898712,"progress":"962.6KB/962.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.402878253,"progress":"171B/171B"},{"desc":"uploading config.yaml","runtime_seconds":0.098205692,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-28T18:52:16.706198802+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:52:17.029797364+05:30","level":"INFO","msg":"stream: closing","id":"jlc9pjti"}
+{"time":"2025-03-28T18:52:17.029831601+05:30","level":"INFO","msg":"handler: closed","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:52:17.029850277+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:52:17.029876868+05:30","level":"INFO","msg":"sender: closed","stream_id":"jlc9pjti"}
+{"time":"2025-03-28T18:52:17.030003319+05:30","level":"INFO","msg":"stream: closed","id":"jlc9pjti"}

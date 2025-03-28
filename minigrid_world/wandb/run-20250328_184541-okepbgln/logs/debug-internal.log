@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:45:41.169540742+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_184541-okepbgln/logs/debug-core.log"}
+{"time":"2025-03-28T18:45:41.27263359+05:30","level":"INFO","msg":"created new stream","id":"okepbgln"}
+{"time":"2025-03-28T18:45:41.272718101+05:30","level":"INFO","msg":"stream: started","id":"okepbgln"}
+{"time":"2025-03-28T18:45:41.272780324+05:30","level":"INFO","msg":"handler: started","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:45:41.272812712+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:45:41.272823519+05:30","level":"INFO","msg":"sender: started","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:45:41.644120574+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:46:37.49213924+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:46:37.492554054+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:46:38.493772504+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.373218047,"progress":"954.1KB/954.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.09815006,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-28T18:46:40.020589726+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:46:40.894185325+05:30","level":"INFO","msg":"stream: closing","id":"okepbgln"}
+{"time":"2025-03-28T18:46:40.8942262+05:30","level":"INFO","msg":"handler: closed","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:46:40.894246622+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:46:40.894285486+05:30","level":"INFO","msg":"sender: closed","stream_id":"okepbgln"}
+{"time":"2025-03-28T18:46:40.894385989+05:30","level":"INFO","msg":"stream: closed","id":"okepbgln"}

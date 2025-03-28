@@ -1,0 +1,16 @@
+{"time":"2025-03-28T18:33:10.95634552+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_183310-mfjpz044/logs/debug-core.log"}
+{"time":"2025-03-28T18:33:11.05891712+05:30","level":"INFO","msg":"created new stream","id":"mfjpz044"}
+{"time":"2025-03-28T18:33:11.058944731+05:30","level":"INFO","msg":"stream: started","id":"mfjpz044"}
+{"time":"2025-03-28T18:33:11.059001639+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:33:11.059014945+05:30","level":"INFO","msg":"sender: started","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:33:11.059033201+05:30","level":"INFO","msg":"handler: started","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:33:11.402451449+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T18:34:26.449347571+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T18:34:26.449756406+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T18:34:27.451623375+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.403799138,"progress":"958.1KB/958.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.403782737,"progress":"168B/168B"},{"desc":"uploading history steps 0-0, summary, console lines 15535-19999","runtime_seconds":0.290196783},{"desc":"uploading config.yaml","runtime_seconds":0.096812254,"progress":"498B/498B"}],"total_operations":4}}
+{"time":"2025-03-28T18:34:28.923545463+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T18:34:29.214194285+05:30","level":"INFO","msg":"stream: closing","id":"mfjpz044"}
+{"time":"2025-03-28T18:34:29.214247294+05:30","level":"INFO","msg":"handler: closed","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:34:29.214273717+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:34:29.214291494+05:30","level":"INFO","msg":"sender: closed","stream_id":"mfjpz044"}
+{"time":"2025-03-28T18:34:29.214414562+05:30","level":"INFO","msg":"stream: closed","id":"mfjpz044"}

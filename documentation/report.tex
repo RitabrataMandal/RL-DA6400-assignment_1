@@ -22,7 +22,22 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{float}
-
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyvrb}
+\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}%
+{fontsize=\footnotesize,
+	%
+	frame=lines,  % top and bottom rule only
+	framesep=2em, % separation between frame and text
+	rulecolor=\color{Gray},
+	%
+	label=\fbox{\color{Black}requirements.txt},
+	labelposition=topline,
+	%
+	commandchars=\|\(\), % escape character and argument delimiters for
+	% commands within the verbatim
+	commentchar=*        % comment character
+}
 
 %\newtheorem{theorem}{Theorem}[section]
 %\newtheorem{lemma}[theorem]{Lemma}
@@ -56,6 +71,19 @@
 	showtabs=false,                  
 	tabsize=2
 }
+\lstdefinelanguage{yaml}{
+	morekeywords={true,false,null,y,n},
+	sensitive=false,
+	morecomment=[l]{\#},
+	morestring=[b]',
+	morestring=[b]",
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{magenta},
+	commentstyle=\color{codegreen},
+	stringstyle=\color{codepurple},
+	literate=*{:}{{\textcolor{red}{:}}}{1},
+}
+
 
 \lstset{style=mystyle}
 \begin{document}
@@ -99,11 +127,11 @@
 			\subsubsection{Code Snippets}
 %				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
 			\subsubsection{SARSA Hyper-Parameter Tuning}  
-			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 4000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
-					\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in CartPole-v1(2000 episodes), with lines color-coded by regret.}
+					\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in CartPole-v1(4000 episodes), with lines color-coded by regret.}
 					\label{fig:sarsacartpole-regret}
 				\end{figure}
 			\subsubsection{SARSA best $3$ results}
@@ -112,11 +140,11 @@
 						\hline
 						& $\alpha$ & $\epsilon$ & $\gamma$ & regret\\
 						\hline
-						1 & 0.29365  & 0.14854 & 0.99 & 91.977\\
+						1 & 0.26492  & 0.13824 & 0.99 & 65.7379\\
 						\hline
-						2 & 0.4117 & 0.13327 & 0.99 & 95.411\\
+						2 & 0.29568 & 0.12786 & 0.99 & 67.5396\\
 						\hline
-						3 & 0.3764 & 0.13724 & 0.99 & 98.9932\\
+						3 & 0.24299 & 0.14852 & 0.99 & 68.09645\\
 						\hline
 					\end{tabular}					
 				\end{center}
@@ -376,5 +404,8 @@
 	\section{Github link}	
 		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}
 
-	\section{References}
+%	\section{References}
+		\VerbatimInput{../requirements.txt}
+		\lstinputlisting[language=yaml, style=mystyle, caption=SARSA.yaml]{../minigrid_world/sweep_sarsa.yaml}
+		\lstinputlisting[language=yaml, style=mystyle, caption=Q-Learning.yaml]{../minigrid_world/sweep_config.yaml}
 \end{document}

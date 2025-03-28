@@ -26,4 +26,3 @@
 \contentsline {subsubsection}{\numberline {2.3.6}Result(SARSA vs Q-Learning)}{20}{subsubsection.2.3.6}%
 \contentsline {section}{\numberline {3}Conclusion}{20}{section.3}%
 \contentsline {section}{\numberline {4}Github link}{20}{section.4}%
-\contentsline {section}{\numberline {5}References}{20}{section.5}%

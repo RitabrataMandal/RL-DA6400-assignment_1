@@ -21,6 +21,7 @@
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{float}
 
 
 %\newtheorem{theorem}{Theorem}[section]
@@ -98,28 +99,53 @@
 			\subsubsection{Code Snippets}
 %				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
 			\subsubsection{SARSA Hyper-Parameter Tuning}  
-			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
-				\begin{figure}[h]
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+				\begin{figure}[H]
 					\centering
 					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
 					\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in CartPole-v1(2000 episodes), with lines color-coded by regret.}
-					\label{fig:sarsacartpole}
+					\label{fig:sarsacartpole-regret}
 				\end{figure}
-			%			\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
 			\subsubsection{SARSA best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						& $\alpha$ & $\epsilon$ & regret\\
+						& $\alpha$ & $\epsilon$ & $\gamma$ & regret\\
 						\hline
-						1 & 0.29365  & 0.14854 & 91.977\\
+						1 & 0.29365  & 0.14854 & 0.99 & 91.977\\
 						\hline
-						2 & 0.4117 & 0.13327 & 95.411\\
+						2 & 0.4117 & 0.13327 & 0.99 & 95.411\\
 						\hline
-						3 & 0.3764 & 0.13724 & 98.9932\\
+						3 & 0.3764 & 0.13724 & 0.99 & 98.9932\\
 						\hline
-					\end{tabular}
+					\end{tabular}					
 				\end{center}
+				Figure \ref{fig:sarsacartpole} include the episode vs reward plot for best three hyper-parameter combination.
+				\begin{figure}[H]
+					\centering
+					\begin{subfigure}[h]{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_Figure_1.png}
+						\caption{$1$ vs $2$}
+						\label{fig:sarsacartpole1vs2}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[h]{0.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_Figure_2.png}
+						\caption{$1$ vs $3$}
+						\label{fig:sarsacartpole1vs3}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[h]{0.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_Figure_3.png}
+						\caption{$2$ vs $3$}
+						\label{fig:sarsacartpole2vs3}
+					\end{subfigure}
+					\caption{Performance comparison of the three best SARSA parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+					\label{fig:sarsacartpole}
+				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
 			\subsubsection{Q-Learning best $3$ results}
 				\begin{center}
@@ -145,44 +171,103 @@
 				\lstinputlisting[language=Python,firstline=31, lastline=41, caption=Softmax action selection ]{../mountain_car-v0/q_learning.py}
 				\lstinputlisting[language=Python,firstline=46, lastline=81, caption=Q-Learning implementation]{../mountain_car-v0/q_learning.py}
 			\subsubsection{SARSA  hyper-parameter tuning}
-				using wandb with sweep method bayes found the best performing hyper-parameter 
-%				\begin{figure}[h]
-%					\centering
-%					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
-%					\caption{}
-%					\label{fig:BwR}
-%				\end{figure}
+				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/4f545bce}{here}. Additionally, Figure \ref{fig:sarsamountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-mountaincar.png}
+					\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in MountainCar-v0(2000 episodes), with lines color-coded by regret.}
+					\label{fig:sarsamountaincar-regret}
+				\end{figure}
 			\subsubsection{SARSA best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						 & $\alpha$ & $\epsilon$ & regret\\
+						 & $\alpha$ & $\epsilon$ & $\gamma$ & regret\\
 						\hline
-						1 & 0.44517 & 0.01104 & 55.5099\\
+						1 & 0.44517 & 0.01104 & 0.99 & 55.5099\\
 						\hline
-						2 & 0.44469 & 0.010567 & 55.6604 \\
+						2 & 0.44469 & 0.010567 & 0.99 & 55.6604 \\
 						\hline
-						3 & 0.36145 & 0.011928 & 56.547\\
+						3 & 0.36145 & 0.011928 & 0.99 & 56.547\\
 						\hline
 					\end{tabular}
 				\end{center}
-
+				Figure \ref{fig:sarsamountaincar} include the episode vs reward plot for best three hyper-parameter combination.
+				\begin{figure}[H]
+					\centering
+					\begin{subfigure}{.8\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/sarsa_Figure_1.png}
+						\caption{$1$ vs $2$}
+						\label{fig:sarsamountaincar1vs2}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.8\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/sarsa_Figure_2.png}
+						\caption{$1$ vs $3$}
+						\label{fig:sarsamountaincar1vs3}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.8\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/sarsa_Figure_3.png}
+						\caption{$2$ vs $3$}
+						\label{fig:sarsamountaincar2vs3}
+					\end{subfigure}
+					\caption{Performance comparison of the three best SARSA parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+					\label{fig:sarsamountaincar}
+				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
+				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/qlearning_mountain_car-v0tuning/reports/Q-Learning-MountainCar-v0---VmlldzoxMjAxNzEwMQ?accessToken=3ho3ppomqsu6prg4yd4wdhset84tq72p24zrpw8ztwcivdw8xfsjevl6tduvjfi5}{here}. Additionally, Figure \ref{fig:qlearningmountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the reward.
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=1\linewidth]{qlearning-hyp-tuning-mountaincar.png}
+					\caption{Q-Learning hyper-parameter sweeps for $\alpha$ and $\tau$ in MountainCar-v0(2000 episodes), with lines color-coded by regret.}
+					\label{fig:qlearningmountaincar-regret}
+				\end{figure}
 			\subsubsection{Q-Learning best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						& $\alpha$ & $\tau$ & regret\\
+						& $\alpha$ & $\tau$ & $\gamma$ & regret\\
 						\hline
-						1 &  & &\\
+						1 & 0.49061 & 0.14082 & 0.99 & 59.6092\\
 						\hline
-						2 & & &\\
+						2 & 0.47706 & 0.10075 & 0.99 &60.0469\\
 						\hline
-						3 & & &\\
+						3 & 0.49608 & 0.11588 & 0.99 &60.4235\\
 						\hline
 					\end{tabular}
 				\end{center}
-			\subsubsection{Result(SARSA vs Q-Learning)}
+				Figure \ref{fig:qlearningmountaincar} include the episode vs reward plot for best three hyper-parameter combination.
+				\begin{figure}[H]
+					\centering
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/qlearning_Figure_1.png}
+						\caption{$1$ vs $2$}
+						\label{fig:qlearningmountaincar1vs2}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.8\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/qlearning_Figure_2.png}
+						\caption{$1$ vs $3$}
+						\label{fig:qlearningmountaincar1vs3}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.8\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../mountain_car-v0/plots/qlearning_Figure_3.png}
+						\caption{$2$ vs $3$}
+						\label{fig:qlearningmountaincar2vs3}
+					\end{subfigure}
+					\caption{Performance comparison of the three best Q-Learning parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+					\label{fig:qlearningmountaincar}
+				\end{figure}
+			\subsubsection{Result(SARSA vs Q-Learning)}		
+				The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
 			\subsubsection{Code Snippets}
 				\lstinputlisting[language=Python,firstline=7, lastline=11, caption=epsilon-greedy action selection]{../minigrid_world/sarsa.py}
@@ -190,36 +275,103 @@
 				\lstinputlisting[language=Python,firstline=6, lastline=10, caption=Softmax action selection ]{../minigrid_world/q_learning.py}
 				\lstinputlisting[language=Python,firstline=15, lastline=55, caption=Q-Learning implementation]{../minigrid_world/q_learning.py}
 			\subsubsection{SARSA hyper-parameter tuning}
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\)(all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/axvqh3jk}{here}. Additionally, Figure \ref{fig:sarsaminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-minigridworld.png}
+				\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in MiniGrid-Dynamic-Obstacles-5x5-v0(2000 episodes), with lines color-coded by regret.}
+				\label{fig:sarsaminigridworld-regret}
+			\end{figure}
 			\subsubsection{SARSA best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						& $\alpha$ & $\epsilon$ & regret\\
+						& $\alpha$ & $\epsilon$ &$\alpha$& regret\\
 						\hline
-						1 &  & &\\
+						1 & 0.12704 & 0.02681 & 0.99 & 0.19653\\
 						\hline
-						2 & & &\\
+						2 & 0.2107 & 0.024791 & 0.99 & 0.19896\\
 						\hline
-						3 & & &\\
+						3 & 0.12801 & 0.022713 & 0.99 & 0.199997\\
 						\hline
 					\end{tabular}
 				\end{center}
+				Figure \ref{fig:sarsaminigridworld} include the episode vs reward plot for best three hyper-parameter combination.
+				\begin{figure}[H]
+					\centering
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/sarsa_Figure_1.png}
+						\caption{$1$ vs $2$}
+						\label{fig:sarsaminigridworld1vs2}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/sarsa_Figure_2.png}
+						\caption{$1$ vs $3$}
+						\label{fig:sarsaminigridworld1vs3}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/sarsa_Figure_3.png}
+						\caption{$2$ vs $3$}
+						\label{fig:sarsaminigridworld2vs3}
+					\end{subfigure}
+					\caption{Performance comparison of the three best SARSA parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+					\label{fig:sarsaminigridworld}
+				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/minigrid-qlearning-softmax-tuning/reports/Q-Learning-MiniGrid-5x5-v0---VmlldzoxMjAyMTY4OQ?accessToken=7k22frexodx9vs7tryakvnme6ubxd011hcul9mke18nlhsfc8jtpo73poi45toq8}{here}. Additionally, Figure \ref{fig:qlearningminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the reward.
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1\linewidth]{qlearning-hyp-tuning-minigridworld.png}
+				\caption{Q-Learning hyper-parameter sweeps for $\alpha$ and $\tau$ in MiniGrid-Dynamic-Obstacles-5x5-v0(2000 episodes), with lines color-coded by regret.}
+				\label{fig:qlearningminigridworld-regret}
+			\end{figure}
 			\subsubsection{Q-Learning best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						& $\alpha$ & $\tau$ & regret\\
+						& $\alpha$ & $\tau$ & $\gamma$ & regret\\
 						\hline
-						1 &  & &\\
+						1 & 0.10866 & 0.50035 & 0.99 & 1.22505\\
 						\hline
-						2 & & &\\
+						2 & 0.11349 & 0.5035 & 0.99 & 1.25063\\
 						\hline
-						3 & & &\\
+						3 & 0.10321 & 0.50503 & 0.99 & 1.25763\\
 						\hline
 					\end{tabular}
 				\end{center}
+				Figure \ref{fig:qlearningminigridworld} include the episode vs reward plot for best three hyper-parameter combination.
+				\begin{figure}[H]
+					\centering
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/qlearning_Figure_1.png}
+						\caption{$1$ vs $2$}
+						\label{fig:qlearningminigridworld1vs2}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/qlearning_Figure_2.png}
+						\caption{$1$ vs $3$}
+						\label{fig:qlearningminigridworld1vs3}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}{.7\textwidth}
+						\centering
+						\includegraphics[width=\textwidth]{../minigrid_world/plots/qlearning_Figure_3.png}
+						\caption{$2$ vs $3$}
+						\label{fig:qlearningminigridworld2vs3}
+					\end{subfigure}
+					\caption{Performance comparison of the three best Q-Learning parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+					\label{fig:qlearningminigridworld}
+				\end{figure}
 			\subsubsection{Result(SARSA vs Q-Learning)}
+			The SARSA implementation achieved a best average reward of \(0.8\) over 2000 episodes, whereas Q-learning achieved \(-0.2\) over the same number of episodes.
 	\section{Conclusion}
 	\section{Github link}	
 		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}

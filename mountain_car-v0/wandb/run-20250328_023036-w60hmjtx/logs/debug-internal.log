@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:30:36.47985501+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_023036-w60hmjtx/logs/debug-core.log"}
+{"time":"2025-03-28T02:30:36.583800425+05:30","level":"INFO","msg":"created new stream","id":"w60hmjtx"}
+{"time":"2025-03-28T02:30:36.583874107+05:30","level":"INFO","msg":"stream: started","id":"w60hmjtx"}
+{"time":"2025-03-28T02:30:36.583941256+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:30:36.583957599+05:30","level":"INFO","msg":"sender: started","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:30:36.584043742+05:30","level":"INFO","msg":"handler: started","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:30:37.009864001+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:32:00.409172594+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:32:00.409690446+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:32:01.370269411+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.355827021,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.049118101,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-28T02:32:02.343105287+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:32:02.658804346+05:30","level":"INFO","msg":"stream: closing","id":"w60hmjtx"}
+{"time":"2025-03-28T02:32:02.658855721+05:30","level":"INFO","msg":"handler: closed","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:32:02.658884663+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:32:02.658911076+05:30","level":"INFO","msg":"sender: closed","stream_id":"w60hmjtx"}
+{"time":"2025-03-28T02:32:02.659019796+05:30","level":"INFO","msg":"stream: closed","id":"w60hmjtx"}

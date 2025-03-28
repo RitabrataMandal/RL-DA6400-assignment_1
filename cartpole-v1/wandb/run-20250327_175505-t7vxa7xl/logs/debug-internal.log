@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:55:05.834152827+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175505-t7vxa7xl/logs/debug-core.log"}
+{"time":"2025-03-27T17:55:05.938125373+05:30","level":"INFO","msg":"created new stream","id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:05.938219068+05:30","level":"INFO","msg":"stream: started","id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:05.938291378+05:30","level":"INFO","msg":"sender: started","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:05.938279679+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:05.938393793+05:30","level":"INFO","msg":"handler: started","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:06.356264069+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:55:45.142345879+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:55:45.142733655+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:55:46.144452896+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.351134265,"progress":"378.8KB/378.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.351111334,"progress":"169B/169B"},{"desc":"uploading config.yaml","runtime_seconds":0.04924095,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-27T17:55:48.173134932+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:55:48.534967896+05:30","level":"INFO","msg":"stream: closing","id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:48.535014281+05:30","level":"INFO","msg":"handler: closed","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:48.535045282+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:48.535068159+05:30","level":"INFO","msg":"sender: closed","stream_id":"t7vxa7xl"}
+{"time":"2025-03-27T17:55:48.535193614+05:30","level":"INFO","msg":"stream: closed","id":"t7vxa7xl"}

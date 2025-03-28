@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:52:22.109045494+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175222-f6kedpuv/logs/debug-core.log"}
+{"time":"2025-03-27T17:52:22.213235197+05:30","level":"INFO","msg":"created new stream","id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:22.213317889+05:30","level":"INFO","msg":"stream: started","id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:22.213423278+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:22.213436551+05:30","level":"INFO","msg":"sender: started","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:22.213483313+05:30","level":"INFO","msg":"handler: started","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:22.593826586+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:52:48.107218091+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:52:48.107552138+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:52:49.110739637+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.677625939,"progress":"376.8KB/376.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.368242248,"progress":"496B/496B"}],"total_operations":2}}
+{"time":"2025-03-27T17:52:50.085519188+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:52:50.871127465+05:30","level":"INFO","msg":"stream: closing","id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:50.871174076+05:30","level":"INFO","msg":"handler: closed","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:50.87122141+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:50.871246152+05:30","level":"INFO","msg":"sender: closed","stream_id":"f6kedpuv"}
+{"time":"2025-03-27T17:52:50.871403441+05:30","level":"INFO","msg":"stream: closed","id":"f6kedpuv"}

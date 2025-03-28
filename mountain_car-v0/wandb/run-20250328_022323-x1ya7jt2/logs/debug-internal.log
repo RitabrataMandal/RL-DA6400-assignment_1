@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:23:23.502694277+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_022323-x1ya7jt2/logs/debug-core.log"}
+{"time":"2025-03-28T02:23:23.606082695+05:30","level":"INFO","msg":"created new stream","id":"x1ya7jt2"}
+{"time":"2025-03-28T02:23:23.606171336+05:30","level":"INFO","msg":"stream: started","id":"x1ya7jt2"}
+{"time":"2025-03-28T02:23:23.606228062+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:23:23.606297571+05:30","level":"INFO","msg":"sender: started","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:23:23.606358783+05:30","level":"INFO","msg":"handler: started","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:23:23.966347381+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:24:39.021237517+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:24:39.022148656+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:24:39.982458205+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.324552548,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.324533115,"progress":"169B/169B"},{"desc":"uploading history steps 0-0, summary","runtime_seconds":0.291048603},{"desc":"uploading config.yaml","runtime_seconds":0.007701615,"progress":"498B/498B"}],"total_operations":4}}
+{"time":"2025-03-28T02:24:40.972697072+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:24:41.303024744+05:30","level":"INFO","msg":"stream: closing","id":"x1ya7jt2"}
+{"time":"2025-03-28T02:24:41.303054331+05:30","level":"INFO","msg":"handler: closed","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:24:41.303088749+05:30","level":"INFO","msg":"sender: closed","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:24:41.303076422+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x1ya7jt2"}
+{"time":"2025-03-28T02:24:41.303166321+05:30","level":"INFO","msg":"stream: closed","id":"x1ya7jt2"}

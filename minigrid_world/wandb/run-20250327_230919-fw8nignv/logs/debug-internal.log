@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:09:19.366290644+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_230919-fw8nignv/logs/debug-core.log"}
+{"time":"2025-03-27T23:09:19.46981194+05:30","level":"INFO","msg":"created new stream","id":"fw8nignv"}
+{"time":"2025-03-27T23:09:19.469868785+05:30","level":"INFO","msg":"stream: started","id":"fw8nignv"}
+{"time":"2025-03-27T23:09:19.469932985+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:19.469948676+05:30","level":"INFO","msg":"sender: started","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:19.46999809+05:30","level":"INFO","msg":"handler: started","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:19.862833074+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:09:55.892619238+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:09:55.892925441+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:09:56.894820801+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.355006071,"progress":"361.3KB/361.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.354988321,"progress":"174B/174B"},{"desc":"uploading config.yaml","runtime_seconds":0.056549199,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T23:09:57.989742152+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:09:58.361723653+05:30","level":"INFO","msg":"stream: closing","id":"fw8nignv"}
+{"time":"2025-03-27T23:09:58.361781465+05:30","level":"INFO","msg":"handler: closed","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:58.361815722+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:58.361858922+05:30","level":"INFO","msg":"sender: closed","stream_id":"fw8nignv"}
+{"time":"2025-03-27T23:09:58.362027594+05:30","level":"INFO","msg":"stream: closed","id":"fw8nignv"}

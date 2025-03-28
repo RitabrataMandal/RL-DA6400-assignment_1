@@ -1,0 +1,16 @@
+{"time":"2025-03-28T03:58:39.768618872+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_035839-yn2pcabt/logs/debug-core.log"}
+{"time":"2025-03-28T03:58:39.872032861+05:30","level":"INFO","msg":"created new stream","id":"yn2pcabt"}
+{"time":"2025-03-28T03:58:39.87212247+05:30","level":"INFO","msg":"stream: started","id":"yn2pcabt"}
+{"time":"2025-03-28T03:58:39.872166392+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T03:58:39.872177152+05:30","level":"INFO","msg":"handler: started","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T03:58:39.872304287+05:30","level":"INFO","msg":"sender: started","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T03:58:40.238094906+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T04:01:53.201151404+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T04:01:53.201581209+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T04:01:54.162966862+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.358122937,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.358095504,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.073460779,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T04:01:55.119253135+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T04:01:55.443107828+05:30","level":"INFO","msg":"stream: closing","id":"yn2pcabt"}
+{"time":"2025-03-28T04:01:55.443120256+05:30","level":"INFO","msg":"handler: closed","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T04:01:55.443128673+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T04:01:55.443185231+05:30","level":"INFO","msg":"sender: closed","stream_id":"yn2pcabt"}
+{"time":"2025-03-28T04:01:55.443192622+05:30","level":"INFO","msg":"stream: closed","id":"yn2pcabt"}

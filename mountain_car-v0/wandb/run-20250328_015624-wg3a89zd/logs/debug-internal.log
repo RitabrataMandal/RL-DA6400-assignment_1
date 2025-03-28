@@ -1,0 +1,16 @@
+{"time":"2025-03-28T01:56:24.504698187+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_015624-wg3a89zd/logs/debug-core.log"}
+{"time":"2025-03-28T01:56:24.610151721+05:30","level":"INFO","msg":"created new stream","id":"wg3a89zd"}
+{"time":"2025-03-28T01:56:24.61025567+05:30","level":"INFO","msg":"stream: started","id":"wg3a89zd"}
+{"time":"2025-03-28T01:56:24.610278099+05:30","level":"INFO","msg":"handler: started","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:56:24.610278111+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:56:24.610317239+05:30","level":"INFO","msg":"sender: started","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:56:25.025997656+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T01:57:40.861730026+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T01:57:40.862064804+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T01:57:41.862366545+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.361300152,"progress":"179B/179B"},{"desc":"uploading output.log","runtime_seconds":0.361282426,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.071021982,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T01:57:42.828219386+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T01:57:43.145270594+05:30","level":"INFO","msg":"stream: closing","id":"wg3a89zd"}
+{"time":"2025-03-28T01:57:43.145317033+05:30","level":"INFO","msg":"handler: closed","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:57:43.145338687+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:57:43.145409135+05:30","level":"INFO","msg":"sender: closed","stream_id":"wg3a89zd"}
+{"time":"2025-03-28T01:57:43.145473987+05:30","level":"INFO","msg":"stream: closed","id":"wg3a89zd"}

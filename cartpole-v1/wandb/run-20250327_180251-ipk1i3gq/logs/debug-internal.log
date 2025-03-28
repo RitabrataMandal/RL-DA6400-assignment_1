@@ -1,0 +1,16 @@
+{"time":"2025-03-27T18:02:51.391633457+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_180251-ipk1i3gq/logs/debug-core.log"}
+{"time":"2025-03-27T18:02:51.495672895+05:30","level":"INFO","msg":"created new stream","id":"ipk1i3gq"}
+{"time":"2025-03-27T18:02:51.495747218+05:30","level":"INFO","msg":"stream: started","id":"ipk1i3gq"}
+{"time":"2025-03-27T18:02:51.495838133+05:30","level":"INFO","msg":"handler: started","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:02:51.495838505+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:02:51.495888408+05:30","level":"INFO","msg":"sender: started","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:02:51.87542907+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T18:03:27.510359525+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T18:03:27.510687394+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T18:03:28.512337457+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.367543064,"progress":"378.3KB/378.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.053467929,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T18:03:29.58950949+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T18:03:29.922257949+05:30","level":"INFO","msg":"stream: closing","id":"ipk1i3gq"}
+{"time":"2025-03-27T18:03:29.922280919+05:30","level":"INFO","msg":"handler: closed","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:03:29.922301953+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:03:29.922317438+05:30","level":"INFO","msg":"sender: closed","stream_id":"ipk1i3gq"}
+{"time":"2025-03-27T18:03:29.922339699+05:30","level":"INFO","msg":"stream: closed","id":"ipk1i3gq"}

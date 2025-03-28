@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:30:50.557893352+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_053050-bfb461op/logs/debug-core.log"}
+{"time":"2025-03-28T05:30:50.66066073+05:30","level":"INFO","msg":"created new stream","id":"bfb461op"}
+{"time":"2025-03-28T05:30:50.660704403+05:30","level":"INFO","msg":"stream: started","id":"bfb461op"}
+{"time":"2025-03-28T05:30:50.66074133+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:30:50.66075224+05:30","level":"INFO","msg":"sender: started","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:30:50.660771526+05:30","level":"INFO","msg":"handler: started","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:30:50.988717024+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:33:51.562645264+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:33:51.562961496+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:33:52.56466963+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.305333141,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.305316235,"progress":"184B/184B"}],"total_operations":2}}
+{"time":"2025-03-28T05:33:53.57528669+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:33:53.901974932+05:30","level":"INFO","msg":"stream: closing","id":"bfb461op"}
+{"time":"2025-03-28T05:33:53.901991691+05:30","level":"INFO","msg":"handler: closed","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:33:53.902006172+05:30","level":"INFO","msg":"sender: closed","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:33:53.902001278+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bfb461op"}
+{"time":"2025-03-28T05:33:53.902050681+05:30","level":"INFO","msg":"stream: closed","id":"bfb461op"}

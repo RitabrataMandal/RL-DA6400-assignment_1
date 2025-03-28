@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:03:18.141572175+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_050318-zdg9lado/logs/debug-core.log"}
+{"time":"2025-03-28T05:03:18.244676002+05:30","level":"INFO","msg":"created new stream","id":"zdg9lado"}
+{"time":"2025-03-28T05:03:18.24478672+05:30","level":"INFO","msg":"stream: started","id":"zdg9lado"}
+{"time":"2025-03-28T05:03:18.244840198+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:03:18.244860345+05:30","level":"INFO","msg":"sender: started","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:03:18.2448715+05:30","level":"INFO","msg":"handler: started","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:03:18.586154055+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:06:19.037187584+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:06:19.03761221+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:06:19.997298886+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.311228553,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.311207522,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.006148588,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T05:06:21.179748692+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:06:21.48175861+05:30","level":"INFO","msg":"stream: closing","id":"zdg9lado"}
+{"time":"2025-03-28T05:06:21.481791789+05:30","level":"INFO","msg":"handler: closed","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:06:21.481809513+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:06:21.481871477+05:30","level":"INFO","msg":"sender: closed","stream_id":"zdg9lado"}
+{"time":"2025-03-28T05:06:21.481951896+05:30","level":"INFO","msg":"stream: closed","id":"zdg9lado"}

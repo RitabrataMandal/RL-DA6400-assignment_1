@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:47:56.84456948+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_224756-ep21x9ar/logs/debug-core.log"}
+{"time":"2025-03-27T22:47:56.948099947+05:30","level":"INFO","msg":"created new stream","id":"ep21x9ar"}
+{"time":"2025-03-27T22:47:56.948201845+05:30","level":"INFO","msg":"stream: started","id":"ep21x9ar"}
+{"time":"2025-03-27T22:47:56.948251649+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:47:56.948316074+05:30","level":"INFO","msg":"sender: started","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:47:56.948379229+05:30","level":"INFO","msg":"handler: started","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:47:57.29475459+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:48:38.160292215+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:48:38.160672486+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:48:39.162639158+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.167610669,"progress":"378.5KB/378.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.167582228,"progress":"182B/182B"}],"total_operations":2}}
+{"time":"2025-03-27T22:48:40.456281141+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:48:40.810671046+05:30","level":"INFO","msg":"stream: closing","id":"ep21x9ar"}
+{"time":"2025-03-27T22:48:40.810730194+05:30","level":"INFO","msg":"handler: closed","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:48:40.810766513+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:48:40.810850345+05:30","level":"INFO","msg":"sender: closed","stream_id":"ep21x9ar"}
+{"time":"2025-03-27T22:48:40.810934876+05:30","level":"INFO","msg":"stream: closed","id":"ep21x9ar"}

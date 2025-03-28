@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:23:56.310349781+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_052356-tsmrbdbk/logs/debug-core.log"}
+{"time":"2025-03-28T05:23:56.414125202+05:30","level":"INFO","msg":"created new stream","id":"tsmrbdbk"}
+{"time":"2025-03-28T05:23:56.414194028+05:30","level":"INFO","msg":"stream: started","id":"tsmrbdbk"}
+{"time":"2025-03-28T05:23:56.41428352+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:23:56.414310363+05:30","level":"INFO","msg":"sender: started","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:23:56.414414744+05:30","level":"INFO","msg":"handler: started","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:23:56.991944181+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:26:56.113059067+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:26:56.113883885+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:26:57.078001838+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.35142503,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.351406172,"progress":"183B/183B"},{"desc":"uploading config.yaml","runtime_seconds":0.080633032,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-28T05:26:58.055296806+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:26:58.32878124+05:30","level":"INFO","msg":"stream: closing","id":"tsmrbdbk"}
+{"time":"2025-03-28T05:26:58.328794422+05:30","level":"INFO","msg":"handler: closed","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:26:58.3288028+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:26:58.328855485+05:30","level":"INFO","msg":"sender: closed","stream_id":"tsmrbdbk"}
+{"time":"2025-03-28T05:26:58.328863534+05:30","level":"INFO","msg":"stream: closed","id":"tsmrbdbk"}

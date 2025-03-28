@@ -1,0 +1,16 @@
+{"time":"2025-03-27T18:18:30.500783891+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_181830-yg900zei/logs/debug-core.log"}
+{"time":"2025-03-27T18:18:30.6056902+05:30","level":"INFO","msg":"created new stream","id":"yg900zei"}
+{"time":"2025-03-27T18:18:30.605785737+05:30","level":"INFO","msg":"stream: started","id":"yg900zei"}
+{"time":"2025-03-27T18:18:30.605900667+05:30","level":"INFO","msg":"handler: started","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:18:30.605880277+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:18:30.605973919+05:30","level":"INFO","msg":"sender: started","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:18:30.963509461+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T18:19:11.433423821+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T18:19:11.433805985+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T18:19:12.435374709+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.37933082,"progress":"379.1KB/379.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.088666683,"progress":"496B/496B"}],"total_operations":2}}
+{"time":"2025-03-27T18:19:13.499239156+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T18:19:14.148513353+05:30","level":"INFO","msg":"stream: closing","id":"yg900zei"}
+{"time":"2025-03-27T18:19:14.148547151+05:30","level":"INFO","msg":"handler: closed","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:19:14.148567122+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:19:14.148585689+05:30","level":"INFO","msg":"sender: closed","stream_id":"yg900zei"}
+{"time":"2025-03-27T18:19:14.148823077+05:30","level":"INFO","msg":"stream: closed","id":"yg900zei"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:03:35.981687891+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_020335-tfewj369/logs/debug-core.log"}
+{"time":"2025-03-28T02:03:36.085407289+05:30","level":"INFO","msg":"created new stream","id":"tfewj369"}
+{"time":"2025-03-28T02:03:36.085514886+05:30","level":"INFO","msg":"stream: started","id":"tfewj369"}
+{"time":"2025-03-28T02:03:36.085590636+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:03:36.085625786+05:30","level":"INFO","msg":"sender: started","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:03:36.085657313+05:30","level":"INFO","msg":"handler: started","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:03:36.448686265+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:04:51.761193211+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:04:51.761681512+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:04:52.722113003+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.337585576,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.337570293,"progress":"180B/180B"},{"desc":"uploading config.yaml","runtime_seconds":0.023353108,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T02:04:53.104147308+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:04:53.422594094+05:30","level":"INFO","msg":"stream: closing","id":"tfewj369"}
+{"time":"2025-03-28T02:04:53.422630719+05:30","level":"INFO","msg":"handler: closed","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:04:53.422651558+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:04:53.422710331+05:30","level":"INFO","msg":"sender: closed","stream_id":"tfewj369"}
+{"time":"2025-03-28T02:04:53.422795887+05:30","level":"INFO","msg":"stream: closed","id":"tfewj369"}

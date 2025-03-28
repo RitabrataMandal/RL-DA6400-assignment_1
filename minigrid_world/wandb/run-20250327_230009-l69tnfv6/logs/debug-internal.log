@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:00:09.361258177+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_230009-l69tnfv6/logs/debug-core.log"}
+{"time":"2025-03-27T23:00:09.464242837+05:30","level":"INFO","msg":"created new stream","id":"l69tnfv6"}
+{"time":"2025-03-27T23:00:09.464315198+05:30","level":"INFO","msg":"stream: started","id":"l69tnfv6"}
+{"time":"2025-03-27T23:00:09.464348001+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:00:09.464392534+05:30","level":"INFO","msg":"sender: started","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:00:09.464438043+05:30","level":"INFO","msg":"handler: started","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:00:22.158433884+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:01:24.348549439+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:01:24.348945388+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:01:25.350519022+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.348453086,"progress":"379.5KB/379.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.348436078,"progress":"172B/172B"},{"desc":"uploading config.yaml","runtime_seconds":0.051577689,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-27T23:01:26.459913198+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:01:26.794890409+05:30","level":"INFO","msg":"stream: closing","id":"l69tnfv6"}
+{"time":"2025-03-27T23:01:26.794945296+05:30","level":"INFO","msg":"handler: closed","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:01:26.794979776+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:01:26.794995068+05:30","level":"INFO","msg":"sender: closed","stream_id":"l69tnfv6"}
+{"time":"2025-03-27T23:01:26.795167831+05:30","level":"INFO","msg":"stream: closed","id":"l69tnfv6"}

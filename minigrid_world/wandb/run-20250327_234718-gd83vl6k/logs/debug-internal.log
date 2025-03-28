@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:47:18.938642688+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_234718-gd83vl6k/logs/debug-core.log"}
+{"time":"2025-03-27T23:47:19.043305901+05:30","level":"INFO","msg":"created new stream","id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:19.043394607+05:30","level":"INFO","msg":"stream: started","id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:19.043485697+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:19.04348569+05:30","level":"INFO","msg":"handler: started","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:19.043575346+05:30","level":"INFO","msg":"sender: started","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:19.373965396+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:47:51.519758914+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:47:51.520078239+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:47:52.521384378+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.362488481,"progress":"359.9KB/359.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.362462848,"progress":"172B/172B"},{"desc":"uploading config.yaml","runtime_seconds":0.062958128,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T23:47:53.619299032+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:47:53.953948152+05:30","level":"INFO","msg":"stream: closing","id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:53.953992628+05:30","level":"INFO","msg":"handler: closed","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:53.954016411+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:53.954037487+05:30","level":"INFO","msg":"sender: closed","stream_id":"gd83vl6k"}
+{"time":"2025-03-27T23:47:53.954232487+05:30","level":"INFO","msg":"stream: closed","id":"gd83vl6k"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:24:44.073525665+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_022444-obr353yx/logs/debug-core.log"}
+{"time":"2025-03-28T02:24:44.177852712+05:30","level":"INFO","msg":"created new stream","id":"obr353yx"}
+{"time":"2025-03-28T02:24:44.177921414+05:30","level":"INFO","msg":"stream: started","id":"obr353yx"}
+{"time":"2025-03-28T02:24:44.177980042+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:24:44.178002795+05:30","level":"INFO","msg":"sender: started","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:24:44.178029508+05:30","level":"INFO","msg":"handler: started","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:24:44.558606508+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:26:05.003626031+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:26:05.004012346+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:26:06.005708733+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.415144618,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.116362675,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-28T02:26:06.917044131+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:26:07.293072823+05:30","level":"INFO","msg":"stream: closing","id":"obr353yx"}
+{"time":"2025-03-28T02:26:07.293130897+05:30","level":"INFO","msg":"handler: closed","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:26:07.293162546+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:26:07.293190647+05:30","level":"INFO","msg":"sender: closed","stream_id":"obr353yx"}
+{"time":"2025-03-28T02:26:07.29329558+05:30","level":"INFO","msg":"stream: closed","id":"obr353yx"}

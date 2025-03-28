@@ -10,7 +10,7 @@ def take_action(q_value, epsilon):
         return np.random.randint(0, 3)  # Explore
     return np.argmax(q_value)  # Exploit
 
-def train_minigrid(epsilon, alpha, episodes=1000, gamma=0.99, seeds=[100, 200, 300, 400, 500]):
+def train_minigrid(epsilon, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 300, 400, 500]):
     """
     Runs SARSA on the MiniGrid-Dynamic-Obstacles-Random-5x5-v0 environment.
     Returns the all-time average episodic reward.

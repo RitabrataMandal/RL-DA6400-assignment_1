@@ -71,7 +71,7 @@ class SarasLearner:
                 if done:
                     break
 
-            print(f"Episode: {episode + 1}/{num_episodes}, Total Reward: {total_reward}")
+            print(f"Seed: {self.seed} Episode: {episode + 1}/{num_episodes}, Total Reward: {total_reward}")
             reward_list.append(total_reward)
 
         return reward_list

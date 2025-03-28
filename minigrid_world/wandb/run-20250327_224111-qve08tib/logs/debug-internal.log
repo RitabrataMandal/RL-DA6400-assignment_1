@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:41:11.524201371+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_224111-qve08tib/logs/debug-core.log"}
+{"time":"2025-03-27T22:41:11.629949806+05:30","level":"INFO","msg":"created new stream","id":"qve08tib"}
+{"time":"2025-03-27T22:41:11.630032284+05:30","level":"INFO","msg":"stream: started","id":"qve08tib"}
+{"time":"2025-03-27T22:41:11.630071764+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:11.630142059+05:30","level":"INFO","msg":"sender: started","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:11.630086545+05:30","level":"INFO","msg":"handler: started","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:12.000275776+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:41:50.474432886+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:41:50.474772873+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:41:51.476619052+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.377313804,"progress":"378.7KB/378.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.066500534,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T22:41:52.558035087+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:41:52.932946851+05:30","level":"INFO","msg":"stream: closing","id":"qve08tib"}
+{"time":"2025-03-27T22:41:52.932981999+05:30","level":"INFO","msg":"handler: closed","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:52.933004061+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:52.933035725+05:30","level":"INFO","msg":"sender: closed","stream_id":"qve08tib"}
+{"time":"2025-03-27T22:41:52.933120835+05:30","level":"INFO","msg":"stream: closed","id":"qve08tib"}

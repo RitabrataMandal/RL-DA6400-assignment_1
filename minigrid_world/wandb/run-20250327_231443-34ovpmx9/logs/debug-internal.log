@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:14:43.391286108+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_231443-34ovpmx9/logs/debug-core.log"}
+{"time":"2025-03-27T23:14:43.494012733+05:30","level":"INFO","msg":"created new stream","id":"34ovpmx9"}
+{"time":"2025-03-27T23:14:43.494042328+05:30","level":"INFO","msg":"stream: started","id":"34ovpmx9"}
+{"time":"2025-03-27T23:14:43.494080215+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:14:43.494098696+05:30","level":"INFO","msg":"handler: started","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:14:43.494096534+05:30","level":"INFO","msg":"sender: started","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:14:43.930591469+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:15:35.761390433+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:15:35.761761544+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:15:36.76216261+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.373474361,"progress":"364.1KB/364.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.058911794,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-27T23:15:37.828514981+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:15:38.148192108+05:30","level":"INFO","msg":"stream: closing","id":"34ovpmx9"}
+{"time":"2025-03-27T23:15:38.148248439+05:30","level":"INFO","msg":"handler: closed","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:15:38.148285519+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:15:38.148316424+05:30","level":"INFO","msg":"sender: closed","stream_id":"34ovpmx9"}
+{"time":"2025-03-27T23:15:38.148492601+05:30","level":"INFO","msg":"stream: closed","id":"34ovpmx9"}

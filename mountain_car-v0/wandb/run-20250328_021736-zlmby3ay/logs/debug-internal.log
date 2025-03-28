@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:17:36.833428512+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_021736-zlmby3ay/logs/debug-core.log"}
+{"time":"2025-03-28T02:17:36.935956327+05:30","level":"INFO","msg":"created new stream","id":"zlmby3ay"}
+{"time":"2025-03-28T02:17:36.935989842+05:30","level":"INFO","msg":"stream: started","id":"zlmby3ay"}
+{"time":"2025-03-28T02:17:36.936017827+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:17:36.93605313+05:30","level":"INFO","msg":"sender: started","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:17:36.936090445+05:30","level":"INFO","msg":"handler: started","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:17:37.419818556+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:18:58.729302721+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:18:58.730419521+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:18:59.687475695+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.323803378,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.323792529,"progress":"182B/182B"},{"desc":"uploading config.yaml","runtime_seconds":0.03782594,"progress":"499B/499B"}],"total_operations":3}}
+{"time":"2025-03-28T02:19:00.668521201+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:19:01.002844443+05:30","level":"INFO","msg":"stream: closing","id":"zlmby3ay"}
+{"time":"2025-03-28T02:19:01.002880852+05:30","level":"INFO","msg":"handler: closed","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:19:01.002904904+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:19:01.002921529+05:30","level":"INFO","msg":"sender: closed","stream_id":"zlmby3ay"}
+{"time":"2025-03-28T02:19:01.003039782+05:30","level":"INFO","msg":"stream: closed","id":"zlmby3ay"}

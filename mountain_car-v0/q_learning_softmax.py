@@ -2,7 +2,7 @@ import gym
 import numpy as np
 import random
 
-def train_q_learning(temperature, alpha, episode=1000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
+def train_q_learning(temperature, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
     """
     Runs Q-learning with Softmax exploration.
     Returns the all-time average mean reward.

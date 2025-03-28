@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:43:36.388640193+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_054336-qnfc98xp/logs/debug-core.log"}
+{"time":"2025-03-28T05:43:36.491202936+05:30","level":"INFO","msg":"created new stream","id":"qnfc98xp"}
+{"time":"2025-03-28T05:43:36.491238886+05:30","level":"INFO","msg":"stream: started","id":"qnfc98xp"}
+{"time":"2025-03-28T05:43:36.491285883+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:43:36.491296933+05:30","level":"INFO","msg":"sender: started","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:43:36.491325864+05:30","level":"INFO","msg":"handler: started","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:43:36.855790188+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:46:56.064471911+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:46:56.064859226+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:46:57.066492373+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.398463894,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.398415867,"progress":"176B/176B"},{"desc":"uploading config.yaml","runtime_seconds":0.082462262,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T05:46:58.026631556+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:46:58.523324072+05:30","level":"INFO","msg":"stream: closing","id":"qnfc98xp"}
+{"time":"2025-03-28T05:46:58.523339187+05:30","level":"INFO","msg":"handler: closed","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:46:58.523353294+05:30","level":"INFO","msg":"sender: closed","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:46:58.523349669+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qnfc98xp"}
+{"time":"2025-03-28T05:46:58.523399168+05:30","level":"INFO","msg":"stream: closed","id":"qnfc98xp"}

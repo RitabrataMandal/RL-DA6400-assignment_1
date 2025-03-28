@@ -1,0 +1,16 @@
+{"time":"2025-03-27T18:11:39.971877543+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_181139-kngpk6qu/logs/debug-core.log"}
+{"time":"2025-03-27T18:11:40.07590898+05:30","level":"INFO","msg":"created new stream","id":"kngpk6qu"}
+{"time":"2025-03-27T18:11:40.0759702+05:30","level":"INFO","msg":"stream: started","id":"kngpk6qu"}
+{"time":"2025-03-27T18:11:40.076034336+05:30","level":"INFO","msg":"handler: started","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:11:40.076034341+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:11:40.076076761+05:30","level":"INFO","msg":"sender: started","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:11:40.419823337+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T18:12:11.269050442+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T18:12:11.269456829+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T18:12:12.271185426+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.376411031,"progress":"377.0KB/377.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.082985178,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T18:12:13.336196189+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T18:12:13.662255138+05:30","level":"INFO","msg":"stream: closing","id":"kngpk6qu"}
+{"time":"2025-03-27T18:12:13.662295164+05:30","level":"INFO","msg":"handler: closed","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:12:13.66234815+05:30","level":"INFO","msg":"sender: closed","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:12:13.66234088+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kngpk6qu"}
+{"time":"2025-03-27T18:12:13.662487581+05:30","level":"INFO","msg":"stream: closed","id":"kngpk6qu"}

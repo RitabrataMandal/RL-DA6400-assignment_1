@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:26:28.927623482+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_222628-cxyjgotz/logs/debug-core.log"}
+{"time":"2025-03-27T22:26:29.03180526+05:30","level":"INFO","msg":"created new stream","id":"cxyjgotz"}
+{"time":"2025-03-27T22:26:29.031887722+05:30","level":"INFO","msg":"stream: started","id":"cxyjgotz"}
+{"time":"2025-03-27T22:26:29.03197614+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:26:29.032000701+05:30","level":"INFO","msg":"sender: started","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:26:29.032189688+05:30","level":"INFO","msg":"handler: started","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:26:29.388804529+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:27:05.27890202+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:27:05.279282689+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:27:06.280896456+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.338362937,"progress":"378.0KB/378.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.338344314,"progress":"171B/171B"},{"desc":"uploading config.yaml","runtime_seconds":0.010024497,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-27T22:27:07.376073553+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:27:07.739786076+05:30","level":"INFO","msg":"stream: closing","id":"cxyjgotz"}
+{"time":"2025-03-27T22:27:07.739819249+05:30","level":"INFO","msg":"handler: closed","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:27:07.739840658+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:27:07.739860395+05:30","level":"INFO","msg":"sender: closed","stream_id":"cxyjgotz"}
+{"time":"2025-03-27T22:27:07.740029912+05:30","level":"INFO","msg":"stream: closed","id":"cxyjgotz"}

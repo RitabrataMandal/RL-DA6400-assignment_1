@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:09:53.2887189+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_050953-a8hwug06/logs/debug-core.log"}
+{"time":"2025-03-28T05:09:53.39198609+05:30","level":"INFO","msg":"created new stream","id":"a8hwug06"}
+{"time":"2025-03-28T05:09:53.392074418+05:30","level":"INFO","msg":"stream: started","id":"a8hwug06"}
+{"time":"2025-03-28T05:09:53.392171489+05:30","level":"INFO","msg":"handler: started","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:09:53.3921855+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:09:53.392239708+05:30","level":"INFO","msg":"sender: started","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:09:53.719981532+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:16:16.773283365+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:16:16.774064988+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:16:17.732350749+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2253949,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.225377629,"progress":"184B/184B"}],"total_operations":2}}
+{"time":"2025-03-28T05:16:19.210767214+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:16:19.507640113+05:30","level":"INFO","msg":"stream: closing","id":"a8hwug06"}
+{"time":"2025-03-28T05:16:19.507694471+05:30","level":"INFO","msg":"handler: closed","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:16:19.507740959+05:30","level":"INFO","msg":"sender: closed","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:16:19.507727567+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"a8hwug06"}
+{"time":"2025-03-28T05:16:19.507916128+05:30","level":"INFO","msg":"stream: closed","id":"a8hwug06"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:35:12.289244923+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_023512-b6t182gr/logs/debug-core.log"}
+{"time":"2025-03-28T02:35:12.392044334+05:30","level":"INFO","msg":"created new stream","id":"b6t182gr"}
+{"time":"2025-03-28T02:35:12.392069452+05:30","level":"INFO","msg":"stream: started","id":"b6t182gr"}
+{"time":"2025-03-28T02:35:12.392084733+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:35:12.392087776+05:30","level":"INFO","msg":"handler: started","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:35:12.392125183+05:30","level":"INFO","msg":"sender: started","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:35:12.703551395+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:36:27.90093716+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:36:27.901422146+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:36:28.861551946+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.344051146,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.344032759,"progress":"179B/179B"},{"desc":"uploading config.yaml","runtime_seconds":0.036919335,"progress":"496B/496B"}],"total_operations":3}}
+{"time":"2025-03-28T02:36:30.092860288+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:36:30.417590809+05:30","level":"INFO","msg":"stream: closing","id":"b6t182gr"}
+{"time":"2025-03-28T02:36:30.417629655+05:30","level":"INFO","msg":"handler: closed","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:36:30.417650691+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:36:30.417685315+05:30","level":"INFO","msg":"sender: closed","stream_id":"b6t182gr"}
+{"time":"2025-03-28T02:36:30.417807223+05:30","level":"INFO","msg":"stream: closed","id":"b6t182gr"}

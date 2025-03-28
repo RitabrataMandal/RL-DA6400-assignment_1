@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:27:57.129465615+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_232757-kqsmm727/logs/debug-core.log"}
+{"time":"2025-03-27T23:27:57.233002081+05:30","level":"INFO","msg":"created new stream","id":"kqsmm727"}
+{"time":"2025-03-27T23:27:57.23306529+05:30","level":"INFO","msg":"stream: started","id":"kqsmm727"}
+{"time":"2025-03-27T23:27:57.233196474+05:30","level":"INFO","msg":"sender: started","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:27:57.233224233+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:27:57.233270567+05:30","level":"INFO","msg":"handler: started","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:27:57.985661392+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:28:27.652233874+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:28:27.652709428+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:28:28.654335848+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.682236826,"progress":"360.0KB/360.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.299094351,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-27T23:28:29.421723488+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:28:29.829420383+05:30","level":"INFO","msg":"stream: closing","id":"kqsmm727"}
+{"time":"2025-03-27T23:28:29.829466188+05:30","level":"INFO","msg":"handler: closed","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:28:29.82949619+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:28:29.829527624+05:30","level":"INFO","msg":"sender: closed","stream_id":"kqsmm727"}
+{"time":"2025-03-27T23:28:29.829655239+05:30","level":"INFO","msg":"stream: closed","id":"kqsmm727"}

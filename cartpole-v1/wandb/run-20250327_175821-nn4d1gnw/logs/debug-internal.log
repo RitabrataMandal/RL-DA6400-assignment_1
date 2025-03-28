@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:58:21.221412817+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175821-nn4d1gnw/logs/debug-core.log"}
+{"time":"2025-03-27T17:58:21.325933797+05:30","level":"INFO","msg":"created new stream","id":"nn4d1gnw"}
+{"time":"2025-03-27T17:58:21.326001646+05:30","level":"INFO","msg":"stream: started","id":"nn4d1gnw"}
+{"time":"2025-03-27T17:58:21.326106201+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:58:21.326126054+05:30","level":"INFO","msg":"handler: started","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:58:21.326162722+05:30","level":"INFO","msg":"sender: started","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:58:21.724775411+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:59:03.17992673+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:59:03.180261072+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:59:04.181729548+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.393532899,"progress":"379.2KB/379.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.393509183,"progress":"170B/170B"},{"desc":"uploading config.yaml","runtime_seconds":0.04159902,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-27T17:59:05.24820117+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:59:05.585805917+05:30","level":"INFO","msg":"stream: closing","id":"nn4d1gnw"}
+{"time":"2025-03-27T17:59:05.585868338+05:30","level":"INFO","msg":"handler: closed","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:59:05.585902598+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:59:05.585930388+05:30","level":"INFO","msg":"sender: closed","stream_id":"nn4d1gnw"}
+{"time":"2025-03-27T17:59:05.586075093+05:30","level":"INFO","msg":"stream: closed","id":"nn4d1gnw"}

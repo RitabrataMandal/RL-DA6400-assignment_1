@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:03:09.077351998+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_230309-pvtkvtk7/logs/debug-core.log"}
+{"time":"2025-03-27T23:03:09.179794338+05:30","level":"INFO","msg":"created new stream","id":"pvtkvtk7"}
+{"time":"2025-03-27T23:03:09.179823745+05:30","level":"INFO","msg":"stream: started","id":"pvtkvtk7"}
+{"time":"2025-03-27T23:03:09.179849151+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:03:09.179854334+05:30","level":"INFO","msg":"sender: started","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:03:09.179895771+05:30","level":"INFO","msg":"handler: started","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:03:09.522375024+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:04:02.497874096+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:04:02.498580768+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:04:03.499953972+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.360842241,"progress":"377.0KB/377.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.360820754,"progress":"172B/172B"},{"desc":"uploading config.yaml","runtime_seconds":0.055800581,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-27T23:04:04.835303473+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:04:05.184670854+05:30","level":"INFO","msg":"stream: closing","id":"pvtkvtk7"}
+{"time":"2025-03-27T23:04:05.184746841+05:30","level":"INFO","msg":"handler: closed","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:04:05.184791358+05:30","level":"INFO","msg":"sender: closed","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:04:05.184787718+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pvtkvtk7"}
+{"time":"2025-03-27T23:04:05.184966071+05:30","level":"INFO","msg":"stream: closed","id":"pvtkvtk7"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:41:58.713410076+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_224158-tl935n6s/logs/debug-core.log"}
+{"time":"2025-03-27T22:41:58.820780907+05:30","level":"INFO","msg":"created new stream","id":"tl935n6s"}
+{"time":"2025-03-27T22:41:58.820914286+05:30","level":"INFO","msg":"stream: started","id":"tl935n6s"}
+{"time":"2025-03-27T22:41:58.820952821+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:41:58.8209794+05:30","level":"INFO","msg":"handler: started","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:41:58.821073346+05:30","level":"INFO","msg":"sender: started","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:41:59.194244029+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:42:38.337875199+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:42:38.338444953+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:42:39.339980069+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.383764098,"progress":"379.6KB/379.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.058972487,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T22:42:40.354130426+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:42:40.697762675+05:30","level":"INFO","msg":"stream: closing","id":"tl935n6s"}
+{"time":"2025-03-27T22:42:40.697822928+05:30","level":"INFO","msg":"handler: closed","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:42:40.697857531+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:42:40.697895327+05:30","level":"INFO","msg":"sender: closed","stream_id":"tl935n6s"}
+{"time":"2025-03-27T22:42:40.698043491+05:30","level":"INFO","msg":"stream: closed","id":"tl935n6s"}

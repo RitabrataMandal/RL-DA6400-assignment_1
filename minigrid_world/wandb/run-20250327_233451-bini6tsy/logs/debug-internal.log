@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:34:51.634565522+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_233451-bini6tsy/logs/debug-core.log"}
+{"time":"2025-03-27T23:34:51.738201048+05:30","level":"INFO","msg":"created new stream","id":"bini6tsy"}
+{"time":"2025-03-27T23:34:51.738278764+05:30","level":"INFO","msg":"stream: started","id":"bini6tsy"}
+{"time":"2025-03-27T23:34:51.738331299+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:34:51.738381201+05:30","level":"INFO","msg":"sender: started","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:34:51.738448114+05:30","level":"INFO","msg":"handler: started","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:34:52.130935094+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:35:54.211642905+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:35:54.212010291+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:35:55.213494109+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.376465425,"progress":"366.3KB/366.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.376450915,"progress":"182B/182B"},{"desc":"uploading config.yaml","runtime_seconds":0.062238507,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T23:35:57.282371923+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:35:57.616074879+05:30","level":"INFO","msg":"stream: closing","id":"bini6tsy"}
+{"time":"2025-03-27T23:35:57.616119754+05:30","level":"INFO","msg":"handler: closed","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:35:57.616159188+05:30","level":"INFO","msg":"sender: closed","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:35:57.616150141+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bini6tsy"}
+{"time":"2025-03-27T23:35:57.616342016+05:30","level":"INFO","msg":"stream: closed","id":"bini6tsy"}

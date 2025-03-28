@@ -1,0 +1,16 @@
+{"time":"2025-03-27T18:06:14.019595458+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_180614-laxfg7s7/logs/debug-core.log"}
+{"time":"2025-03-27T18:06:14.124022032+05:30","level":"INFO","msg":"created new stream","id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:14.124127083+05:30","level":"INFO","msg":"stream: started","id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:14.124176737+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:14.12421878+05:30","level":"INFO","msg":"handler: started","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:14.124376903+05:30","level":"INFO","msg":"sender: started","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:14.510344841+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T18:06:43.675500928+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T18:06:43.676120059+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T18:06:44.678894833+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.670578543,"progress":"376.6KB/376.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.350072959,"progress":"496B/496B"}],"total_operations":2}}
+{"time":"2025-03-27T18:06:46.440321865+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T18:06:46.746855915+05:30","level":"INFO","msg":"stream: closing","id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:46.746890567+05:30","level":"INFO","msg":"handler: closed","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:46.746910176+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:46.746941578+05:30","level":"INFO","msg":"sender: closed","stream_id":"laxfg7s7"}
+{"time":"2025-03-27T18:06:46.74706004+05:30","level":"INFO","msg":"stream: closed","id":"laxfg7s7"}

@@ -2,7 +2,7 @@ import gym
 import numpy as np
 import random
 
-def train_sarsa(epsilon, alpha, episode=1000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
+def train_sarsa(epsilon, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
     """
     Runs SARSA with epsilon-greedy exploration on the MountainCar-v0 environment.
     Returns the all-time average mean reward across episodes.

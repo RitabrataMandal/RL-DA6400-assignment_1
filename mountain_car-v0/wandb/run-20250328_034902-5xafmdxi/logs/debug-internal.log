@@ -1,0 +1,16 @@
+{"time":"2025-03-28T03:49:02.718515147+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_034902-5xafmdxi/logs/debug-core.log"}
+{"time":"2025-03-28T03:49:02.820370577+05:30","level":"INFO","msg":"created new stream","id":"5xafmdxi"}
+{"time":"2025-03-28T03:49:02.820408107+05:30","level":"INFO","msg":"stream: started","id":"5xafmdxi"}
+{"time":"2025-03-28T03:49:02.820427125+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:49:02.820440636+05:30","level":"INFO","msg":"sender: started","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:49:02.820447336+05:30","level":"INFO","msg":"handler: started","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:49:03.153890562+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T03:52:11.2221132+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T03:52:11.222392412+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T03:52:12.224279697+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.417318157,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.41730187,"progress":"186B/186B"},{"desc":"uploading config.yaml","runtime_seconds":0.137186117,"progress":"502B/502B"}],"total_operations":3}}
+{"time":"2025-03-28T03:52:12.53622962+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T03:52:12.843453829+05:30","level":"INFO","msg":"stream: closing","id":"5xafmdxi"}
+{"time":"2025-03-28T03:52:12.843472772+05:30","level":"INFO","msg":"handler: closed","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:52:12.843479734+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:52:12.843485465+05:30","level":"INFO","msg":"sender: closed","stream_id":"5xafmdxi"}
+{"time":"2025-03-28T03:52:12.843518235+05:30","level":"INFO","msg":"stream: closed","id":"5xafmdxi"}

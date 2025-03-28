@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:25:44.243792005+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_232544-p6m9a8tp/logs/debug-core.log"}
+{"time":"2025-03-27T23:25:44.347945557+05:30","level":"INFO","msg":"created new stream","id":"p6m9a8tp"}
+{"time":"2025-03-27T23:25:44.348039786+05:30","level":"INFO","msg":"stream: started","id":"p6m9a8tp"}
+{"time":"2025-03-27T23:25:44.348129565+05:30","level":"INFO","msg":"handler: started","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:25:44.348128289+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:25:44.348200524+05:30","level":"INFO","msg":"sender: started","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:25:44.737562676+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:26:39.295764669+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:26:39.296125424+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:26:40.297629183+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.159485658,"progress":"367.3KB/367.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.159468394,"progress":"173B/173B"}],"total_operations":2}}
+{"time":"2025-03-27T23:26:41.602420042+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:26:42.03198324+05:30","level":"INFO","msg":"stream: closing","id":"p6m9a8tp"}
+{"time":"2025-03-27T23:26:42.03206353+05:30","level":"INFO","msg":"handler: closed","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:26:42.032097936+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:26:42.032133719+05:30","level":"INFO","msg":"sender: closed","stream_id":"p6m9a8tp"}
+{"time":"2025-03-27T23:26:42.032256706+05:30","level":"INFO","msg":"stream: closed","id":"p6m9a8tp"}

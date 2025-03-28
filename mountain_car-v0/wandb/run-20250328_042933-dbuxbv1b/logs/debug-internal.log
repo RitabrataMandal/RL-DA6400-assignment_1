@@ -1,0 +1,16 @@
+{"time":"2025-03-28T04:29:33.35933211+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_042933-dbuxbv1b/logs/debug-core.log"}
+{"time":"2025-03-28T04:29:33.461305938+05:30","level":"INFO","msg":"created new stream","id":"dbuxbv1b"}
+{"time":"2025-03-28T04:29:33.461333526+05:30","level":"INFO","msg":"stream: started","id":"dbuxbv1b"}
+{"time":"2025-03-28T04:29:33.461346883+05:30","level":"INFO","msg":"sender: started","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:29:33.461342291+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:29:33.461356927+05:30","level":"INFO","msg":"handler: started","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:29:33.836543103+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T04:32:28.837196579+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T04:32:28.837630874+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T04:32:29.796484852+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.338747911,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.338727601,"progress":"184B/184B"},{"desc":"uploading config.yaml","runtime_seconds":0.039583071,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-28T04:32:30.808100248+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T04:32:31.117690852+05:30","level":"INFO","msg":"stream: closing","id":"dbuxbv1b"}
+{"time":"2025-03-28T04:32:31.117704928+05:30","level":"INFO","msg":"handler: closed","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:32:31.117713669+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:32:31.117767953+05:30","level":"INFO","msg":"sender: closed","stream_id":"dbuxbv1b"}
+{"time":"2025-03-28T04:32:31.117776371+05:30","level":"INFO","msg":"stream: closed","id":"dbuxbv1b"}

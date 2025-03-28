@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:40:27.127525492+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_234027-j8x1ak00/logs/debug-core.log"}
+{"time":"2025-03-27T23:40:27.231540122+05:30","level":"INFO","msg":"created new stream","id":"j8x1ak00"}
+{"time":"2025-03-27T23:40:27.231646073+05:30","level":"INFO","msg":"stream: started","id":"j8x1ak00"}
+{"time":"2025-03-27T23:40:27.231741775+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:40:27.231758505+05:30","level":"INFO","msg":"sender: started","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:40:27.231860594+05:30","level":"INFO","msg":"handler: started","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:40:27.588873532+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:41:06.614971719+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:41:06.615445316+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:41:07.617236769+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":39.72401968,"progress":"928B/928B"},{"desc":"uploading requirements.txt","runtime_seconds":39.569267785,"progress":"4.6KB/4.6KB"},{"desc":"uploading output.log","runtime_seconds":0.401362315,"progress":"361.9KB/361.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.401334634,"progress":"174B/174B"},{"desc":"uploading config.yaml","runtime_seconds":0.103917395,"progress":"500B/500B"}],"total_operations":5}}
+{"time":"2025-03-27T23:41:09.264747018+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:41:09.758192735+05:30","level":"INFO","msg":"stream: closing","id":"j8x1ak00"}
+{"time":"2025-03-27T23:41:09.758246256+05:30","level":"INFO","msg":"handler: closed","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:41:09.7582783+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:41:09.758299218+05:30","level":"INFO","msg":"sender: closed","stream_id":"j8x1ak00"}
+{"time":"2025-03-27T23:41:09.758481976+05:30","level":"INFO","msg":"stream: closed","id":"j8x1ak00"}

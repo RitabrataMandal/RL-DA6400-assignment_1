@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:39:22.507267668+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_233922-2xl78326/logs/debug-core.log"}
+{"time":"2025-03-27T23:39:22.611149059+05:30","level":"INFO","msg":"created new stream","id":"2xl78326"}
+{"time":"2025-03-27T23:39:22.611222371+05:30","level":"INFO","msg":"stream: started","id":"2xl78326"}
+{"time":"2025-03-27T23:39:22.611284074+05:30","level":"INFO","msg":"handler: started","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:39:22.611281026+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:39:22.611321687+05:30","level":"INFO","msg":"sender: started","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:39:23.04760233+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:40:19.770353824+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:40:19.770687639+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:40:20.772308681+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.394645661,"progress":"368.0KB/368.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.394630654,"progress":"174B/174B"},{"desc":"uploading config.yaml","runtime_seconds":0.089077062,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-27T23:40:23.062637116+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:40:23.383819558+05:30","level":"INFO","msg":"stream: closing","id":"2xl78326"}
+{"time":"2025-03-27T23:40:23.383863638+05:30","level":"INFO","msg":"handler: closed","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:40:23.383903799+05:30","level":"INFO","msg":"sender: closed","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:40:23.383894889+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2xl78326"}
+{"time":"2025-03-27T23:40:23.384087706+05:30","level":"INFO","msg":"stream: closed","id":"2xl78326"}

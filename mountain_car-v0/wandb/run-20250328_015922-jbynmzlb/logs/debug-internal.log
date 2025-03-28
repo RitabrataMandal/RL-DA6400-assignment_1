@@ -1,0 +1,17 @@
+{"time":"2025-03-28T01:59:22.891867199+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_015922-jbynmzlb/logs/debug-core.log"}
+{"time":"2025-03-28T01:59:22.994868455+05:30","level":"INFO","msg":"created new stream","id":"jbynmzlb"}
+{"time":"2025-03-28T01:59:22.994896488+05:30","level":"INFO","msg":"stream: started","id":"jbynmzlb"}
+{"time":"2025-03-28T01:59:22.994940398+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T01:59:22.994941342+05:30","level":"INFO","msg":"handler: started","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T01:59:22.994977566+05:30","level":"INFO","msg":"sender: started","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T01:59:23.318896282+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:00:39.084677435+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-28T02:00:45.312964988+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:00:45.31337068+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:00:46.27356663+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.330714001,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.330686279,"progress":"178B/178B"}],"total_operations":2}}
+{"time":"2025-03-28T02:00:47.329309783+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:00:47.650452227+05:30","level":"INFO","msg":"stream: closing","id":"jbynmzlb"}
+{"time":"2025-03-28T02:00:47.650505673+05:30","level":"INFO","msg":"handler: closed","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T02:00:47.650549782+05:30","level":"INFO","msg":"sender: closed","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T02:00:47.650536735+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jbynmzlb"}
+{"time":"2025-03-28T02:00:47.650666982+05:30","level":"INFO","msg":"stream: closed","id":"jbynmzlb"}

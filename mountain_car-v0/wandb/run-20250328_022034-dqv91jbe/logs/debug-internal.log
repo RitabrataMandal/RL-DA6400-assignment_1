@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:20:34.884197681+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_022034-dqv91jbe/logs/debug-core.log"}
+{"time":"2025-03-28T02:20:34.986692342+05:30","level":"INFO","msg":"created new stream","id":"dqv91jbe"}
+{"time":"2025-03-28T02:20:34.986742259+05:30","level":"INFO","msg":"stream: started","id":"dqv91jbe"}
+{"time":"2025-03-28T02:20:34.986768229+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:20:34.986793061+05:30","level":"INFO","msg":"handler: started","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:20:34.986823349+05:30","level":"INFO","msg":"sender: started","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:20:35.561112274+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:21:51.6369128+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:21:51.63737813+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:21:52.597840248+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.33315105,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.333134405,"progress":"180B/180B"},{"desc":"uploading config.yaml","runtime_seconds":0.034790701,"progress":"499B/499B"}],"total_operations":3}}
+{"time":"2025-03-28T02:21:53.575647535+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:21:53.902237879+05:30","level":"INFO","msg":"stream: closing","id":"dqv91jbe"}
+{"time":"2025-03-28T02:21:53.902288033+05:30","level":"INFO","msg":"handler: closed","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:21:53.902332555+05:30","level":"INFO","msg":"sender: closed","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:21:53.902317742+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dqv91jbe"}
+{"time":"2025-03-28T02:21:53.902448216+05:30","level":"INFO","msg":"stream: closed","id":"dqv91jbe"}

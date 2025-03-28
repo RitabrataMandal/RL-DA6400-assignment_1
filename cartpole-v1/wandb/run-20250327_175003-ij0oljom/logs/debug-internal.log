@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:50:03.537856839+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175003-ij0oljom/logs/debug-core.log"}
+{"time":"2025-03-27T17:50:03.641790657+05:30","level":"INFO","msg":"created new stream","id":"ij0oljom"}
+{"time":"2025-03-27T17:50:03.641891896+05:30","level":"INFO","msg":"stream: started","id":"ij0oljom"}
+{"time":"2025-03-27T17:50:03.641935067+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:03.641954806+05:30","level":"INFO","msg":"handler: started","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:03.642032529+05:30","level":"INFO","msg":"sender: started","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:04.015846919+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:50:46.207447649+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:50:46.207842451+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:50:47.209635588+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.213160484,"progress":"180B/180B"},{"desc":"uploading output.log","runtime_seconds":0.213135523,"progress":"379.2KB/379.2KB"}],"total_operations":2}}
+{"time":"2025-03-27T17:50:48.458122442+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:50:48.836487241+05:30","level":"INFO","msg":"stream: closing","id":"ij0oljom"}
+{"time":"2025-03-27T17:50:48.836534275+05:30","level":"INFO","msg":"handler: closed","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:48.83654907+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:48.836618815+05:30","level":"INFO","msg":"sender: closed","stream_id":"ij0oljom"}
+{"time":"2025-03-27T17:50:48.836649405+05:30","level":"INFO","msg":"stream: closed","id":"ij0oljom"}

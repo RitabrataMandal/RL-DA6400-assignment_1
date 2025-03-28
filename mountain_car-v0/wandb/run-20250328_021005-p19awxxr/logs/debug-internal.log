@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:10:05.961838319+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_021005-p19awxxr/logs/debug-core.log"}
+{"time":"2025-03-28T02:10:06.066066739+05:30","level":"INFO","msg":"created new stream","id":"p19awxxr"}
+{"time":"2025-03-28T02:10:06.06616164+05:30","level":"INFO","msg":"stream: started","id":"p19awxxr"}
+{"time":"2025-03-28T02:10:06.066235706+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:10:06.066261436+05:30","level":"INFO","msg":"handler: started","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:10:06.066315686+05:30","level":"INFO","msg":"sender: started","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:10:06.443535832+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:11:50.893100165+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:11:50.894011037+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:11:51.852479153+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.350690489,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.350670393,"progress":"182B/182B"},{"desc":"uploading config.yaml","runtime_seconds":0.000702403,"progress":"497B/497B"}],"total_operations":3}}
+{"time":"2025-03-28T02:11:53.018243269+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:11:53.323059404+05:30","level":"INFO","msg":"stream: closing","id":"p19awxxr"}
+{"time":"2025-03-28T02:11:53.323108263+05:30","level":"INFO","msg":"handler: closed","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:11:53.323129107+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:11:53.323161611+05:30","level":"INFO","msg":"sender: closed","stream_id":"p19awxxr"}
+{"time":"2025-03-28T02:11:53.323248601+05:30","level":"INFO","msg":"stream: closed","id":"p19awxxr"}

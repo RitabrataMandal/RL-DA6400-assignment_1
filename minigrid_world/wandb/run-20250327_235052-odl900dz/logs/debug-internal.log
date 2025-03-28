@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:50:52.881894369+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_235052-odl900dz/logs/debug-core.log"}
+{"time":"2025-03-27T23:50:52.985980701+05:30","level":"INFO","msg":"created new stream","id":"odl900dz"}
+{"time":"2025-03-27T23:50:52.986087845+05:30","level":"INFO","msg":"stream: started","id":"odl900dz"}
+{"time":"2025-03-27T23:50:52.986168386+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:50:52.986182243+05:30","level":"INFO","msg":"handler: started","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:50:52.986256655+05:30","level":"INFO","msg":"sender: started","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:50:53.587605713+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:51:24.211789714+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:51:24.212453458+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:51:25.21391453+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.384183755,"progress":"360.1KB/360.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.384160753,"progress":"175B/175B"},{"desc":"uploading config.yaml","runtime_seconds":0.090503485,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-27T23:51:26.285049988+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:51:26.573567402+05:30","level":"INFO","msg":"stream: closing","id":"odl900dz"}
+{"time":"2025-03-27T23:51:26.573614116+05:30","level":"INFO","msg":"handler: closed","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:51:26.573648723+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:51:26.573841602+05:30","level":"INFO","msg":"sender: closed","stream_id":"odl900dz"}
+{"time":"2025-03-27T23:51:26.573878539+05:30","level":"INFO","msg":"stream: closed","id":"odl900dz"}

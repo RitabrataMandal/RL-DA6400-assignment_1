@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:27:40.523314339+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_022740-okwoosxf/logs/debug-core.log"}
+{"time":"2025-03-28T02:27:40.628549143+05:30","level":"INFO","msg":"created new stream","id":"okwoosxf"}
+{"time":"2025-03-28T02:27:40.628639692+05:30","level":"INFO","msg":"stream: started","id":"okwoosxf"}
+{"time":"2025-03-28T02:27:40.628671745+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:27:40.628768744+05:30","level":"INFO","msg":"sender: started","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:27:40.628820973+05:30","level":"INFO","msg":"handler: started","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:27:41.030475055+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:28:59.042709215+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:28:59.043071818+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:29:00.044758075+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.393771,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.093675648,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-28T02:29:00.99257282+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:29:01.305585716+05:30","level":"INFO","msg":"stream: closing","id":"okwoosxf"}
+{"time":"2025-03-28T02:29:01.305628214+05:30","level":"INFO","msg":"handler: closed","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:29:01.30565569+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:29:01.305673758+05:30","level":"INFO","msg":"sender: closed","stream_id":"okwoosxf"}
+{"time":"2025-03-28T02:29:01.305809896+05:30","level":"INFO","msg":"stream: closed","id":"okwoosxf"}

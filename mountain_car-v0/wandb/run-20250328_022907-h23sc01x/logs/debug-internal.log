@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:29:07.064141229+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_022907-h23sc01x/logs/debug-core.log"}
+{"time":"2025-03-28T02:29:07.166753345+05:30","level":"INFO","msg":"created new stream","id":"h23sc01x"}
+{"time":"2025-03-28T02:29:07.166779901+05:30","level":"INFO","msg":"stream: started","id":"h23sc01x"}
+{"time":"2025-03-28T02:29:07.166806996+05:30","level":"INFO","msg":"handler: started","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:29:07.166808406+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:29:07.166824585+05:30","level":"INFO","msg":"sender: started","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:29:07.518174716+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:30:32.033327183+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:30:32.034161727+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:30:32.991587984+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.328753837,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.328736601,"progress":"180B/180B"},{"desc":"uploading config.yaml","runtime_seconds":0.00558789,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-28T02:30:33.350337074+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:30:33.718502592+05:30","level":"INFO","msg":"stream: closing","id":"h23sc01x"}
+{"time":"2025-03-28T02:30:33.718552328+05:30","level":"INFO","msg":"handler: closed","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:30:33.718579796+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:30:33.718594423+05:30","level":"INFO","msg":"sender: closed","stream_id":"h23sc01x"}
+{"time":"2025-03-28T02:30:33.718730706+05:30","level":"INFO","msg":"stream: closed","id":"h23sc01x"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:46:30.90526002+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_234630-znake5yz/logs/debug-core.log"}
+{"time":"2025-03-27T23:46:31.00886021+05:30","level":"INFO","msg":"created new stream","id":"znake5yz"}
+{"time":"2025-03-27T23:46:31.008937195+05:30","level":"INFO","msg":"stream: started","id":"znake5yz"}
+{"time":"2025-03-27T23:46:31.009154054+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:46:31.009815253+05:30","level":"INFO","msg":"handler: started","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:46:31.009845004+05:30","level":"INFO","msg":"sender: started","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:46:31.441221693+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:47:13.671767891+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:47:13.672154016+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:47:14.673649533+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.311381751,"progress":"361.6KB/361.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.311360557,"progress":"182B/182B"}],"total_operations":2}}
+{"time":"2025-03-27T23:47:15.849697221+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:47:16.186765082+05:30","level":"INFO","msg":"stream: closing","id":"znake5yz"}
+{"time":"2025-03-27T23:47:16.186800295+05:30","level":"INFO","msg":"handler: closed","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:47:16.186820325+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:47:16.186849315+05:30","level":"INFO","msg":"sender: closed","stream_id":"znake5yz"}
+{"time":"2025-03-27T23:47:16.186973302+05:30","level":"INFO","msg":"stream: closed","id":"znake5yz"}

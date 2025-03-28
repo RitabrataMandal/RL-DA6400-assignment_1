@@ -1,0 +1,16 @@
+{"time":"2025-03-28T02:49:46.094330311+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_024946-61kgjiug/logs/debug-core.log"}
+{"time":"2025-03-28T02:49:46.197177847+05:30","level":"INFO","msg":"created new stream","id":"61kgjiug"}
+{"time":"2025-03-28T02:49:46.197209146+05:30","level":"INFO","msg":"stream: started","id":"61kgjiug"}
+{"time":"2025-03-28T02:49:46.197223381+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:49:46.197230952+05:30","level":"INFO","msg":"sender: started","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:49:46.197244919+05:30","level":"INFO","msg":"handler: started","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:49:46.548400109+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T02:51:09.125117996+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T02:51:09.125845174+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T02:51:10.086896962+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.352276891,"progress":"178B/178B"},{"desc":"uploading output.log","runtime_seconds":0.352262265,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.076919897,"progress":"496B/496B"}],"total_operations":3}}
+{"time":"2025-03-28T02:51:11.061707387+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T02:51:11.38137066+05:30","level":"INFO","msg":"stream: closing","id":"61kgjiug"}
+{"time":"2025-03-28T02:51:11.381417791+05:30","level":"INFO","msg":"handler: closed","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:51:11.381439597+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:51:11.381471491+05:30","level":"INFO","msg":"sender: closed","stream_id":"61kgjiug"}
+{"time":"2025-03-28T02:51:11.381561301+05:30","level":"INFO","msg":"stream: closed","id":"61kgjiug"}

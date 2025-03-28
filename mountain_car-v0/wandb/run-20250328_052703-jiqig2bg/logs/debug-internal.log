@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:27:03.097679209+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_052703-jiqig2bg/logs/debug-core.log"}
+{"time":"2025-03-28T05:27:03.204200432+05:30","level":"INFO","msg":"created new stream","id":"jiqig2bg"}
+{"time":"2025-03-28T05:27:03.204243875+05:30","level":"INFO","msg":"stream: started","id":"jiqig2bg"}
+{"time":"2025-03-28T05:27:03.204263425+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:27:03.204267812+05:30","level":"INFO","msg":"handler: started","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:27:03.204339869+05:30","level":"INFO","msg":"sender: started","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:27:03.550225675+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:30:45.497177633+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:30:45.49766432+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:30:46.45692501+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.315616716,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.315595575,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.01341376,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-28T05:30:47.464215401+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:30:47.789016678+05:30","level":"INFO","msg":"stream: closing","id":"jiqig2bg"}
+{"time":"2025-03-28T05:30:47.789041845+05:30","level":"INFO","msg":"handler: closed","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:30:47.789055165+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:30:47.78906307+05:30","level":"INFO","msg":"sender: closed","stream_id":"jiqig2bg"}
+{"time":"2025-03-28T05:30:47.789132385+05:30","level":"INFO","msg":"stream: closed","id":"jiqig2bg"}

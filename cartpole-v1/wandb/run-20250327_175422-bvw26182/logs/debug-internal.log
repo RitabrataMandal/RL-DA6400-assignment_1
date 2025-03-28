@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:54:22.044213513+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175422-bvw26182/logs/debug-core.log"}
+{"time":"2025-03-27T17:54:22.14819199+05:30","level":"INFO","msg":"created new stream","id":"bvw26182"}
+{"time":"2025-03-27T17:54:22.148284618+05:30","level":"INFO","msg":"stream: started","id":"bvw26182"}
+{"time":"2025-03-27T17:54:22.148333903+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:54:22.14836664+05:30","level":"INFO","msg":"sender: started","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:54:22.148465791+05:30","level":"INFO","msg":"handler: started","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:54:22.525023357+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:55:00.522555045+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:55:00.522882288+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:55:01.524893138+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.357217874,"progress":"378.6KB/378.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.357193179,"progress":"171B/171B"},{"desc":"uploading config.yaml","runtime_seconds":0.01511024,"progress":"498B/498B"}],"total_operations":3}}
+{"time":"2025-03-27T17:55:02.666379417+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:55:03.07486259+05:30","level":"INFO","msg":"stream: closing","id":"bvw26182"}
+{"time":"2025-03-27T17:55:03.074907638+05:30","level":"INFO","msg":"handler: closed","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:55:03.074946641+05:30","level":"INFO","msg":"sender: closed","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:55:03.07493177+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bvw26182"}
+{"time":"2025-03-27T17:55:03.075094949+05:30","level":"INFO","msg":"stream: closed","id":"bvw26182"}

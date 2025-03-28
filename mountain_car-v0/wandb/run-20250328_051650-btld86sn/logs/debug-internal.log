@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:16:50.31095553+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_051650-btld86sn/logs/debug-core.log"}
+{"time":"2025-03-28T05:16:50.415335617+05:30","level":"INFO","msg":"created new stream","id":"btld86sn"}
+{"time":"2025-03-28T05:16:50.415452456+05:30","level":"INFO","msg":"stream: started","id":"btld86sn"}
+{"time":"2025-03-28T05:16:50.415531322+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:16:50.415552347+05:30","level":"INFO","msg":"handler: started","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:16:50.415673372+05:30","level":"INFO","msg":"sender: started","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:16:51.008662426+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:20:01.585190504+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:20:01.585626835+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:20:02.544487262+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.327557142,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.327550794,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.053123486,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T05:20:03.721639147+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:20:04.002966532+05:30","level":"INFO","msg":"stream: closing","id":"btld86sn"}
+{"time":"2025-03-28T05:20:04.002994958+05:30","level":"INFO","msg":"handler: closed","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:20:04.00300249+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:20:04.003014762+05:30","level":"INFO","msg":"sender: closed","stream_id":"btld86sn"}
+{"time":"2025-03-28T05:20:04.003047566+05:30","level":"INFO","msg":"stream: closed","id":"btld86sn"}

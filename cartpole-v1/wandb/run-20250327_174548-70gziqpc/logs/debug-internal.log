@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:45:48.802314299+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_174548-70gziqpc/logs/debug-core.log"}
+{"time":"2025-03-27T17:45:48.906160995+05:30","level":"INFO","msg":"created new stream","id":"70gziqpc"}
+{"time":"2025-03-27T17:45:48.906223807+05:30","level":"INFO","msg":"stream: started","id":"70gziqpc"}
+{"time":"2025-03-27T17:45:48.906310209+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:45:48.90635102+05:30","level":"INFO","msg":"sender: started","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:45:48.906392872+05:30","level":"INFO","msg":"handler: started","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:45:49.292538967+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:46:20.313221187+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:46:20.313616531+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:46:21.316710127+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.397103199,"progress":"377.7KB/377.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.083403266,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-27T17:46:22.556100926+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:46:22.879070431+05:30","level":"INFO","msg":"stream: closing","id":"70gziqpc"}
+{"time":"2025-03-27T17:46:22.879121625+05:30","level":"INFO","msg":"handler: closed","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:46:22.879155441+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:46:22.879184027+05:30","level":"INFO","msg":"sender: closed","stream_id":"70gziqpc"}
+{"time":"2025-03-27T17:46:22.879317433+05:30","level":"INFO","msg":"stream: closed","id":"70gziqpc"}

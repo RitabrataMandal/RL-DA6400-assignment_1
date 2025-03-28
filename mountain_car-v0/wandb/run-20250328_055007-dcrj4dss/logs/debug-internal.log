@@ -1,0 +1,16 @@
+{"time":"2025-03-28T05:50:07.868096013+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_055007-dcrj4dss/logs/debug-core.log"}
+{"time":"2025-03-28T05:50:07.970303893+05:30","level":"INFO","msg":"created new stream","id":"dcrj4dss"}
+{"time":"2025-03-28T05:50:07.970329866+05:30","level":"INFO","msg":"stream: started","id":"dcrj4dss"}
+{"time":"2025-03-28T05:50:07.970343869+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:50:07.970345953+05:30","level":"INFO","msg":"handler: started","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:50:07.970371416+05:30","level":"INFO","msg":"sender: started","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:50:08.349261758+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T05:53:18.05301537+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T05:53:18.053433741+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T05:53:19.01480548+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.367788254,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.073381743,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-28T05:53:20.260606328+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T05:53:20.558391189+05:30","level":"INFO","msg":"stream: closing","id":"dcrj4dss"}
+{"time":"2025-03-28T05:53:20.558436326+05:30","level":"INFO","msg":"handler: closed","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:53:20.558469307+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:53:20.558497966+05:30","level":"INFO","msg":"sender: closed","stream_id":"dcrj4dss"}
+{"time":"2025-03-28T05:53:20.558638015+05:30","level":"INFO","msg":"stream: closed","id":"dcrj4dss"}

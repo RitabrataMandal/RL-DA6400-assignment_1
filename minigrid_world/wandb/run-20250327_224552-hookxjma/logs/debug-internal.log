@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:45:52.688740949+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_224552-hookxjma/logs/debug-core.log"}
+{"time":"2025-03-27T22:45:52.791466014+05:30","level":"INFO","msg":"created new stream","id":"hookxjma"}
+{"time":"2025-03-27T22:45:52.791521313+05:30","level":"INFO","msg":"stream: started","id":"hookxjma"}
+{"time":"2025-03-27T22:45:52.791540134+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:45:52.791574477+05:30","level":"INFO","msg":"handler: started","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:45:52.791619626+05:30","level":"INFO","msg":"sender: started","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:45:53.165205281+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:46:37.771838866+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:46:37.772206045+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:46:38.77383903+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.413400926,"progress":"378.5KB/378.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.093303381,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-27T22:46:40.007737708+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:46:40.330291558+05:30","level":"INFO","msg":"stream: closing","id":"hookxjma"}
+{"time":"2025-03-27T22:46:40.330330438+05:30","level":"INFO","msg":"handler: closed","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:46:40.330353779+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:46:40.330387895+05:30","level":"INFO","msg":"sender: closed","stream_id":"hookxjma"}
+{"time":"2025-03-27T22:46:40.33049288+05:30","level":"INFO","msg":"stream: closed","id":"hookxjma"}

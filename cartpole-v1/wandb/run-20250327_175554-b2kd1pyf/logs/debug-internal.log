@@ -1,0 +1,16 @@
+{"time":"2025-03-27T17:55:54.503192277+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250327_175554-b2kd1pyf/logs/debug-core.log"}
+{"time":"2025-03-27T17:55:54.607097708+05:30","level":"INFO","msg":"created new stream","id":"b2kd1pyf"}
+{"time":"2025-03-27T17:55:54.60716675+05:30","level":"INFO","msg":"stream: started","id":"b2kd1pyf"}
+{"time":"2025-03-27T17:55:54.6072096+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:55:54.607268187+05:30","level":"INFO","msg":"handler: started","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:55:54.607341369+05:30","level":"INFO","msg":"sender: started","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:55:55.021296895+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T17:56:37.377995079+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T17:56:37.378395508+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T17:56:38.379839736+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.397747479,"progress":"379.4KB/379.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.004012401,"progress":"497B/497B"}],"total_operations":2}}
+{"time":"2025-03-27T17:56:39.608841379+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T17:56:39.948116689+05:30","level":"INFO","msg":"stream: closing","id":"b2kd1pyf"}
+{"time":"2025-03-27T17:56:39.948167019+05:30","level":"INFO","msg":"handler: closed","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:56:39.948199088+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:56:39.948216212+05:30","level":"INFO","msg":"sender: closed","stream_id":"b2kd1pyf"}
+{"time":"2025-03-27T17:56:39.948369058+05:30","level":"INFO","msg":"stream: closed","id":"b2kd1pyf"}

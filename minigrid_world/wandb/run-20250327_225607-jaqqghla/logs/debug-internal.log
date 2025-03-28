@@ -1,0 +1,16 @@
+{"time":"2025-03-27T22:56:07.688938235+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_225607-jaqqghla/logs/debug-core.log"}
+{"time":"2025-03-27T22:56:07.791577931+05:30","level":"INFO","msg":"created new stream","id":"jaqqghla"}
+{"time":"2025-03-27T22:56:07.791604526+05:30","level":"INFO","msg":"stream: started","id":"jaqqghla"}
+{"time":"2025-03-27T22:56:07.791654489+05:30","level":"INFO","msg":"handler: started","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:07.791656126+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:07.79168264+05:30","level":"INFO","msg":"sender: started","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:08.156171129+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T22:56:54.333487325+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T22:56:54.333924348+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T22:56:55.335897782+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.684607391},{"desc":"uploading output.log","runtime_seconds":0.379589289,"progress":"378.8KB/378.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.379560168,"progress":"181B/181B"}],"total_operations":3}}
+{"time":"2025-03-27T22:56:58.965376788+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T22:56:59.302936212+05:30","level":"INFO","msg":"stream: closing","id":"jaqqghla"}
+{"time":"2025-03-27T22:56:59.303023861+05:30","level":"INFO","msg":"handler: closed","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:59.303058653+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:59.303119253+05:30","level":"INFO","msg":"sender: closed","stream_id":"jaqqghla"}
+{"time":"2025-03-27T22:56:59.30326283+05:30","level":"INFO","msg":"stream: closed","id":"jaqqghla"}

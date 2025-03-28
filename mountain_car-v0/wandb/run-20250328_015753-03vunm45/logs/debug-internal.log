@@ -1,0 +1,16 @@
+{"time":"2025-03-28T01:57:53.934316605+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_015753-03vunm45/logs/debug-core.log"}
+{"time":"2025-03-28T01:57:54.037235956+05:30","level":"INFO","msg":"created new stream","id":"03vunm45"}
+{"time":"2025-03-28T01:57:54.037269706+05:30","level":"INFO","msg":"stream: started","id":"03vunm45"}
+{"time":"2025-03-28T01:57:54.037288522+05:30","level":"INFO","msg":"handler: started","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:57:54.037294043+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:57:54.037317706+05:30","level":"INFO","msg":"sender: started","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:57:54.385451192+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T01:59:16.872970462+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T01:59:16.873478691+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T01:59:17.831261839+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.36467367,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.066678221,"progress":"498B/498B"}],"total_operations":2}}
+{"time":"2025-03-28T01:59:18.817891583+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T01:59:19.124465361+05:30","level":"INFO","msg":"stream: closing","id":"03vunm45"}
+{"time":"2025-03-28T01:59:19.124476681+05:30","level":"INFO","msg":"handler: closed","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:59:19.124486027+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:59:19.124493914+05:30","level":"INFO","msg":"sender: closed","stream_id":"03vunm45"}
+{"time":"2025-03-28T01:59:19.124521947+05:30","level":"INFO","msg":"stream: closed","id":"03vunm45"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T03:45:52.285343813+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_034552-pbgwn1zj/logs/debug-core.log"}
+{"time":"2025-03-28T03:45:52.389632535+05:30","level":"INFO","msg":"created new stream","id":"pbgwn1zj"}
+{"time":"2025-03-28T03:45:52.389740834+05:30","level":"INFO","msg":"stream: started","id":"pbgwn1zj"}
+{"time":"2025-03-28T03:45:52.389769311+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:45:52.389829186+05:30","level":"INFO","msg":"sender: started","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:45:52.389848232+05:30","level":"INFO","msg":"handler: started","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:45:52.737433436+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T03:48:49.277068962+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T03:48:49.277849041+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T03:48:50.237430601+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.366952164,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.366934748,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.089902005,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T03:48:51.357418468+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T03:48:51.696945613+05:30","level":"INFO","msg":"stream: closing","id":"pbgwn1zj"}
+{"time":"2025-03-28T03:48:51.696997191+05:30","level":"INFO","msg":"handler: closed","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:48:51.69702504+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:48:51.697042521+05:30","level":"INFO","msg":"sender: closed","stream_id":"pbgwn1zj"}
+{"time":"2025-03-28T03:48:51.69718278+05:30","level":"INFO","msg":"stream: closed","id":"pbgwn1zj"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T04:43:12.167135661+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/mountain_car-v0/wandb/run-20250328_044312-ssk678r1/logs/debug-core.log"}
+{"time":"2025-03-28T04:43:12.271451782+05:30","level":"INFO","msg":"created new stream","id":"ssk678r1"}
+{"time":"2025-03-28T04:43:12.271513284+05:30","level":"INFO","msg":"stream: started","id":"ssk678r1"}
+{"time":"2025-03-28T04:43:12.271587434+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:43:12.271598068+05:30","level":"INFO","msg":"sender: started","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:43:12.27164194+05:30","level":"INFO","msg":"handler: started","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:43:12.677247187+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T04:46:12.268989636+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T04:46:12.269372781+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T04:46:13.230804886+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.351129059,"progress":"243B/243B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.351112152,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.064916603,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T04:46:14.227512368+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T04:46:14.521198692+05:30","level":"INFO","msg":"stream: closing","id":"ssk678r1"}
+{"time":"2025-03-28T04:46:14.521211424+05:30","level":"INFO","msg":"handler: closed","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:46:14.521219972+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:46:14.521270418+05:30","level":"INFO","msg":"sender: closed","stream_id":"ssk678r1"}
+{"time":"2025-03-28T04:46:14.521277936+05:30","level":"INFO","msg":"stream: closed","id":"ssk678r1"}

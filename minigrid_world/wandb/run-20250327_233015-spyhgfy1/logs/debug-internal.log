@@ -1,0 +1,16 @@
+{"time":"2025-03-27T23:30:15.987876095+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250327_233015-spyhgfy1/logs/debug-core.log"}
+{"time":"2025-03-27T23:30:16.092053176+05:30","level":"INFO","msg":"created new stream","id":"spyhgfy1"}
+{"time":"2025-03-27T23:30:16.092131717+05:30","level":"INFO","msg":"stream: started","id":"spyhgfy1"}
+{"time":"2025-03-27T23:30:16.092225813+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:30:16.092241445+05:30","level":"INFO","msg":"handler: started","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:30:16.092242504+05:30","level":"INFO","msg":"sender: started","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:30:16.518189108+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-27T23:31:16.43979524+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-27T23:31:16.440184881+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-27T23:31:17.441900596+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 7703-10001","runtime_seconds":0.18649567},{"desc":"uploading output.log","runtime_seconds":0.184701387,"progress":"366.4KB/366.4KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.184684614,"progress":"174B/174B"}],"total_operations":3}}
+{"time":"2025-03-27T23:31:19.628367994+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-27T23:31:20.004757174+05:30","level":"INFO","msg":"stream: closing","id":"spyhgfy1"}
+{"time":"2025-03-27T23:31:20.004818045+05:30","level":"INFO","msg":"handler: closed","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:31:20.004850579+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:31:20.004868886+05:30","level":"INFO","msg":"sender: closed","stream_id":"spyhgfy1"}
+{"time":"2025-03-27T23:31:20.005066466+05:30","level":"INFO","msg":"stream: closed","id":"spyhgfy1"}

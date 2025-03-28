@@ -1,0 +1,10 @@
+{"time":"2025-03-28T15:46:26.044424813+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/minigrid_world/wandb/run-20250328_154626-jqy4aohz/logs/debug-core.log"}
+{"time":"2025-03-28T15:46:26.148492475+05:30","level":"INFO","msg":"created new stream","id":"jqy4aohz"}
+{"time":"2025-03-28T15:46:26.148551918+05:30","level":"INFO","msg":"stream: started","id":"jqy4aohz"}
+{"time":"2025-03-28T15:46:26.148622439+05:30","level":"INFO","msg":"handler: started","stream_id":"jqy4aohz"}
+{"time":"2025-03-28T15:46:26.148630337+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jqy4aohz"}
+{"time":"2025-03-28T15:46:26.148694409+05:30","level":"INFO","msg":"sender: started","stream_id":"jqy4aohz"}
+{"time":"2025-03-28T15:46:26.536928485+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T15:47:23.686737137+05:30","level":"INFO","msg":"stream: closing","id":"jqy4aohz"}
+{"time":"2025-03-28T15:47:23.686783023+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T15:47:23.687357888+05:30","level":"INFO","msg":"Stopped system monitor"}

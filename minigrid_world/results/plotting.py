@@ -5,23 +5,23 @@ import re
 import os
 
 episode =2000
-alpha1=0.2107
-alpha2=0.12801
-temp1 =0.1
-temp2=0.1
+alpha1=0.11349
+alpha2=0.10321
+temp1 =0.5035
+temp2=0.50503
 epsilon1=0.024791
 epsilon2=0.022713
-# file1=f"qlearn_softmax_alpha_{alpha1}_temp_{temp1}_episode_{episode}.npy"
-# file2=f"qlearn_softmax_alpha_{alpha2}_temp_{temp2}_episode_{episode}.npy"
-file3=f"sarsa_alpha_{alpha1}_epsilon_{epsilon1}_episodes_{episode}.npy"
-file4=f"sarsa_alpha_{alpha2}_epsilon_{epsilon2}_episodes_{episode}.npy"
+file1=f"q_learning_softmax_alpha_{alpha1}_tau_{temp1}_episodes_{episode}.npy"
+file2=f"q_learning_softmax_alpha_{alpha2}_tau_{temp2}_episodes_{episode}.npy"
+# file3=f"sarsa_alpha_{alpha1}_epsilon_{epsilon1}_episodes_{episode}.npy"
+# file4=f"sarsa_alpha_{alpha2}_epsilon_{epsilon2}_episodes_{episode}.npy"
 
 # Load the saved mean and variance rewards
-# data1 = load(os.path.join("results", file1 ), allow_pickle=True).item()
-# data2 = load(os.path.join("results", file2), allow_pickle=True).item()
+data1 = load(os.path.join("results", file1 ), allow_pickle=True).item()
+data2 = load(os.path.join("results", file2), allow_pickle=True).item()
 
-data1 = load(os.path.join("results",file3), allow_pickle=True).item()
-data2 = load(os.path.join("results", file4), allow_pickle=True).item()
+# data1 = load(os.path.join("results",file3), allow_pickle=True).item()
+# data2 = load(os.path.join("results", file4), allow_pickle=True).item()
 
 
 
@@ -46,11 +46,11 @@ smoothed_variance2 = moving_average(variance_rewards2)
 
 
 plt.figure(figsize=(10, 6))
-plt.plot(smoothed_mean1, label=f"alpha={alpha1},epsilon={epsilon1}", color='b')
-# plt.plot(smoothed_mean1, label=f"alpha={alpha1},tau={temp1}", color='b')
+# plt.plot(smoothed_mean1, label=f"alpha={alpha1},epsilon={epsilon1}", color='b')
+plt.plot(smoothed_mean1, label=f"alpha={alpha1},tau={temp1}", color='b')
 plt.fill_between(range(len(smoothed_mean1)), smoothed_mean1 - np.sqrt(smoothed_variance1), smoothed_mean1 + np.sqrt(smoothed_variance1), color='b', alpha=0.2)
-plt.plot(smoothed_mean2, label=f"alpha={alpha2},epsilon={epsilon2}", color='r')
-# plt.plot(smoothed_mean2, label=f"alpha={alpha2},tau={temp2}", color='r')
+# plt.plot(smoothed_mean2, label=f"alpha={alpha2},epsilon={epsilon2}", color='r')
+plt.plot(smoothed_mean2, label=f"alpha={alpha2},tau={temp2}", color='r')
 plt.fill_between(range(len(smoothed_mean2)), smoothed_mean2 - np.sqrt(smoothed_variance2), smoothed_mean2 + np.sqrt(smoothed_variance2), color='r', alpha=0.2)
 
 
@@ -58,8 +58,8 @@ plt.fill_between(range(len(smoothed_mean2)), smoothed_mean2 - np.sqrt(smoothed_v
 plt.legend()
 plt.xlabel("Episodes")
 plt.ylabel("Return")
-plt.title("SARSA(MiniGrid-Dynamic-Obstacles-5x5-v0)")
-# plt.title("Q-Learning(MiniGrid-Dynamic-Obstacles-5x5-v0)")
+# plt.title("SARSA(MiniGrid-Dynamic-Obstacles-5x5-v0)")
+plt.title("Q-Learning(MiniGrid-Dynamic-Obstacles-5x5-v0)")
 # plt.title("SARSA vs Q-Learning")
 # plt.grid()
 plt.show()

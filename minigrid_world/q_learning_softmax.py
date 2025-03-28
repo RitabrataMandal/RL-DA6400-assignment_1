@@ -12,10 +12,10 @@ def softmax_action(q_value, temperature):
 
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
-episodes = 1000
-temperature = 1  # Temperature for softmax
+episodes = 2000
+temperature = 0.50035  # Temperature for softmax
 gamma = 0.99
-alpha = 0.1
+alpha = 0.10866
 
 all_rewards = []
 

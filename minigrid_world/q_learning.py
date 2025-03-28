@@ -9,7 +9,7 @@ def softmax_action(q_value, temperature):
     probabilities = exp_values / np.sum(exp_values)
     return np.random.choice(len(q_value), p=probabilities)
 
-def train_qlearning_softmax(temperature, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 300, 400, 500]):
+def train_qlearning_softmax(temperature, alpha, episodes=4000, gamma=0.99, seeds=[100, 200, 300, 400, 500]):
     all_rewards = []
 
     for seed in seeds:

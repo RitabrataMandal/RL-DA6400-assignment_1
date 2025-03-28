@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:13:50.434133225+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_201350-hfjgu35c/logs/debug-core.log"}
+{"time":"2025-03-28T20:13:50.538144733+05:30","level":"INFO","msg":"created new stream","id":"hfjgu35c"}
+{"time":"2025-03-28T20:13:50.538203211+05:30","level":"INFO","msg":"stream: started","id":"hfjgu35c"}
+{"time":"2025-03-28T20:13:50.538256859+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:13:50.538292914+05:30","level":"INFO","msg":"sender: started","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:13:50.53831635+05:30","level":"INFO","msg":"handler: started","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:13:50.898609937+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:15:18.998999316+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:15:18.999951875+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:15:20.002972369+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.374004268,"progress":"756.3KB/756.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.37398898,"progress":"173B/173B"},{"desc":"uploading config.yaml","runtime_seconds":0.078590925,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T20:15:21.422478746+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:15:21.777376042+05:30","level":"INFO","msg":"stream: closing","id":"hfjgu35c"}
+{"time":"2025-03-28T20:15:21.777436135+05:30","level":"INFO","msg":"handler: closed","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:15:21.777492153+05:30","level":"INFO","msg":"sender: closed","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:15:21.777479772+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hfjgu35c"}
+{"time":"2025-03-28T20:15:21.777633171+05:30","level":"INFO","msg":"stream: closed","id":"hfjgu35c"}

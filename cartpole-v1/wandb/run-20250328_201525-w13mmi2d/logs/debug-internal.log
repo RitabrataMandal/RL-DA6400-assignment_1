@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:15:25.536431889+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_201525-w13mmi2d/logs/debug-core.log"}
+{"time":"2025-03-28T20:15:25.638549661+05:30","level":"INFO","msg":"created new stream","id":"w13mmi2d"}
+{"time":"2025-03-28T20:15:25.638583415+05:30","level":"INFO","msg":"stream: started","id":"w13mmi2d"}
+{"time":"2025-03-28T20:15:25.638613206+05:30","level":"INFO","msg":"handler: started","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:15:25.638616382+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:15:25.638631887+05:30","level":"INFO","msg":"sender: started","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:15:26.001779735+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:18:26.029899617+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:18:26.030277518+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:18:27.032230066+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.382757084,"progress":"767.2KB/767.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.382729666,"progress":"184B/184B"},{"desc":"uploading history steps 0-0, summary, console lines 18496-19999","runtime_seconds":0.294251714},{"desc":"uploading config.yaml","runtime_seconds":0.083810252,"progress":"500B/500B"}],"total_operations":4}}
+{"time":"2025-03-28T20:18:28.40239855+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:18:28.690552731+05:30","level":"INFO","msg":"stream: closing","id":"w13mmi2d"}
+{"time":"2025-03-28T20:18:28.69060636+05:30","level":"INFO","msg":"handler: closed","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:18:28.690639463+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:18:28.690701778+05:30","level":"INFO","msg":"sender: closed","stream_id":"w13mmi2d"}
+{"time":"2025-03-28T20:18:28.690821929+05:30","level":"INFO","msg":"stream: closed","id":"w13mmi2d"}

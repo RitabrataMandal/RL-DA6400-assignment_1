@@ -1,0 +1,16 @@
+{"time":"2025-03-28T21:21:47.188242973+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_212147-pcylwdks/logs/debug-core.log"}
+{"time":"2025-03-28T21:21:47.291061803+05:30","level":"INFO","msg":"created new stream","id":"pcylwdks"}
+{"time":"2025-03-28T21:21:47.291087259+05:30","level":"INFO","msg":"stream: started","id":"pcylwdks"}
+{"time":"2025-03-28T21:21:47.291149526+05:30","level":"INFO","msg":"sender: started","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:21:47.291144312+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:21:47.291174407+05:30","level":"INFO","msg":"handler: started","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:21:47.700784735+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T21:23:28.94735281+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T21:23:28.947663412+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T21:23:29.954603399+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.403120875,"progress":"183B/183B"},{"desc":"uploading output.log","runtime_seconds":0.403095927,"progress":"756.3KB/756.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.104520791,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-28T21:23:31.542589278+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T21:23:31.971742425+05:30","level":"INFO","msg":"stream: closing","id":"pcylwdks"}
+{"time":"2025-03-28T21:23:31.971778481+05:30","level":"INFO","msg":"handler: closed","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:23:31.971797197+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:23:31.971854852+05:30","level":"INFO","msg":"sender: closed","stream_id":"pcylwdks"}
+{"time":"2025-03-28T21:23:31.971913649+05:30","level":"INFO","msg":"stream: closed","id":"pcylwdks"}

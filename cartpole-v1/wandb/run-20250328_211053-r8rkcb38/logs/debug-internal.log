@@ -1,0 +1,16 @@
+{"time":"2025-03-28T21:10:53.41302435+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_211053-r8rkcb38/logs/debug-core.log"}
+{"time":"2025-03-28T21:10:53.516335509+05:30","level":"INFO","msg":"created new stream","id":"r8rkcb38"}
+{"time":"2025-03-28T21:10:53.516454+05:30","level":"INFO","msg":"stream: started","id":"r8rkcb38"}
+{"time":"2025-03-28T21:10:53.516532145+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:10:53.51655608+05:30","level":"INFO","msg":"sender: started","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:10:53.516641436+05:30","level":"INFO","msg":"handler: started","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:10:53.912665651+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T21:12:32.14146356+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T21:12:32.141864829+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T21:12:33.143472948+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.360719163,"progress":"760.1KB/760.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.042760209,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-28T21:12:34.536268088+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T21:12:34.994556955+05:30","level":"INFO","msg":"stream: closing","id":"r8rkcb38"}
+{"time":"2025-03-28T21:12:34.994613055+05:30","level":"INFO","msg":"handler: closed","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:12:34.994646915+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:12:34.994685554+05:30","level":"INFO","msg":"sender: closed","stream_id":"r8rkcb38"}
+{"time":"2025-03-28T21:12:34.994806866+05:30","level":"INFO","msg":"stream: closed","id":"r8rkcb38"}

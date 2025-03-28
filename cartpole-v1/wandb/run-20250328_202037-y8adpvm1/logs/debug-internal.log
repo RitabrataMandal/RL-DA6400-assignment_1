@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:20:37.246723633+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_202037-y8adpvm1/logs/debug-core.log"}
+{"time":"2025-03-28T20:20:37.350793177+05:30","level":"INFO","msg":"created new stream","id":"y8adpvm1"}
+{"time":"2025-03-28T20:20:37.350871285+05:30","level":"INFO","msg":"stream: started","id":"y8adpvm1"}
+{"time":"2025-03-28T20:20:37.35097186+05:30","level":"INFO","msg":"handler: started","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:20:37.35096868+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:20:37.35101877+05:30","level":"INFO","msg":"sender: started","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:20:37.695162677+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:23:19.001741953+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:23:19.002159033+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:23:20.003282436+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.376335626,"progress":"764.1KB/764.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.054595745,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-28T20:23:21.405345493+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:23:21.722083029+05:30","level":"INFO","msg":"stream: closing","id":"y8adpvm1"}
+{"time":"2025-03-28T20:23:21.722117191+05:30","level":"INFO","msg":"handler: closed","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:23:21.722157545+05:30","level":"INFO","msg":"sender: closed","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:23:21.722142902+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"y8adpvm1"}
+{"time":"2025-03-28T20:23:21.722294639+05:30","level":"INFO","msg":"stream: closed","id":"y8adpvm1"}

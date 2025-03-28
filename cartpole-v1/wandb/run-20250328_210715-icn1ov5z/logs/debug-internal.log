@@ -1,0 +1,16 @@
+{"time":"2025-03-28T21:07:15.391116417+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_210715-icn1ov5z/logs/debug-core.log"}
+{"time":"2025-03-28T21:07:15.494890648+05:30","level":"INFO","msg":"created new stream","id":"icn1ov5z"}
+{"time":"2025-03-28T21:07:15.494975761+05:30","level":"INFO","msg":"stream: started","id":"icn1ov5z"}
+{"time":"2025-03-28T21:07:15.49503268+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:07:15.495099492+05:30","level":"INFO","msg":"handler: started","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:07:15.495146696+05:30","level":"INFO","msg":"sender: started","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:07:16.156245986+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T21:08:45.622488366+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T21:08:45.622807419+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T21:08:46.625850309+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.399451858,"progress":"760.2KB/760.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.051257618,"progress":"502B/502B"}],"total_operations":2}}
+{"time":"2025-03-28T21:08:48.928268654+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T21:08:49.237182805+05:30","level":"INFO","msg":"stream: closing","id":"icn1ov5z"}
+{"time":"2025-03-28T21:08:49.237242165+05:30","level":"INFO","msg":"handler: closed","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:08:49.237272155+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:08:49.237293579+05:30","level":"INFO","msg":"sender: closed","stream_id":"icn1ov5z"}
+{"time":"2025-03-28T21:08:49.23744+05:30","level":"INFO","msg":"stream: closed","id":"icn1ov5z"}

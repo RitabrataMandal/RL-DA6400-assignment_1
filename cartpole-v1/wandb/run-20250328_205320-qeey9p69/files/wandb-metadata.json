@@ -1,0 +1,31 @@
+{
+  "os": "Linux-5.15.0-124-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-03-28T15:23:20.127444Z",
+  "program": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb_qlearning.py",
+  "codePath": "cartpole-v1/wandb_qlearning.py",
+  "git": {
+    "remote": "https://github.com/RitabrataMandal/RL-DA6400-assignment_1.git",
+    "commit": "733bc4950e68a79af790318faf12f35ddb6fcfda"
+  },
+  "email": "ee24e009@smail.iitm.ac.in",
+  "root": "/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1",
+  "host": "gametheorylab",
+  "executable": "/home/gametheorylab/miniconda3/bin/python",
+  "codePathLocal": "wandb_qlearning.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "62028722176"
+    }
+  },
+  "memory": {
+    "total": "25052352512"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:28:59.315957296+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_202859-x49lq10j/logs/debug-core.log"}
+{"time":"2025-03-28T20:28:59.419825719+05:30","level":"INFO","msg":"created new stream","id":"x49lq10j"}
+{"time":"2025-03-28T20:28:59.419918932+05:30","level":"INFO","msg":"stream: started","id":"x49lq10j"}
+{"time":"2025-03-28T20:28:59.419965209+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:28:59.420021799+05:30","level":"INFO","msg":"sender: started","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:28:59.420061424+05:30","level":"INFO","msg":"handler: started","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:28:59.786925927+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:30:36.769586897+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:30:36.77003096+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:30:37.7716848+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.38988918,"progress":"756.3KB/756.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.389861113,"progress":"182B/182B"},{"desc":"uploading config.yaml","runtime_seconds":0.102958187,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T20:30:39.342738032+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:30:39.739229011+05:30","level":"INFO","msg":"stream: closing","id":"x49lq10j"}
+{"time":"2025-03-28T20:30:39.739270308+05:30","level":"INFO","msg":"handler: closed","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:30:39.739300981+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:30:39.739368315+05:30","level":"INFO","msg":"sender: closed","stream_id":"x49lq10j"}
+{"time":"2025-03-28T20:30:39.73943621+05:30","level":"INFO","msg":"stream: closed","id":"x49lq10j"}

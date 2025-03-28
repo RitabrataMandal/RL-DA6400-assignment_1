@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:58:37.409958725+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_205837-yrw9bels/logs/debug-core.log"}
+{"time":"2025-03-28T20:58:37.513480861+05:30","level":"INFO","msg":"created new stream","id":"yrw9bels"}
+{"time":"2025-03-28T20:58:37.513552517+05:30","level":"INFO","msg":"stream: started","id":"yrw9bels"}
+{"time":"2025-03-28T20:58:37.513589757+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yrw9bels"}
+{"time":"2025-03-28T20:58:37.51360702+05:30","level":"INFO","msg":"handler: started","stream_id":"yrw9bels"}
+{"time":"2025-03-28T20:58:37.513695191+05:30","level":"INFO","msg":"sender: started","stream_id":"yrw9bels"}
+{"time":"2025-03-28T20:58:37.904916007+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T21:00:28.602405975+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T21:00:28.602790286+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T21:00:29.60417723+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.379883119,"progress":"756.3KB/756.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.379853125,"progress":"184B/184B"},{"desc":"uploading config.yaml","runtime_seconds":0.037675172,"progress":"500B/500B"}],"total_operations":3}}
+{"time":"2025-03-28T21:00:30.976794966+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T21:00:31.532532974+05:30","level":"INFO","msg":"stream: closing","id":"yrw9bels"}
+{"time":"2025-03-28T21:00:31.532571694+05:30","level":"INFO","msg":"handler: closed","stream_id":"yrw9bels"}
+{"time":"2025-03-28T21:00:31.53259414+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yrw9bels"}
+{"time":"2025-03-28T21:00:31.532626252+05:30","level":"INFO","msg":"sender: closed","stream_id":"yrw9bels"}
+{"time":"2025-03-28T21:00:31.532750494+05:30","level":"INFO","msg":"stream: closed","id":"yrw9bels"}

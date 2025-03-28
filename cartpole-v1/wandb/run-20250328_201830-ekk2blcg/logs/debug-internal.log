@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:18:30.444570774+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_201830-ekk2blcg/logs/debug-core.log"}
+{"time":"2025-03-28T20:18:30.54832669+05:30","level":"INFO","msg":"created new stream","id":"ekk2blcg"}
+{"time":"2025-03-28T20:18:30.548444177+05:30","level":"INFO","msg":"stream: started","id":"ekk2blcg"}
+{"time":"2025-03-28T20:18:30.548509542+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:18:30.54857181+05:30","level":"INFO","msg":"sender: started","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:18:30.548518919+05:30","level":"INFO","msg":"handler: started","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:18:31.034194488+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:20:30.846354985+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:20:30.846723329+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:20:31.849611948+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.400097155,"progress":"760.2KB/760.2KB"},{"desc":"uploading history steps 0-0, summary, console lines 18869-19999","runtime_seconds":0.100946154},{"desc":"uploading config.yaml","runtime_seconds":0.053277096,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T20:20:34.175013106+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:20:34.492316144+05:30","level":"INFO","msg":"stream: closing","id":"ekk2blcg"}
+{"time":"2025-03-28T20:20:34.492374694+05:30","level":"INFO","msg":"handler: closed","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:20:34.492406919+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:20:34.492457218+05:30","level":"INFO","msg":"sender: closed","stream_id":"ekk2blcg"}
+{"time":"2025-03-28T20:20:34.492555309+05:30","level":"INFO","msg":"stream: closed","id":"ekk2blcg"}

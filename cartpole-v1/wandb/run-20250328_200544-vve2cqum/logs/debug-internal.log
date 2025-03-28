@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:05:44.901080161+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_200544-vve2cqum/logs/debug-core.log"}
+{"time":"2025-03-28T20:05:45.005378693+05:30","level":"INFO","msg":"created new stream","id":"vve2cqum"}
+{"time":"2025-03-28T20:05:45.005409344+05:30","level":"INFO","msg":"stream: started","id":"vve2cqum"}
+{"time":"2025-03-28T20:05:45.005462166+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:05:45.005483072+05:30","level":"INFO","msg":"sender: started","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:05:45.005480389+05:30","level":"INFO","msg":"handler: started","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:05:45.3764116+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:07:06.220906079+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:07:06.221234655+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:07:07.222876917+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.370223978,"progress":"756.3KB/756.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.045821484,"progress":"500B/500B"}],"total_operations":2}}
+{"time":"2025-03-28T20:07:08.692786466+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:07:09.261226129+05:30","level":"INFO","msg":"stream: closing","id":"vve2cqum"}
+{"time":"2025-03-28T20:07:09.261282571+05:30","level":"INFO","msg":"handler: closed","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:07:09.261313687+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:07:09.261454014+05:30","level":"INFO","msg":"sender: closed","stream_id":"vve2cqum"}
+{"time":"2025-03-28T20:07:09.261484945+05:30","level":"INFO","msg":"stream: closed","id":"vve2cqum"}

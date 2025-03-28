@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:02:34.950412203+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_200234-2ptmgup5/logs/debug-core.log"}
+{"time":"2025-03-28T20:02:35.054713271+05:30","level":"INFO","msg":"created new stream","id":"2ptmgup5"}
+{"time":"2025-03-28T20:02:35.05480118+05:30","level":"INFO","msg":"stream: started","id":"2ptmgup5"}
+{"time":"2025-03-28T20:02:35.054881324+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:02:35.054893614+05:30","level":"INFO","msg":"handler: started","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:02:35.054966777+05:30","level":"INFO","msg":"sender: started","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:02:35.445112613+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:04:05.780490332+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:04:05.780888895+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:04:06.783816933+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.249155207,"progress":"174B/174B"},{"desc":"uploading output.log","runtime_seconds":0.249132,"progress":"756.3KB/756.3KB"}],"total_operations":2}}
+{"time":"2025-03-28T20:04:08.33816554+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:04:08.668283734+05:30","level":"INFO","msg":"stream: closing","id":"2ptmgup5"}
+{"time":"2025-03-28T20:04:08.66832089+05:30","level":"INFO","msg":"handler: closed","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:04:08.66835027+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:04:08.668387582+05:30","level":"INFO","msg":"sender: closed","stream_id":"2ptmgup5"}
+{"time":"2025-03-28T20:04:08.668483299+05:30","level":"INFO","msg":"stream: closed","id":"2ptmgup5"}

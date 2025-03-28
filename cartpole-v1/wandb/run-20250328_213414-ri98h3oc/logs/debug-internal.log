@@ -1,0 +1,16 @@
+{"time":"2025-03-28T21:34:14.515423957+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_213414-ri98h3oc/logs/debug-core.log"}
+{"time":"2025-03-28T21:34:14.618460521+05:30","level":"INFO","msg":"created new stream","id":"ri98h3oc"}
+{"time":"2025-03-28T21:34:14.618492307+05:30","level":"INFO","msg":"stream: started","id":"ri98h3oc"}
+{"time":"2025-03-28T21:34:14.618503228+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:34:14.618536976+05:30","level":"INFO","msg":"handler: started","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:34:14.618562255+05:30","level":"INFO","msg":"sender: started","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:34:14.972092697+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T21:35:52.023143629+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T21:35:52.02344413+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T21:35:53.025378719+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.381219724,"progress":"759.7KB/759.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.059811013,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-28T21:35:54.422809835+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T21:35:54.791179336+05:30","level":"INFO","msg":"stream: closing","id":"ri98h3oc"}
+{"time":"2025-03-28T21:35:54.791233028+05:30","level":"INFO","msg":"handler: closed","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:35:54.79126414+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:35:54.791311242+05:30","level":"INFO","msg":"sender: closed","stream_id":"ri98h3oc"}
+{"time":"2025-03-28T21:35:54.791410591+05:30","level":"INFO","msg":"stream: closed","id":"ri98h3oc"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:34:43.159468421+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_203443-4cpeyymg/logs/debug-core.log"}
+{"time":"2025-03-28T20:34:43.26367107+05:30","level":"INFO","msg":"created new stream","id":"4cpeyymg"}
+{"time":"2025-03-28T20:34:43.26374269+05:30","level":"INFO","msg":"stream: started","id":"4cpeyymg"}
+{"time":"2025-03-28T20:34:43.263783106+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:34:43.263804277+05:30","level":"INFO","msg":"handler: started","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:34:43.263870893+05:30","level":"INFO","msg":"sender: started","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:34:43.634495883+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:37:21.216245945+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:37:21.216582541+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:37:22.218699953+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.411942708,"progress":"763.9KB/763.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.105205121,"progress":"501B/501B"}],"total_operations":2}}
+{"time":"2025-03-28T20:37:23.609536406+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:37:23.981659236+05:30","level":"INFO","msg":"stream: closing","id":"4cpeyymg"}
+{"time":"2025-03-28T20:37:23.981695638+05:30","level":"INFO","msg":"handler: closed","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:37:23.981722+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:37:23.981749161+05:30","level":"INFO","msg":"sender: closed","stream_id":"4cpeyymg"}
+{"time":"2025-03-28T20:37:23.981867521+05:30","level":"INFO","msg":"stream: closed","id":"4cpeyymg"}

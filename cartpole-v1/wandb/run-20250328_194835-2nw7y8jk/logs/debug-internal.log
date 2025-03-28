@@ -1,0 +1,8 @@
+{"time":"2025-03-28T19:48:35.873517428+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_194835-2nw7y8jk/logs/debug-core.log"}
+{"time":"2025-03-28T19:48:35.980469236+05:30","level":"INFO","msg":"created new stream","id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:35.98056936+05:30","level":"INFO","msg":"stream: started","id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:35.98060881+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:35.980671028+05:30","level":"INFO","msg":"sender: started","stream_id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:35.980747238+05:30","level":"INFO","msg":"handler: started","stream_id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:36.324324377+05:30","level":"INFO","msg":"stream: closing","id":"2nw7y8jk"}
+{"time":"2025-03-28T19:48:36.345157284+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:07:15.429943275+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_200715-qhx8e1o5/logs/debug-core.log"}
+{"time":"2025-03-28T20:07:15.533853001+05:30","level":"INFO","msg":"created new stream","id":"qhx8e1o5"}
+{"time":"2025-03-28T20:07:15.53392618+05:30","level":"INFO","msg":"stream: started","id":"qhx8e1o5"}
+{"time":"2025-03-28T20:07:15.533981385+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:07:15.534022572+05:30","level":"INFO","msg":"sender: started","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:07:15.534077033+05:30","level":"INFO","msg":"handler: started","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:07:15.918912797+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:10:39.356484413+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:10:39.356814882+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:10:40.357744099+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.389695208,"progress":"767.9KB/767.9KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.389676383,"progress":"185B/185B"},{"desc":"uploading config.yaml","runtime_seconds":0.091287324,"progress":"501B/501B"}],"total_operations":3}}
+{"time":"2025-03-28T20:10:43.063342936+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:10:43.387713288+05:30","level":"INFO","msg":"stream: closing","id":"qhx8e1o5"}
+{"time":"2025-03-28T20:10:43.387762908+05:30","level":"INFO","msg":"handler: closed","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:10:43.387795016+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:10:43.387844097+05:30","level":"INFO","msg":"sender: closed","stream_id":"qhx8e1o5"}
+{"time":"2025-03-28T20:10:43.387952518+05:30","level":"INFO","msg":"stream: closed","id":"qhx8e1o5"}

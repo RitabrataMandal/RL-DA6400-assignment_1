@@ -14,9 +14,9 @@ def train():
     config = wandb.config
     
     gamma = 0.99
-    env_name = "MountainCar-v0"
+    env_name = "CartPole-v1"
     seeds = [100, 200, 300, 400, 500]
-    num_episodes = 1000
+    num_episodes = 4000
     num_steps = 500
     num_bins = 20
 

@@ -1,0 +1,16 @@
+{"time":"2025-03-28T20:37:28.746418515+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/gametheorylab/Desktop/RL-DA6400-assignment_1/cartpole-v1/wandb/run-20250328_203728-oszni4zt/logs/debug-core.log"}
+{"time":"2025-03-28T20:37:28.849942557+05:30","level":"INFO","msg":"created new stream","id":"oszni4zt"}
+{"time":"2025-03-28T20:37:28.850067762+05:30","level":"INFO","msg":"stream: started","id":"oszni4zt"}
+{"time":"2025-03-28T20:37:28.850142552+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:37:28.850146933+05:30","level":"INFO","msg":"sender: started","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:37:28.850184581+05:30","level":"INFO","msg":"handler: started","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:37:29.425869345+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-28T20:39:09.455058381+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-28T20:39:09.455437876+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-28T20:39:10.457196843+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.39801613,"progress":"760.2KB/760.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.079185687,"progress":"499B/499B"}],"total_operations":2}}
+{"time":"2025-03-28T20:39:11.847771728+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-28T20:39:12.188009896+05:30","level":"INFO","msg":"stream: closing","id":"oszni4zt"}
+{"time":"2025-03-28T20:39:12.188046847+05:30","level":"INFO","msg":"handler: closed","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:39:12.188069062+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:39:12.188102394+05:30","level":"INFO","msg":"sender: closed","stream_id":"oszni4zt"}
+{"time":"2025-03-28T20:39:12.18821632+05:30","level":"INFO","msg":"stream: closed","id":"oszni4zt"}

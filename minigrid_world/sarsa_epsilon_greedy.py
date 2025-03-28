@@ -12,10 +12,10 @@ def take_action(q_value, epsilon):
 
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
-episodes = 1000
-epsilon = 0.05
+episodes = 2000
+epsilon = 0.01104
 gamma = 0.99
-alpha = 0.1
+alpha = 0.44517
 
 all_rewards = []
 

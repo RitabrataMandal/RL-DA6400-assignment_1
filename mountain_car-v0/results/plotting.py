@@ -4,13 +4,13 @@ from numpy import load
 import re
 import os
 
-episode =1000
-alpha1=0.5
-alpha2=0.3
+episode =2000
+alpha1=0.44469
+alpha2=0.36145
 temp1 =0.1
 temp2=0.1
-epsilon1=0.05
-epsilon2=0.01
+epsilon1=0.010567
+epsilon2=0.011928
 # file1=f"qlearn_softmax_alpha_{alpha1}_temp_{temp1}_episode_{episode}.npy"
 # file2=f"qlearn_softmax_alpha_{alpha2}_temp_{temp2}_episode_{episode}.npy"
 file3=f"sarsa_alpha_{alpha1}_epsilon_{epsilon1}_episode_{episode}.npy"

@@ -6,10 +6,10 @@ import os
 from numpy import save
 
 # Hyperparameters
-epsilon = 0.05  # Fixed epsilon for exploration
+epsilon = 0.010567 # Fixed epsilon for exploration
 gamma = 0.99  # Discount factor
-alpha = 0.5  # Learning rate
-episode = 1000  # Number of episodes
+alpha = 0.44469  # Learning rate
+episode = 2000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500]  # 5 random seeds
 

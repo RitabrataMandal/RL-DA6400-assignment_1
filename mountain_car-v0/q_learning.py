@@ -6,10 +6,10 @@ import os
 from numpy import save
 
 # Hyperparameters
-temperature = 0.1  # Temperature for softmax
+temperature = 0.10075  # Temperature for softmax
 gamma = 0.99  # Discount factor
-alpha = 0.7
-episode = 1000  # Number of episodes
+alpha = 0.47706
+episode = 2000  # Number of episodes
 bins = 30  
 seeds = [100, 200, 300, 400, 500] 
 

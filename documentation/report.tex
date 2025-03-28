@@ -22,6 +22,7 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 
+
 %\newtheorem{theorem}{Theorem}[section]
 %\newtheorem{lemma}[theorem]{Lemma}
 
@@ -64,6 +65,7 @@
 	\medskip
 	\newpage
 	\tableofcontents
+	\newpage
 	\section{Introduction}
 		\subsection{Environments}
 		In this programming task, we are utilize the following \href{https://gymnasium.farama.org/}{\textcolor{magenta}{Gymnasium environments}} for training
@@ -92,142 +94,135 @@
 			\item \textbf{Q-Learning}$\rightarrow$ with \textbf{Softmax exploration}
 		\end{itemize}
 	\section{Implementation}
-		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\textcolor{magenta}{CartPole-v1}}}
-			\subsubsection{SARSA Code Snippets}
+		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/cartpole-v1}{\textcolor{magenta}{CartPole-v1}}}
+			\subsubsection{Code Snippets}
 %				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
-			\subsubsection{SARSA Runs}
-			below are the graphs of runs of SARSA with different hyper-parameter
-			\noindent
-			\begin{figure}[h]
-				\centering
-				% Row 1
-				\begin{subfigure}[h]{0.3\textwidth}
+			\subsubsection{SARSA Hyper-Parameter Tuning}  
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+				\begin{figure}[h]
 					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.05vs0.2_0.2.png}
-					\caption{$\alpha = 0.05$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.1vs0.2_0.2.png}
-					\caption{$\epsilon = 0.1$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.15vs0.2_0.2.png}
-					\caption{$\epsilon = 0.15$}
-				\end{subfigure}
-				
-				\vspace{0.1cm} % Space between rows
-				
-				% Row 2
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.05_0.2vs0.2_0.2.png}
-					\caption{$\epsilon = 0.2$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.05vs0.2_0.2.png}
-					\caption{$\epsilon = 0.25$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.1vs0.2_0.2.png}
-					\caption{$\epsilon = 0.3$}
-				\end{subfigure}
-				
-				\vspace{0.1cm}
-				
-				% Row 3
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.15vs0.2_0.2.png}
-					\caption{$\epsilon = 0.35$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.1_0.2vs0.2_0.2.png}
-					\caption{$\epsilon = 0.4$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.05vs0.2_0.2.png}
-					\caption{$\epsilon = 0.45$}
-				\end{subfigure}
-				
-				\vspace{0.1cm}
-				
-				% Row 4
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.1vs0.2_0.2.png}
-					\caption{$\epsilon = 0.5$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.15vs0.2_0.2.png}
-					\caption{$\epsilon = 0.55$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.15_0.2vs0.2_0.2.png}
-					\caption{$\epsilon = 0.6$}
-				\end{subfigure}
-				
-				\vspace{0.1cm}
-				
-				% Row 5
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.05vs0.2_0.2.png}
-					\caption{$\epsilon = 0.65$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.1vs0.2_0.2.png}
-					\caption{$\epsilon = 0.7$}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[h]{0.3\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{../cartpole-v1/plots/sarsa_0.2_0.15vs0.2_0.2.png}
-					\caption{$\epsilon = 0.75$}
-				\end{subfigure}
-				
-				\caption{SARSA(Cartpole) with different $\epsilon$ and $\alpha$}
-				\label{fig:phase_portraits}
-			\end{figure}
+					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
+					\caption{SARSA hyper-parameter sweeps for $\alpha$ and $\epsilon$ in CartPole-v1(2000 episodes), with lines color-coded by regret.}
+					\label{fig:sarsacartpole}
+				\end{figure}
+			%			\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
 			\subsubsection{SARSA best $3$ results}
-			\subsubsection{Q-Learning Code Snippets}
-			\subsubsection{Q-Learning Runs}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						& $\alpha$ & $\epsilon$ & regret\\
+						\hline
+						1 & 0.29365  & 0.14854 & 91.977\\
+						\hline
+						2 & 0.4117 & 0.13327 & 95.411\\
+						\hline
+						3 & 0.3764 & 0.13724 & 98.9932\\
+						\hline
+					\end{tabular}
+				\end{center}
+			\subsubsection{Q-Learning hyper-parameter tuning}
 			\subsubsection{Q-Learning best $3$ results}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						& $\alpha$ & $\tau$ & regret\\
+						\hline
+						1 &  & &\\
+						\hline
+						2 & & &\\
+						\hline
+						3 & & &\\
+						\hline
+					\end{tabular}
+					
+				\end{center}
 			\subsubsection{Result(SARSA vs Q-Learning)}
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor{magenta}{MountainCar-v0}}}
-			\subsubsection{SARSA Code Snippets}
-			\subsubsection{SARSA Runs}
+			\subsubsection{Code Snippets}
+				\lstinputlisting[language=Python,firstline=22, lastline=30, caption=Discretized sates ]{../mountain_car-v0/sarsa.py}
+				\lstinputlisting[language=Python,firstline=32, lastline=38, caption=epsilon-greedy action selection]{../mountain_car-v0/sarsa.py}
+				\lstinputlisting[language=Python,firstline=41, lastline=79, caption= SARSA implementation ]{../mountain_car-v0/sarsa.py}
+				\lstinputlisting[language=Python,firstline=31, lastline=41, caption=Softmax action selection ]{../mountain_car-v0/q_learning.py}
+				\lstinputlisting[language=Python,firstline=46, lastline=81, caption=Q-Learning implementation]{../mountain_car-v0/q_learning.py}
+			\subsubsection{SARSA  hyper-parameter tuning}
+				using wandb with sweep method bayes found the best performing hyper-parameter 
+%				\begin{figure}[h]
+%					\centering
+%					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
+%					\caption{}
+%					\label{fig:BwR}
+%				\end{figure}
 			\subsubsection{SARSA best $3$ results}
-			\subsubsection{Q-Learning Code Snippets}
-			\subsubsection{Q-Learning Runs}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						 & $\alpha$ & $\epsilon$ & regret\\
+						\hline
+						1 & 0.44517 & 0.01104 & 55.5099\\
+						\hline
+						2 & 0.44469 & 0.010567 & 55.6604 \\
+						\hline
+						3 & 0.36145 & 0.011928 & 56.547\\
+						\hline
+					\end{tabular}
+				\end{center}
+
+			\subsubsection{Q-Learning hyper-parameter tuning}
 			\subsubsection{Q-Learning best $3$ results}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						& $\alpha$ & $\tau$ & regret\\
+						\hline
+						1 &  & &\\
+						\hline
+						2 & & &\\
+						\hline
+						3 & & &\\
+						\hline
+					\end{tabular}
+				\end{center}
 			\subsubsection{Result(SARSA vs Q-Learning)}
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
-			\subsubsection{SARSA Code Snippets}
-			\subsubsection{SARSA Runs}
+			\subsubsection{Code Snippets}
+				\lstinputlisting[language=Python,firstline=7, lastline=11, caption=epsilon-greedy action selection]{../minigrid_world/sarsa.py}
+				\lstinputlisting[language=Python,firstline=20, lastline=57, caption= SARSA implementation ]{../minigrid_world/sarsa.py}
+				\lstinputlisting[language=Python,firstline=6, lastline=10, caption=Softmax action selection ]{../minigrid_world/q_learning.py}
+				\lstinputlisting[language=Python,firstline=15, lastline=55, caption=Q-Learning implementation]{../minigrid_world/q_learning.py}
+			\subsubsection{SARSA hyper-parameter tuning}
 			\subsubsection{SARSA best $3$ results}
-			\subsubsection{Q-Learning Code Snippets}
-			\subsubsection{Q-Learning Runs}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						& $\alpha$ & $\epsilon$ & regret\\
+						\hline
+						1 &  & &\\
+						\hline
+						2 & & &\\
+						\hline
+						3 & & &\\
+						\hline
+					\end{tabular}
+				\end{center}
+			\subsubsection{Q-Learning hyper-parameter tuning}
 			\subsubsection{Q-Learning best $3$ results}
+				\begin{center}
+					\begin{tabular}{|c|c|c|c|}
+						\hline
+						& $\alpha$ & $\tau$ & regret\\
+						\hline
+						1 &  & &\\
+						\hline
+						2 & & &\\
+						\hline
+						3 & & &\\
+						\hline
+					\end{tabular}
+				\end{center}
 			\subsubsection{Result(SARSA vs Q-Learning)}
 	\section{Conclusion}
 	\section{Github link}	
+		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}
+
 	\section{References}
 \end{document}

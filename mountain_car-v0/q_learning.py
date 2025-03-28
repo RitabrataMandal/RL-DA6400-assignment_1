@@ -63,17 +63,6 @@ for seed in seeds:
             action = chooseAction(pos, vel, q_table_qlearn, temperature)
             next_state, reward, done, truncated, _ = env.step(action)
             next_pos, next_vel = getState(next_state)
-            
-            # Reward shaping
-            # if next_state[0] > state[0]:
-            #     reward += 0.1  # Reward moving forward
-            # reward += abs(next_state[1]) * 0.1  # Reward velocity
-
-            # if next_state[0] > -0.2:
-            #     reward += 0.5
-            # if next_state[0] > 0.3:
-            #     reward += 1.0
-
             # if done or truncated:
             if done:
                 q_table_qlearn[pos][vel][action] += alpha * (reward - q_table_qlearn[pos][vel][action])

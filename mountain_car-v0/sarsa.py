@@ -39,8 +39,6 @@ def chooseAction(pos, vel, q_table, epsilon):
 
 # Store rewards across all seeds
 all_rewards = []
-
-
 for seed in seeds:
     print(f"\n=== Training with Seed: {seed} ===")
     np.random.seed(seed)
@@ -65,18 +63,7 @@ for seed in seeds:
             next_state, reward, done, truncated, _ = env.step(action)
             next_pos, next_vel = getState(next_state)
             next_action = chooseAction(next_pos, next_vel, q_table_sarsa, epsilon)
-            
-            # Reward shaping
-            # if next_state[0] > state[0]:  
-            #     reward += 0.1  # Reward moving forward
-
-            # reward += abs(next_state[1]) * 0.1  # Reward velocity
-
-            # if next_state[0] > -0.2:
-            #     reward += 0.5
-            # if next_state[0] > 0.3:
-            #     reward += 1.0
-            # if done or truncated:
+    
             if done:
                 q_table_sarsa[pos][vel][action] += alpha * (reward - q_table_sarsa[pos][vel][action])
             else:
@@ -88,10 +75,7 @@ for seed in seeds:
             action = next_action
             current_reward += reward
         rewards_sarsa.append(current_reward)
-
-        
         print(f'seed {seed} Episode {ep+1}/{episode}, Reward: {current_reward}')
-
     all_rewards.append(rewards_sarsa)
 
 env.close()

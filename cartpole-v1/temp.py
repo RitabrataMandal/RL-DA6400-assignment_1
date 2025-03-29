@@ -94,8 +94,11 @@
 #         smooth_window=5,  # or 1 for no smoothing
 #         title="SARSA (CartPole)"  # or "SARSA (CartPole)", etc.
 #     )
+
+
 import matplotlib.pyplot as plt
 import numpy as np
+from sarsa_runner import run_sarsa
 from q_runner import run_qlearning
 
 def moving_average(data, window_size=5):
@@ -104,7 +107,7 @@ def moving_average(data, window_size=5):
         return data
     return np.convolve(data, np.ones(window_size)/window_size, mode='valid')
 
-def plot_two_q_results(
+def plot_two_sarsa_results(
     episodes,
     mean1, std1,
     mean2, std2,
@@ -131,7 +134,7 @@ def plot_two_q_results(
     plt.figure(figsize=(8, 5))
 
     # --- Type 1 (Red) ---
-    plt.plot(sm_episodes, sm_mean1, color='red', label=f'tau={tau1}, alpha={alpha1}')
+    plt.plot(sm_episodes, sm_mean1, color='red', label=f'epsilon={epsilon1}, alpha={alpha1}')
     plt.fill_between(
         sm_episodes,
         sm_mean1 - 1*sm_std1,
@@ -140,7 +143,7 @@ def plot_two_q_results(
     )
 
     # --- Type 2 (Blue) ---
-    plt.plot(sm_episodes, sm_mean2, color='blue', label=f'tau={tau2}, alpha={alpha2}')
+    plt.plot(sm_episodes, sm_mean2, color='blue', label=f'epsilon={epsilon2}, alpha={alpha2}')
     plt.fill_between(
         sm_episodes,
         sm_mean2 - 1*sm_std2,
@@ -159,21 +162,20 @@ def plot_two_q_results(
     # plt.savefig(f"plots/sarsa_{alpha1}_{epsilon1}vs{alpha2}_{epsilon2}.png")
 if __name__ == "__main__":
 
-    # alpha1, gamma1, tau1 = 0.20034, 0.99, 1.11949
-    alpha1, gamma1, tau1 = 0.15243, 0.99, 1.02074
-    alpha2, gamma2, tau2 = 0.15404, 0.99, 1.0012
+    alpha1, gamma1, epsilon1 = 0.05, 0.99, 0.5
+    alpha2, gamma2, epsilon2 = 0.2, 0.99, 0.5
 
     env_name = "CartPole-v1"
     seeds = [100, 200, 300, 400, 500]
-    num_episodes = 4000
+    num_episodes = 2000
     num_steps = 500
     num_bins = 20
 
     # Run SARSA for Type 1
-    rewards_type1 = run_qlearning(env_name, alpha1, gamma1, tau1, seeds, num_episodes, num_steps, num_bins)
+    rewards_type1 = run_qlearning(env_name, alpha1, gamma1, epsilon1, seeds, num_episodes, num_steps, num_bins)
 
     # Run SARSA for Type 2
-    rewards_type2 = run_qlearning(env_name, alpha2, gamma2, tau2, seeds, num_episodes, num_steps, num_bins)
+    rewards_type2 = run_qlearning(env_name, alpha2, gamma2, epsilon2, seeds, num_episodes, num_steps, num_bins)
 
     # Compute mean and std across seeds (axis=0 => per-episode stats)
     mean1 = np.mean(rewards_type1, axis=0)
@@ -184,10 +186,10 @@ if __name__ == "__main__":
     episodes = np.arange(1, num_episodes + 1)
 
     # Plot
-    plot_two_q_results(
+    plot_two_sarsa_results(
         episodes,
         mean1, std1,
         mean2, std2,
         smooth_window=5,  # or 1 for no smoothing
-        title="Q-Learning (CartPole)"  # or "SARSA (CartPole)", etc.
+        title="SARSA (CartPole)"  # or "SARSA (CartPole)", etc.
     )

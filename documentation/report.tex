@@ -127,7 +127,7 @@
 			\subsubsection{Code Snippets}
 %				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
 			\subsubsection{SARSA Hyper-Parameter Tuning}  
-			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 4000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 4000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-cartpole.png}
@@ -175,21 +175,54 @@
 					\label{fig:sarsacartpole}
 				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
+				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 4000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/il2a2cjz}{here}. Additionally, Figure \ref{fig:qlearningcartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the regret.
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=1\linewidth]{qlearning-hyp-tuning-cartpole.png}
+					\caption{Q-Learning hyper-parameter sweeps for $\alpha$ and $\tau$ in Cartpole-v1(4000 episodes), with lines color-coded by regret.}
+					\label{fig:qlearningcartpole-regret}
+				\end{figure}
 			\subsubsection{Q-Learning best $3$ results}
 				\begin{center}
-					\begin{tabular}{|c|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 						\hline
-						& $\alpha$ & $\tau$ & regret\\
+						& $\alpha$ & $\tau$ &$\gamma$ &regret\\
 						\hline
-						1 &  & &\\
+						1 & 0.20034  & 1.11949  & 0.99 &76.7096\\
 						\hline
-						2 & & &\\
+						2 & 0.15243 & 1.02074 & 0.9 & 86.03815\\
 						\hline
-						3 & & &\\
+						3 & 0.15404 & 1.0012 & 0.9 & 92.8918\\
 						\hline
 					\end{tabular}
-					
 				\end{center}
+					Figure \ref{fig:qlearningcartpole} include the episode vs reward plot for best three hyper-parameter combination.
+					\begin{figure}[H]
+						\centering
+						\begin{subfigure}{.7\textwidth}
+							\centering
+							\includegraphics[width=\textwidth]{../cartpole-v1/plots/qlearning_Figure_1.png}
+							\caption{$1$ vs $2$}
+							\label{fig:qlearningcartpole1vs2}
+						\end{subfigure}
+						\hfill
+						\begin{subfigure}{.7\textwidth}
+							\centering
+							\includegraphics[width=\textwidth]{../cartpole-v1/plots/qlearning_Figure_2.png}
+							\caption{$1$ vs $3$}
+							\label{fig:qlearningcartpole1vs3}
+						\end{subfigure}
+						\hfill
+						\begin{subfigure}{.7\textwidth}
+							\centering
+							\includegraphics[width=\textwidth]{../cartpole-v1/plots/qlearning_Figure_3.png}
+							\caption{$2$ vs $3$}
+							\label{fig:qlearningcartpole2vs3}
+						\end{subfigure}
+						\caption{Performance comparison of the three best Q-Learning parameter configurations: (a) 1 vs 2, (b) 1 vs 3, and (c) 2 vs 3.}
+						\label{fig:qlearningcartpole}
+					\end{figure}
+				
 			\subsubsection{Result(SARSA vs Q-Learning)}
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor{magenta}{MountainCar-v0}}}
 			\subsubsection{Code Snippets}
@@ -199,7 +232,7 @@
 				\lstinputlisting[language=Python,firstline=31, lastline=41, caption=Softmax action selection ]{../mountain_car-v0/q_learning.py}
 				\lstinputlisting[language=Python,firstline=46, lastline=81, caption=Q-Learning implementation]{../mountain_car-v0/q_learning.py}
 			\subsubsection{SARSA  hyper-parameter tuning}
-				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/4f545bce}{here}. Additionally, Figure \ref{fig:sarsamountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/4f545bce}{here}. Additionally, Figure \ref{fig:sarsamountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-mountaincar.png}
@@ -247,7 +280,7 @@
 					\label{fig:sarsamountaincar}
 				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
-				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/qlearning_mountain_car-v0tuning/reports/Q-Learning-MountainCar-v0---VmlldzoxMjAxNzEwMQ?accessToken=3ho3ppomqsu6prg4yd4wdhset84tq72p24zrpw8ztwcivdw8xfsjevl6tduvjfi5}{here}. Additionally, Figure \ref{fig:qlearningmountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the reward.
+				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/qlearning_mountain_car-v0tuning/reports/Q-Learning-MountainCar-v0---VmlldzoxMjAxNzEwMQ?accessToken=3ho3ppomqsu6prg4yd4wdhset84tq72p24zrpw8ztwcivdw8xfsjevl6tduvjfi5}{here}. Additionally, Figure \ref{fig:qlearningmountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the regret.
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=1\linewidth]{qlearning-hyp-tuning-mountaincar.png}
@@ -298,12 +331,13 @@
 				The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
 			\subsubsection{Code Snippets}
+				Action selection using $\epsilon$-greedy
 				\lstinputlisting[language=Python,firstline=7, lastline=11, caption=epsilon-greedy action selection]{../minigrid_world/sarsa.py}
 				\lstinputlisting[language=Python,firstline=20, lastline=57, caption= SARSA implementation ]{../minigrid_world/sarsa.py}
 				\lstinputlisting[language=Python,firstline=6, lastline=10, caption=Softmax action selection ]{../minigrid_world/q_learning.py}
 				\lstinputlisting[language=Python,firstline=15, lastline=55, caption=Q-Learning implementation]{../minigrid_world/q_learning.py}
 			\subsubsection{SARSA hyper-parameter tuning}
-			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\)(all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/axvqh3jk}{here}. Additionally, Figure \ref{fig:sarsaminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the reward.
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\)(all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/axvqh3jk}{here}. Additionally, Figure \ref{fig:sarsaminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=1\linewidth]{sarsa-hyp-tuning-minigridworld.png}
@@ -351,7 +385,7 @@
 					\label{fig:sarsaminigridworld}
 				\end{figure}
 			\subsubsection{Q-Learning hyper-parameter tuning}
-			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/minigrid-qlearning-softmax-tuning/reports/Q-Learning-MiniGrid-5x5-v0---VmlldzoxMjAyMTY4OQ?accessToken=7k22frexodx9vs7tryakvnme6ubxd011hcul9mke18nlhsfc8jtpo73poi45toq8}{here}. Additionally, Figure \ref{fig:qlearningminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the reward.
+			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\tau \in [0.1, 1.5]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\) (all-time average return). See the wandb report on this environment \href{https://wandb.ai/ee24e009-iitm/minigrid-qlearning-softmax-tuning/reports/Q-Learning-MiniGrid-5x5-v0---VmlldzoxMjAyMTY4OQ?accessToken=7k22frexodx9vs7tryakvnme6ubxd011hcul9mke18nlhsfc8jtpo73poi45toq8}{here}. Additionally, Figure \ref{fig:qlearningminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\tau$, and the regret.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=1\linewidth]{qlearning-hyp-tuning-minigridworld.png}

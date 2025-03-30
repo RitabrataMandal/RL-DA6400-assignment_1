@@ -1,37 +1,85 @@
-# RL-DA6400-Assignment_1
+# RL-DA6400-Assignment\_1
 
 ## About
-Implementation of SARSA with EpsilonGreedy exploration and Q-learning with softmax exploration policy on three different Gymnasium environments:
 
-- **CartPole-v1**  
-- **MountainCar-v0**  
-- **MiniGrid-Dynamic-Obstacles-5x5-v0**  
+Implementation of SARSA with Epsilon-Greedy exploration and Q-learning with Softmax exploration policy on three different Gymnasium environments:
 
-## Environment Installation
+- **CartPole-v1**
+- **MountainCar-v0**
+- **MiniGrid-Dynamic-Obstacles-5x5-v0**
 
-Create a virtual environment using venv:
-```bash
-python3 -m venv venv --prompt="rl"
-```
+## Installation
 
-Activate the virtual environment:
-```bash
-source venv/bin/activate
-```
+To install the required packages, run:
 
-Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Software Packages
+## Steps to Recreate
 
-To run the file on the terminal, use:
+To set up and run the project, follow these steps:
+
+### 1. Install Required Packages
+
+Run the following command to install all necessary packages:
+
 ```bash
-python3 main.py
+pip install -r requirements.txt
 ```
 
-To recreate the results, run `plot_two(_q).py` using:
+### 2. Run Experiments for Different Environments
+
+#### 2.1 CartPole-v1
+
+- Navigate to the `cartpole-v1` directory:
+
 ```bash
-python3 plot_two.py
-python3 plot_two_q.py
+cd cartpole-v1
+```
+
+- Run the appropriate script:
+  - For SARSA implementation:
+  ```bash
+  python sarsa.py
+  ```
+  - For Q-learning implementation:
+  ```bash
+  python qlearning.py
+  ```
+
+#### 2.2 MountainCar-v0
+
+- Navigate to the `mountain_car-v0` directory:
+
+```bash
+cd mountain_car-v0
+```
+
+- Run the appropriate script:
+  - For SARSA implementation:
+  ```bash
+  python sarsa.py
+  ```
+  - For Q-learning implementation:
+  ```bash
+  python q_learning.py
+  ```
+
+#### 2.3 MiniGrid-Dynamic-Obstacles-5x5-v0
+
+- Navigate to the `minigrid_world` directory:
+
+```bash
+cd minigrid_world
+```
+
+- Run the appropriate script:
+  - For SARSA implementation:
+  ```bash
+  python sarsa_epsilon_greedy.py
+  ```
+  - For Q-learning implementation:
+  ```bash
+  python q_learning_softmax.py
+  ```

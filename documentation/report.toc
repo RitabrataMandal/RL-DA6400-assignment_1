@@ -13,16 +13,19 @@
 \contentsline {subsection}{\numberline {2.2}\href {https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor {magenta}{MountainCar-v0}}}{12}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Code Snippets}{12}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}SARSA hyper-parameter tuning}{15}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}SARSA best $3$ results}{15}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Q-Learning hyper-parameter tuning}{17}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Q-Learning best $3$ results}{17}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Result(SARSA vs Q-Learning)}{19}{subsubsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.3}\href {https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor {magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}{19}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Code Snippets}{19}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}SARSA hyper-parameter tuning}{21}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}SARSA best $3$ results}{22}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Q-Learning hyper-parameter tuning}{24}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}Q-Learning best $3$ results}{24}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Result(SARSA vs Q-Learning)}{26}{subsubsection.2.3.6}%
-\contentsline {section}{\numberline {3}Github link}{26}{section.3}%
-\contentsline {section}{\numberline {4}Steps to recreate}{26}{section.4}%
+\contentsline {subsubsection}{\numberline {2.2.3}SARSA best $3$ results}{16}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Q-Learning hyper-parameter tuning}{18}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Q-Learning best $3$ results}{18}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Result(SARSA vs Q-Learning)}{20}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}\href {https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor {magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}{20}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Code Snippets}{20}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}SARSA hyper-parameter tuning}{23}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}SARSA best $3$ results}{23}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Q-Learning hyper-parameter tuning}{25}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Q-Learning best $3$ results}{25}{subsubsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.6}Result(SARSA vs Q-Learning)}{27}{subsubsection.2.3.6}%
+\contentsline {section}{\numberline {3}Github link}{27}{section.3}%
+\contentsline {section}{\numberline {4}Requirements and Hyperparameter Configurations}{27}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Requirements}{27}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hyperparameter Configurations}{27}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Steps to Recreate}{28}{section.5}%

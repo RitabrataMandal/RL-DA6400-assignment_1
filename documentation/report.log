@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  30 MAR 2025 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  30 MAR 2025 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,7 +977,7 @@ nput line 128.
 [5]) (../cartpole-v1/policy.py) (../cartpole-v1/q_agent.py
 
 [6])
-<sarsa-hyp-tuning-cartpole.png, id=304, 3171.85pt x 1666.225pt>
+<sarsa-hyp-tuning-cartpole.png, id=319, 3171.85pt x 1666.225pt>
 File: sarsa-hyp-tuning-cartpole.png Graphic file (type png)
 <use sarsa-hyp-tuning-cartpole.png>
 Package pdftex.def Info: sarsa-hyp-tuning-cartpole.png  used on input line 139.
@@ -994,19 +994,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 143.
 
-<../cartpole-v1/plots/sarsa_Figure_1.png, id=346, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/sarsa_Figure_1.png, id=361, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/sarsa_Figure_1.png Graphic file (type png)
 <use ../cartpole-v1/plots/sarsa_Figure_1.png>
 Package pdftex.def Info: ../cartpole-v1/plots/sarsa_Figure_1.png  used on input
  line 162.
 (pdftex.def)             Requested size: 251.9989pt x 157.49475pt.
-<../cartpole-v1/plots/sarsa_Figure_2.png, id=347, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/sarsa_Figure_2.png, id=362, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/sarsa_Figure_2.png Graphic file (type png)
 <use ../cartpole-v1/plots/sarsa_Figure_2.png>
 Package pdftex.def Info: ../cartpole-v1/plots/sarsa_Figure_2.png  used on input
  line 169.
 (pdftex.def)             Requested size: 251.9989pt x 157.49475pt.
-<../cartpole-v1/plots/sarsa_Figure_3.png, id=348, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/sarsa_Figure_3.png, id=363, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/sarsa_Figure_3.png Graphic file (type png)
 <use ../cartpole-v1/plots/sarsa_Figure_3.png>
 Package pdftex.def Info: ../cartpole-v1/plots/sarsa_Figure_3.png  used on input
@@ -1021,7 +1021,7 @@ Overfull \vbox (24.28401pt too high) has occurred while \output is active []
 
 [9 <../cartpole-v1/plots/sarsa_Figure_1.png> <../cartpole-v1/plots/sarsa_Figure
 _2.png> <../cartpole-v1/plots/sarsa_Figure_3.png>]
-<qlearning-hyp-tuning-cartpole.png, id=365, 3171.85pt x 1666.225pt>
+<qlearning-hyp-tuning-cartpole.png, id=380, 3171.85pt x 1666.225pt>
 File: qlearning-hyp-tuning-cartpole.png Graphic file (type png)
 <use qlearning-hyp-tuning-cartpole.png>
 Package pdftex.def Info: qlearning-hyp-tuning-cartpole.png  used on input line 
@@ -1036,19 +1036,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 191.
 
-<../cartpole-v1/plots/qlearning_Figure_1.png, id=367, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/qlearning_Figure_1.png, id=382, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/qlearning_Figure_1.png Graphic file (type png)
 <use ../cartpole-v1/plots/qlearning_Figure_1.png>
 Package pdftex.def Info: ../cartpole-v1/plots/qlearning_Figure_1.png  used on i
 nput line 210.
 (pdftex.def)             Requested size: 251.9989pt x 157.49475pt.
-<../cartpole-v1/plots/qlearning_Figure_2.png, id=368, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/qlearning_Figure_2.png, id=383, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/qlearning_Figure_2.png Graphic file (type png)
 <use ../cartpole-v1/plots/qlearning_Figure_2.png>
 Package pdftex.def Info: ../cartpole-v1/plots/qlearning_Figure_2.png  used on i
 nput line 217.
 (pdftex.def)             Requested size: 251.9989pt x 157.49475pt.
-<../cartpole-v1/plots/qlearning_Figure_3.png, id=369, 578.16pt x 361.35pt>
+<../cartpole-v1/plots/qlearning_Figure_3.png, id=384, 578.16pt x 361.35pt>
 File: ../cartpole-v1/plots/qlearning_Figure_3.png Graphic file (type png)
 <use ../cartpole-v1/plots/qlearning_Figure_3.png>
 Package pdftex.def Info: ../cartpole-v1/plots/qlearning_Figure_3.png  used on i
@@ -1064,209 +1064,218 @@ Overfull \vbox (24.28401pt too high) has occurred while \output is active []
 [11 <../cartpole-v1/plots/qlearning_Figure_1.png> <../cartpole-v1/plots/qlearni
 ng_Figure_2.png> <../cartpole-v1/plots/qlearning_Figure_3.png>]
 (../mountain_car-v0/q_learning_softmax.py) (../mountain_car-v0/sarsa.py)
-(../mountain_car-v0/sarsa.py) (../mountain_car-v0/sarsa.py
+(../mountain_car-v0/sarsa.py
 
-[12]) (../mountain_car-v0/q_learning.py
+[12]) (../mountain_car-v0/sarsa.py
 
-[13]) (../mountain_car-v0/q_learning.py)
+[13]) (../mountain_car-v0/q_learning.py) (../mountain_car-v0/q_learning.py
 
-[14]
-<sarsa-hyp-tuning-mountaincar.png, id=508, 3171.85pt x 1666.225pt>
+[14])
+<sarsa-hyp-tuning-mountaincar.png, id=510, 3171.85pt x 1666.225pt>
 File: sarsa-hyp-tuning-mountaincar.png Graphic file (type png)
 <use sarsa-hyp-tuning-mountaincar.png>
 Package pdftex.def Info: sarsa-hyp-tuning-mountaincar.png  used on input line 2
-46.
+52.
 (pdftex.def)             Requested size: 360.0pt x 189.10753pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 250.
-
+[15]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 250.
+(hyperref)                removing `math shift' on input line 256.
 
-<../mountain_car-v0/plots/sarsa_Figure_1.png, id=510, 1387.584pt x 706.0779pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 256.
+
+<../mountain_car-v0/plots/sarsa_Figure_1.png, id=531, 1387.584pt x 706.0779pt>
 File: ../mountain_car-v0/plots/sarsa_Figure_1.png Graphic file (type png)
 <use ../mountain_car-v0/plots/sarsa_Figure_1.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/sarsa_Figure_1.png  used on i
-nput line 269.
+nput line 275.
 (pdftex.def)             Requested size: 288.0011pt x 146.54613pt.
-<../mountain_car-v0/plots/sarsa_Figure_2.png, id=511, 722.7pt x 433.62pt>
+<../mountain_car-v0/plots/sarsa_Figure_2.png, id=532, 722.7pt x 433.62pt>
 File: ../mountain_car-v0/plots/sarsa_Figure_2.png Graphic file (type png)
 <use ../mountain_car-v0/plots/sarsa_Figure_2.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/sarsa_Figure_2.png  used on i
-nput line 276.
+nput line 282.
 (pdftex.def)             Requested size: 288.0011pt x 172.80312pt.
-<../mountain_car-v0/plots/sarsa_Figure_3.png, id=512, 1387.584pt x 706.0779pt>
+<../mountain_car-v0/plots/sarsa_Figure_3.png, id=533, 1387.584pt x 706.0779pt>
 File: ../mountain_car-v0/plots/sarsa_Figure_3.png Graphic file (type png)
 <use ../mountain_car-v0/plots/sarsa_Figure_3.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/sarsa_Figure_3.png  used on i
-nput line 283.
+nput line 289.
 (pdftex.def)             Requested size: 288.0011pt x 146.54613pt.
 
 
-[15 <./sarsa-hyp-tuning-mountaincar.png>]
+[16 <./sarsa-hyp-tuning-mountaincar.png>]
 Overfull \vbox (17.69513pt too high) has occurred while \output is active []
 
 
 
-[16 <../mountain_car-v0/plots/sarsa_Figure_1.png> <../mountain_car-v0/plots/sar
+[17 <../mountain_car-v0/plots/sarsa_Figure_1.png> <../mountain_car-v0/plots/sar
 sa_Figure_2.png> <../mountain_car-v0/plots/sarsa_Figure_3.png>]
-<qlearning-hyp-tuning-mountaincar.png, id=529, 3171.85pt x 1666.225pt>
+<qlearning-hyp-tuning-mountaincar.png, id=549, 3171.85pt x 1666.225pt>
 File: qlearning-hyp-tuning-mountaincar.png Graphic file (type png)
 <use qlearning-hyp-tuning-mountaincar.png>
 Package pdftex.def Info: qlearning-hyp-tuning-mountaincar.png  used on input li
-ne 294.
+ne 300.
 (pdftex.def)             Requested size: 360.0pt x 189.10753pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
+(hyperref)                removing `math shift' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 298.
+(hyperref)                removing `math shift' on input line 304.
 
-<../mountain_car-v0/plots/qlearning_Figure_1.png, id=531, 722.7pt x 433.62pt>
+<../mountain_car-v0/plots/qlearning_Figure_1.png, id=551, 722.7pt x 433.62pt>
 File: ../mountain_car-v0/plots/qlearning_Figure_1.png Graphic file (type png)
 <use ../mountain_car-v0/plots/qlearning_Figure_1.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/qlearning_Figure_1.png  used 
-on input line 317.
+on input line 323.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
-<../mountain_car-v0/plots/qlearning_Figure_2.png, id=532, 1387.584pt x 706.0779
+<../mountain_car-v0/plots/qlearning_Figure_2.png, id=552, 1387.584pt x 706.0779
 pt>
 File: ../mountain_car-v0/plots/qlearning_Figure_2.png Graphic file (type png)
 <use ../mountain_car-v0/plots/qlearning_Figure_2.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/qlearning_Figure_2.png  used 
-on input line 324.
+on input line 330.
 (pdftex.def)             Requested size: 288.0011pt x 146.54613pt.
-<../mountain_car-v0/plots/qlearning_Figure_3.png, id=533, 722.7pt x 433.62pt>
+<../mountain_car-v0/plots/qlearning_Figure_3.png, id=553, 722.7pt x 433.62pt>
 File: ../mountain_car-v0/plots/qlearning_Figure_3.png Graphic file (type png)
 <use ../mountain_car-v0/plots/qlearning_Figure_3.png>
 Package pdftex.def Info: ../mountain_car-v0/plots/qlearning_Figure_3.png  used 
-on input line 331.
+on input line 337.
 (pdftex.def)             Requested size: 288.0011pt x 172.80312pt.
 
 
-[17 <./qlearning-hyp-tuning-mountaincar.png>]
+[18 <./qlearning-hyp-tuning-mountaincar.png>]
 Overfull \vbox (22.34926pt too high) has occurred while \output is active []
 
 
 
-[18 <../mountain_car-v0/plots/qlearning_Figure_1.png> <../mountain_car-v0/plots
+[19 <../mountain_car-v0/plots/qlearning_Figure_1.png> <../mountain_car-v0/plots
 /qlearning_Figure_2.png> <../mountain_car-v0/plots/qlearning_Figure_3.png>]
+Overfull \hbox (9.50479pt too wide) in paragraph at lines 348--349
+[]\OT1/cmr/m/n/10.95 SARSA with $\OML/cmm/m/it/10.95 ^^O$\OT1/cmr/m/n/10.95 -gr
+eedy: It per-forms slightly bet-ter, achiev-ing a marginally
+ []
+
 (../minigrid_world/sarsa.py) (../minigrid_world/sarsa.py
 
-[19]) (../minigrid_world/q_learning.py) (../minigrid_world/q_learning.py
+[20]) (../minigrid_world/q_learning.py) (../minigrid_world/q_learning.py
 
-[20])
-<sarsa-hyp-tuning-minigridworld.png, id=627, 3171.85pt x 1666.225pt>
+[21])
+
+[22]
+<sarsa-hyp-tuning-minigridworld.png, id=679, 3171.85pt x 1666.225pt>
 File: sarsa-hyp-tuning-minigridworld.png Graphic file (type png)
 <use sarsa-hyp-tuning-minigridworld.png>
 Package pdftex.def Info: sarsa-hyp-tuning-minigridworld.png  used on input line
- 351.
+ 363.
 (pdftex.def)             Requested size: 360.0pt x 189.10753pt.
 
 
-[21]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 367.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 367.
 
-<../minigrid_world/plots/sarsa_Figure_1.png, id=658, 722.7pt x 433.62pt>
+<../minigrid_world/plots/sarsa_Figure_1.png, id=681, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/sarsa_Figure_1.png Graphic file (type png)
 <use ../minigrid_world/plots/sarsa_Figure_1.png>
 Package pdftex.def Info: ../minigrid_world/plots/sarsa_Figure_1.png  used on in
-put line 374.
+put line 386.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
-<../minigrid_world/plots/sarsa_Figure_2.png, id=659, 722.7pt x 433.62pt>
+<../minigrid_world/plots/sarsa_Figure_2.png, id=682, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/sarsa_Figure_2.png Graphic file (type png)
 <use ../minigrid_world/plots/sarsa_Figure_2.png>
 Package pdftex.def Info: ../minigrid_world/plots/sarsa_Figure_2.png  used on in
-put line 381.
+put line 393.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
-<../minigrid_world/plots/sarsa_Figure_3.png, id=660, 722.7pt x 433.62pt>
+<../minigrid_world/plots/sarsa_Figure_3.png, id=683, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/sarsa_Figure_3.png Graphic file (type png)
 <use ../minigrid_world/plots/sarsa_Figure_3.png>
 Package pdftex.def Info: ../minigrid_world/plots/sarsa_Figure_3.png  used on in
-put line 388.
+put line 400.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
 
 
-[22 <./sarsa-hyp-tuning-minigridworld.png>]
+[23 <./sarsa-hyp-tuning-minigridworld.png>]
 Overfull \vbox (5.40053pt too high) has occurred while \output is active []
 
 
 
-[23 <../minigrid_world/plots/sarsa_Figure_1.png> <../minigrid_world/plots/sarsa
+[24 <../minigrid_world/plots/sarsa_Figure_1.png> <../minigrid_world/plots/sarsa
 _Figure_2.png> <../minigrid_world/plots/sarsa_Figure_3.png>]
-<qlearning-hyp-tuning-minigridworld.png, id=676, 3171.85pt x 1666.225pt>
+<qlearning-hyp-tuning-minigridworld.png, id=701, 3171.85pt x 1666.225pt>
 File: qlearning-hyp-tuning-minigridworld.png Graphic file (type png)
 <use qlearning-hyp-tuning-minigridworld.png>
 Package pdftex.def Info: qlearning-hyp-tuning-minigridworld.png  used on input 
-line 399.
+line 411.
 (pdftex.def)             Requested size: 360.0pt x 189.10753pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 403.
+(hyperref)                removing `math shift' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 403.
+(hyperref)                removing `math shift' on input line 415.
 
-<../minigrid_world/plots/qlearning_Figure_1.png, id=678, 722.7pt x 433.62pt>
+<../minigrid_world/plots/qlearning_Figure_1.png, id=703, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/qlearning_Figure_1.png Graphic file (type png)
 <use ../minigrid_world/plots/qlearning_Figure_1.png>
 Package pdftex.def Info: ../minigrid_world/plots/qlearning_Figure_1.png  used o
-n input line 422.
+n input line 434.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
-<../minigrid_world/plots/qlearning_Figure_2.png, id=679, 722.7pt x 433.62pt>
+<../minigrid_world/plots/qlearning_Figure_2.png, id=704, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/qlearning_Figure_2.png Graphic file (type png)
 <use ../minigrid_world/plots/qlearning_Figure_2.png>
 Package pdftex.def Info: ../minigrid_world/plots/qlearning_Figure_2.png  used o
-n input line 429.
+n input line 441.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
-<../minigrid_world/plots/qlearning_Figure_3.png, id=680, 722.7pt x 433.62pt>
+<../minigrid_world/plots/qlearning_Figure_3.png, id=705, 722.7pt x 433.62pt>
 File: ../minigrid_world/plots/qlearning_Figure_3.png Graphic file (type png)
 <use ../minigrid_world/plots/qlearning_Figure_3.png>
 Package pdftex.def Info: ../minigrid_world/plots/qlearning_Figure_3.png  used o
-n input line 436.
+n input line 448.
 (pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
 
 
-[24 <./qlearning-hyp-tuning-minigridworld.png>]
+[25 <./qlearning-hyp-tuning-minigridworld.png>]
 Overfull \vbox (5.40053pt too high) has occurred while \output is active []
 
 
 
-[25 <../minigrid_world/plots/qlearning_Figure_1.png> <../minigrid_world/plots/q
+[26 <../minigrid_world/plots/qlearning_Figure_1.png> <../minigrid_world/plots/q
 learning_Figure_2.png> <../minigrid_world/plots/qlearning_Figure_3.png>]
+(../minigrid_world/sweep_sarsa.yaml
 
-[26] (../minigrid_world/sweep_sarsa.yaml) (../minigrid_world/sweep_config.yaml)
+[27]) (../minigrid_world/sweep_config.yaml)
 
+[28]
 
-[27] (./report.aux)
+[29] (./report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 638B1198960150B6DD31B4C0B92F5CFE;4685.
+(rerunfilecheck)             Checksum: 41FEE755742CD0EAC3B5C412CDBC6DD0;5292.
  ) 
 Here is how much of TeX's memory you used:
- 37843 strings out of 473600
- 846110 string characters out of 5732737
- 2273908 words of memory out of 5000000
- 59653 multiletter control sequences out of 15000+600000
+ 37862 strings out of 473600
+ 846374 string characters out of 5732737
+ 2334908 words of memory out of 5000000
+ 59659 multiletter control sequences out of 15000+600000
  568801 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,117p,779b,2175s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,117p,779b,2339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-di
@@ -1275,12 +1284,13 @@ ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/202
-4/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on report.pdf (27 pages, 7882696 bytes).
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/20
+24/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2024/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on report.pdf (29 pages, 7904790 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 767 compressed objects within 8 object streams
- 437 named destinations out of 1000 (max. 500000)
- 349 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 801 compressed objects within 9 object streams
+ 450 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 

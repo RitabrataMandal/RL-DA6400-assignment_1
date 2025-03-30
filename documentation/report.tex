@@ -230,15 +230,21 @@
 					\end{figure}
 				
 			\subsubsection{Result(SARSA vs Q-Learning)}
-			The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.  Hence SARSA with $\epsilon$-greedy and Q-Learning both solves the environment and show a similar results.
+				The SARSA implementation achieved the highest average reward of 130 over 4000 episodes, while the Q-Learning implementation achieved an average reward of 119 over the same number of episodes.\\				
+				From the graphs, we observe the following trends:
+				\begin{itemize}
+					\item SARSA: It takes longer to converge but ultimately achieves a higher average reward. The slower convergence indicates that SARSA explores more thoroughly, leading to better long-term performance.
+					\item 	Q-Learning: Although Q-Learning converges faster, it tends to saturate at a lower reward, especially when different hyperparameters are used. This faster convergence comes at the cost of reduced average performance compared to SARSA.
+				\end{itemize}
+				In summary, SARSA demonstrates better stability and higher rewards in the long run, while Q-Learning converges more quickly but results in a slightly lower average reward.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor{magenta}{MountainCar-v0}}}
 			\subsubsection{Code Snippets}
-				\lstinputlisting[language=Python,firstline=37, lastline=37, caption=Q-table ]{../mountain_car-v0/q_learning_softmax.py}
+				\lstinputlisting[language=Python,firstline=33, lastline=33, caption=Q-table ]{../mountain_car-v0/q_learning_softmax.py}
 				\lstinputlisting[language=Python,firstline=22, lastline=30, caption=Discretized sates ]{../mountain_car-v0/sarsa.py}
-				\lstinputlisting[language=Python,firstline=32, lastline=38, caption=epsilon-greedy action selection]{../mountain_car-v0/sarsa.py}
-				\lstinputlisting[language=Python,firstline=41, lastline=79, caption= SARSA implementation ]{../mountain_car-v0/sarsa.py}
+				\lstinputlisting[language=Python,firstline=31, lastline=37, caption=epsilon-greedy action selection]{../mountain_car-v0/sarsa.py}
+				\lstinputlisting[language=Python,firstline=40, lastline=78, caption= SARSA implementation ]{../mountain_car-v0/sarsa.py}
 				\lstinputlisting[language=Python,firstline=31, lastline=41, caption=Softmax action selection ]{../mountain_car-v0/q_learning.py}
-				\lstinputlisting[language=Python,firstline=46, lastline=81, caption=Q-Learning implementation]{../mountain_car-v0/q_learning.py}
+				\lstinputlisting[language=Python,firstline=45, lastline=80, caption=Q-Learning implementation]{../mountain_car-v0/q_learning.py}
 			\subsubsection{SARSA  hyper-parameter tuning}
 				Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(-200 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/4f545bce}{here}. Additionally, Figure \ref{fig:sarsamountaincar-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
 				\begin{figure}[H]
@@ -336,14 +342,20 @@
 					\label{fig:qlearningmountaincar}
 				\end{figure}
 			\subsubsection{Result(SARSA vs Q-Learning)}		
-				The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.  Hence SARSA with $\epsilon$-greedy and Q-Learning both solves the environment and show a similar results.
+				The SARSA implementation achieved the best average reward of -255 over 2000 episodes, while the Q-Learning implementation achieved an average reward of -259 over the same period.\\				
+				From these results, we can conclude the following:
+				\begin{itemize}
+					\item SARSA with $\epsilon$-greedy: It performs slightly better, achieving a marginally higher average reward.
+					\item Q-Learning: Although it converges to a similar solution, its average reward remains slightly lower than that of SARSA.
+				\end{itemize}				
+				In summary, both SARSA with $\epsilon$-greedy and Q-Learning successfully solve the environment, producing comparable results with only a minor difference in performance.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
 			\subsubsection{Code Snippets}
 				Action selection using $\epsilon$-greedy
 				\lstinputlisting[language=Python,firstline=7, lastline=11, caption=epsilon-greedy action selection]{../minigrid_world/sarsa.py}
-				\lstinputlisting[language=Python,firstline=20, lastline=57, caption= SARSA implementation ]{../minigrid_world/sarsa.py}
+				\lstinputlisting[language=Python,firstline=16, lastline=56, caption= SARSA implementation ]{../minigrid_world/sarsa.py}
 				\lstinputlisting[language=Python,firstline=6, lastline=10, caption=Softmax action selection ]{../minigrid_world/q_learning.py}
-				\lstinputlisting[language=Python,firstline=15, lastline=55, caption=Q-Learning implementation]{../minigrid_world/q_learning.py}
+				\lstinputlisting[language=Python,firstline=14, lastline=55, caption=Q-Learning implementation]{../minigrid_world/q_learning.py}
 			\subsubsection{SARSA hyper-parameter tuning}
 			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 2000 episodes while minimizing the regret, defined as \(1 -\)(all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/axvqh3jk}{here}. Additionally, Figure \ref{fig:sarsaminigridworld-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
 			\begin{figure}[H]
@@ -443,28 +455,95 @@
 			\subsubsection{Result(SARSA vs Q-Learning)}
 			The SARSA implementation achieved a best average reward of \(0.8\) over 2000 episodes, whereas Q-learning achieved \(-0.2\) over the same number of episodes. Hence SARSA with $\epsilon$-greedy solves the environment better than Q-Learning with softmax exploration strategy.
 	\section{Github link}	
-		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}
-	\section{Steps to recreate}
+		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}		
+		\section{Requirements and Hyperparameter Configurations}
+		
+			\subsection{Requirements}
+				The required packages and dependencies are listed in the \texttt{requirements.txt} file:
+				
+				\VerbatimInput{../requirements.txt}
+			
+			\subsection{Hyperparameter Configurations}
+				The hyperparameter configurations for SARSA and Q-Learning are provided in the following YAML files:
+				
+				\begin{itemize}
+					\item \textbf{SARSA Configuration:} The configuration for SARSA is defined in the file \texttt{sweep\_sarsa.yaml}.
+					\lstinputlisting[language=yaml, style=mystyle, caption={\texttt{sweep\_sarsa.yaml}}]{../minigrid_world/sweep_sarsa.yaml}
+					
+					\item \textbf{Q-Learning Configuration:} The configuration for Q-Learning is defined in the file \texttt{sweep\_qlearning.yaml}.
+					\lstinputlisting[language=yaml, style=mystyle, caption={\texttt{sweep\_qlearning.yaml}}]{../minigrid_world/sweep_config.yaml}
+				\end{itemize}
+	\section{Steps to Recreate}
+	To set up and run the project, follow these steps:
+	
+	\begin{enumerate}
+		\item \textbf{Install Required Packages:}
+		\begin{itemize}
+			\item Run the following command to install all necessary packages:
+			\begin{verbatim}
+				pip install -r requirements.txt
+			\end{verbatim}
+		\end{itemize}
+		
+		\item \textbf{Run Experiments for Different Environments:}
 		\begin{enumerate}
-			\item for CartPole-v1 \begin{itemize}
-				\item cd to cartpole-v1
-				\item for sarsa implementation run sarsa.py
-				\item for Q-Learning run qlearning.py
+			\item \textbf{CartPole-v1:}
+			\begin{itemize}
+				\item Navigate to the \texttt{cartpole-v1} directory:
+				\begin{verbatim}
+					cd cartpole-v1
+				\end{verbatim}
+				\item Run the appropriate script:
+				\begin{itemize}
+					\item For SARSA implementation:
+					\begin{verbatim}
+						python sarsa.py
+					\end{verbatim}
+					\item For Q-Learning implementation:
+					\begin{verbatim}
+						python qlearning.py
+					\end{verbatim}
+				\end{itemize}
 			\end{itemize}
-			\item for Mountain\_car-v0 \begin{itemize}
-				\item cd mountain\_car-v0
-				\item for sarsa implementation run sarsa.py
-				\item for Q-Learning implementation run q\_learning.py
+			
+			\item \textbf{Mountain\_Car-v0:}
+			\begin{itemize}
+				\item Navigate to the \texttt{mountain\_car-v0} directory:
+				\begin{verbatim}
+					cd mountain_car-v0
+				\end{verbatim}
+				\item Run the appropriate script:
+				\begin{itemize}
+					\item For SARSA implementation:
+					\begin{verbatim}
+						python sarsa.py
+					\end{verbatim}
+					\item For Q-Learning implementation:
+					\begin{verbatim}
+						python q_learning.py
+					\end{verbatim}
+				\end{itemize}
 			\end{itemize}
-			\item for MiniGrid-Dynamic-Obstacles-5x5-v0 \begin{itemize}
-				\item cd minigrid\_world
-				\item for sarsa implementation run  sarsa\_epsilon\_greedy.py
-				\item for Q-Learning implementation run q\_learning\_softmax.py
+			
+			\item \textbf{MiniGrid-Dynamic-Obstacles-5x5-v0:}
+			\begin{itemize}
+				\item Navigate to the \texttt{minigrid\_world} directory:
+				\begin{verbatim}
+					cd minigrid_world
+				\end{verbatim}
+				\item Run the appropriate script:
+				\begin{itemize}
+					\item For SARSA implementation:
+					\begin{verbatim}
+						python sarsa_epsilon_greedy.py
+					\end{verbatim}
+					\item For Q-Learning implementation:
+					\begin{verbatim}
+						python q_learning_softmax.py
+					\end{verbatim}
+				\end{itemize}
 			\end{itemize}
 		\end{enumerate}
-%	\section{References}
-		\newpage
-		\VerbatimInput{../requirements.txt}
-		\lstinputlisting[language=yaml, style=mystyle, caption=SARSA.yaml]{../minigrid_world/sweep_sarsa.yaml}
-		\lstinputlisting[language=yaml, style=mystyle, caption=Q-Learning.yaml]{../minigrid_world/sweep_config.yaml}
+	\end{enumerate}
+		
 \end{document}

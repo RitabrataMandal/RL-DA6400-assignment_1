@@ -6,12 +6,12 @@ import os
 from numpy import save
 
 # Hyperparameters
-epsilon = 0.010567 # Fixed epsilon for exploration
-gamma = 0.99  # Discount factor
-alpha = 0.44469  # Learning rate
-episode = 2000  # Number of episodes
+epsilon = 0.010567 
+gamma = 0.99  
+alpha = 0.44469  
+episode = 2000 
 bins = 30  
-seeds = [100, 200, 300, 400, 500]  # 5 random seeds
+seeds = [100, 200, 300, 400, 500]  
 
 env = gym.make('MountainCar-v0',render_mode='rgb_array')
 n_action = env.action_space.n
@@ -24,20 +24,18 @@ def getState(state, env_low=env_low, env_high=env_high, bins=bins):
     discretized_env = (env_high - env_low) / bins
     discretized_pos = int((state[0] - env_low[0]) / discretized_env[0])
     discretized_vel = int((state[1] - env_low[1]) / discretized_env[1])
-    # Clip to avoid out-of-bound errors
     discretized_pos = np.clip(discretized_pos, 0, bins - 1)
     discretized_vel = np.clip(discretized_vel, 0, bins - 1)
     return discretized_pos, discretized_vel
 
 def chooseAction(pos, vel, q_table, epsilon):
     """Choose action based on an epsilon greedy strategy"""
-    if random.random() < epsilon:  # Explore
+    if random.random() < epsilon:  
         action = env.action_space.sample()
-    else:  # Exploit
+    else:  
         action = np.argmax(q_table[pos][vel])
     return action
 
-# Store rewards across all seeds
 all_rewards = []
 for seed in seeds:
     print(f"\n=== Training with Seed: {seed} ===")
@@ -80,14 +78,11 @@ for seed in seeds:
 
 env.close()
 
-# Convert to numpy array
 all_rewards = np.array(all_rewards)
 
-# Calculate mean and variance of rewards across seeds
 mean_rewards = np.mean(all_rewards, axis=0)
 variance_rewards = np.var(all_rewards, axis=0)
 
-# Plot results
 plt.figure(figsize=(10, 6))
 plt.plot(mean_rewards, label="Mean Reward")
 plt.fill_between(
@@ -103,11 +98,10 @@ plt.ylabel("Return (Smoothed)")
 plt.title("Episodic Return vs Episode Number (SARSA with epsilon greedy)")
 plt.legend()
 # plt.grid()
-# plt.show()
+plt.show()
 
-# Save Q-table and results
 base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episode_{episode}.npy"
 # os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
+# save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
 
-print(f"Results saved in: results/{base_file_name}")
+# print(f"Results saved in: results/{base_file_name}")

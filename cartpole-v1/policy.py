@@ -1,26 +1,13 @@
 import numpy as np
 
 class EpsilonGreedyPolicy:
-    """
-        Description: This class implements the epsilon greedy policy.
-        Args:
-            epsilon  : The exploration rate.
-            q_table  : The q-table for the cartpole-v1 environment.
-            env      : The cartpole-v1 environment.
-    """
     def __init__(self, epsilon, q_table, env):
         self.epsilon = epsilon
         self.q_table = q_table
         self.env = env
 
     def get_action(self, state):
-        """
-            Description: Returns an action based on the epsilon greedy policy.
-            Args:
-                state: The current discretized state.
-            Returns:
-                action: The selected action.
-        """
+       
         if np.random.rand() < self.epsilon:
             action = self.env.action_space.sample()
         else:
@@ -28,28 +15,13 @@ class EpsilonGreedyPolicy:
         return action
 
 class SoftmaxPolicy:
-    """
-        Description: This class implements the softmax exploration policy.
-        Args:
-            temperature: The temperature parameter controlling exploration.
-            q_table    : The Q-table for the cartpole-v1 environment.
-            env        : The cartpole-v1 environment.
-    """
     def __init__(self, temperature, q_table, env):
         self.temperature = temperature
         self.q_table = q_table
         self.env = env
 
     def get_action(self, state):
-        """
-            Description: Returns an action based on the softmax policy.
-            Args:
-                state: The current discretized state.
-            Returns:
-                action: The selected action, chosen probabilistically.
-        """
         q_values = self.q_table[state[0], state[1], state[2], state[3]]
-        # Use a numerically stable softmax calculation
         max_q = np.max(q_values)
         exp_q = np.exp((q_values - max_q) / self.temperature)
         probabilities = exp_q / np.sum(exp_q)

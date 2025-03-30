@@ -18,6 +18,4 @@ def train():
         wandb.log({"regret": regret, "temperature": temperature, "alpha": alpha})
         run.finish()
 
-
-# Run the sweep
 wandb.agent(sweep_id, train, count=50)

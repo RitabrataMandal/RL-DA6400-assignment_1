@@ -7,8 +7,8 @@ import os
 
 def take_action(q_value, epsilon):
     if np.random.random() < epsilon:
-        return np.random.randint(0, 3)  # Explore
-    return np.argmax(q_value)  # Exploit
+        return np.random.randint(0, 3) 
+    return np.argmax(q_value)  
 
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
@@ -42,10 +42,8 @@ for seed in seeds:
             new_x3 = 1 if (front_cell and front_cell.type != "goal") else 0
             new_action = take_action(q_value[:, new_x1, new_x2, new_x3], epsilon)
             
-            # SARSA update
             q_value[action, x1, x2, x3] += alpha * (reward + gamma * q_value[new_action, new_x1, new_x2, new_x3] - q_value[action, x1, x2, x3])
             
-            # Move to next state
             x1, x2, x3, action = new_x1, new_x2, new_x3, new_action
             total_reward[ep] += reward
         
@@ -54,7 +52,6 @@ for seed in seeds:
     all_rewards.append(total_reward)
     env.close()
 
-# Save and plot results
 all_rewards = np.array(all_rewards)
 mean_rewards = np.mean(all_rewards, axis=0)
 variance_rewards = np.var(all_rewards, axis=0)
@@ -66,9 +63,9 @@ plt.legend()
 plt.xlabel("Episodes")
 plt.ylabel("Return")
 plt.title("Episodic Return vs Episode Number (SARSA)")
-plt.grid()
-# plt.show()
+# plt.grid()
+plt.show()
 
-base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episodes_{episodes}.npy"
+# base_file_name = f"sarsa_alpha_{alpha}_epsilon_{epsilon}_episodes_{episodes}.npy"
 # os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})
+# save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

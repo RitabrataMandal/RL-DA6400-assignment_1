@@ -3,10 +3,6 @@ import numpy as np
 import random
 
 def train_q_learning(temperature, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
-    """
-    Runs Q-learning with Softmax exploration.
-    Returns the all-time average mean reward.
-    """
     env = gym.make('MountainCar-v0')
     n_action = env.action_space.n
     env_low = env.observation_space.low

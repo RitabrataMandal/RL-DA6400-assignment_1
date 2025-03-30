@@ -6,10 +6,10 @@ import os
 from numpy import save
 
 # Hyperparameters
-temperature = 0.10075  # Temperature for softmax
-gamma = 0.99  # Discount factor
+temperature = 0.10075  
+gamma = 0.99 
 alpha = 0.47706
-episode = 2000  # Number of episodes
+episode = 2000  
 bins = 30  
 seeds = [100, 200, 300, 400, 500] 
 
@@ -40,7 +40,6 @@ def chooseAction(pos, vel, q_table, temperature):
     action = np.random.choice(np.arange(len(q_values)), p=action_probs)
     return action
 
-# Store rewards across all seeds
 all_rewards = []
 
 for seed in seeds:
@@ -101,10 +100,10 @@ plt.xlabel("Episodes")
 plt.ylabel("Return (Smoothed)")
 plt.title("Episodic Return vs Episode Number (Q-learning with Softmax)")
 plt.legend()
-# plt.show()
+plt.show()
 
 base_file_name = f"qlearn_softmax_alpha_{alpha}_temp_{temperature}_episode_{episode}.npy"
 # os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
+# save(os.path.join("results", base_file_name), {"mean": mean_rewards, "variance": variance_rewards})
 
-print(f"Results saved in: results/{base_file_name}")
+# print(f"Results saved in: results/{base_file_name}")

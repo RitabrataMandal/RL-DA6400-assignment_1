@@ -125,6 +125,12 @@
 	\section{Implementation}
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/cartpole-v1}{\textcolor{magenta}{CartPole-v1}}}
 			\subsubsection{Code Snippets}
+				\lstinputlisting[language=Python,firstline=3, lastline=14, caption=Q-table  ]{../cartpole-v1/q_table.py}
+				\lstinputlisting[language=Python,firstline=17, lastline=24, caption=Discretized sates ]{../cartpole-v1/q_table.py}
+				\lstinputlisting[language=Python,firstline=3, lastline=15, caption=epsilon-greedy action selection]{../cartpole-v1/policy.py}
+				\lstinputlisting[language=Python,firstline=5, lastline=50, caption= SARSA implementation ]{../cartpole-v1/sarsa_agent.py}
+				\lstinputlisting[language=Python,firstline=17, lastline=29, caption=Softmax action selection ]{../cartpole-v1/policy.py}
+				\lstinputlisting[language=Python,firstline=5, lastline=52, caption=Q-Learning implementation]{../cartpole-v1/q_agent.py}
 %				\lstinputlisting[language=Python, caption=SARSA - Agent]{../cartpole-v1/sarsa_agent.py}
 			\subsubsection{SARSA Hyper-Parameter Tuning}  
 			Using Weights \& Biases (wandb) with a sweep method based on Bayesian optimization, we identified the best-performing hyper-parameters. Specifically, we set $\alpha \in [0.1, 0.5]$ and $\epsilon \in [0.01, 0.15]$, and ran 4000 episodes while minimizing the regret, defined as \(195 -\) (all-time average return). See the wandb report on this environment \href{https://api.wandb.ai/links/ee24e009-iitm/0hseqrps}{here}. Additionally, Figure \ref{fig:sarsacartpole-regret} displays the results from 50 sweeps, illustrating the relationship between $\alpha$, $\epsilon$, and the regret.
@@ -224,8 +230,10 @@
 					\end{figure}
 				
 			\subsubsection{Result(SARSA vs Q-Learning)}
+			The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.  Hence SARSA with $\epsilon$-greedy and Q-Learning both solves the environment and show a similar results.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/mountain_car-v0}{\textcolor{magenta}{MountainCar-v0}}}
 			\subsubsection{Code Snippets}
+				\lstinputlisting[language=Python,firstline=37, lastline=37, caption=Q-table ]{../mountain_car-v0/q_learning_softmax.py}
 				\lstinputlisting[language=Python,firstline=22, lastline=30, caption=Discretized sates ]{../mountain_car-v0/sarsa.py}
 				\lstinputlisting[language=Python,firstline=32, lastline=38, caption=epsilon-greedy action selection]{../mountain_car-v0/sarsa.py}
 				\lstinputlisting[language=Python,firstline=41, lastline=79, caption= SARSA implementation ]{../mountain_car-v0/sarsa.py}
@@ -328,7 +336,7 @@
 					\label{fig:qlearningmountaincar}
 				\end{figure}
 			\subsubsection{Result(SARSA vs Q-Learning)}		
-				The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.
+				The SARSA implementation achieved a best average reward of \(-255\) over 2000 episodes, whereas Q-learning achieved \(-259\) over the same number of episodes.  Hence SARSA with $\epsilon$-greedy and Q-Learning both solves the environment and show a similar results.
 		\subsection{\href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1/tree/main/minigrid_world}{\textcolor{magenta}{MiniGrid-Dynamic-Obstacles-5x5-v0}}}
 			\subsubsection{Code Snippets}
 				Action selection using $\epsilon$-greedy
@@ -433,12 +441,29 @@
 					\label{fig:qlearningminigridworld}
 				\end{figure}
 			\subsubsection{Result(SARSA vs Q-Learning)}
-			The SARSA implementation achieved a best average reward of \(0.8\) over 2000 episodes, whereas Q-learning achieved \(-0.2\) over the same number of episodes.
-	\section{Conclusion}
+			The SARSA implementation achieved a best average reward of \(0.8\) over 2000 episodes, whereas Q-learning achieved \(-0.2\) over the same number of episodes. Hence SARSA with $\epsilon$-greedy solves the environment better than Q-Learning with softmax exploration strategy.
 	\section{Github link}	
 		 \href{https://github.com/RitabrataMandal/RL-DA6400-assignment_1}{\text{https://github.com/RitabrataMandal/RL-DA6400-assignment\_1}}
-
+	\section{Steps to recreate}
+		\begin{enumerate}
+			\item for CartPole-v1 \begin{itemize}
+				\item cd to cartpole-v1
+				\item for sarsa implementation run sarsa.py
+				\item for Q-Learning run qlearning.py
+			\end{itemize}
+			\item for Mountain\_car-v0 \begin{itemize}
+				\item cd mountain\_car-v0
+				\item for sarsa implementation run sarsa.py
+				\item for Q-Learning implementation run q\_learning.py
+			\end{itemize}
+			\item for MiniGrid-Dynamic-Obstacles-5x5-v0 \begin{itemize}
+				\item cd minigrid\_world
+				\item for sarsa implementation run  sarsa\_epsilon\_greedy.py
+				\item for Q-Learning implementation run q\_learning\_softmax.py
+			\end{itemize}
+		\end{enumerate}
 %	\section{References}
+		\newpage
 		\VerbatimInput{../requirements.txt}
 		\lstinputlisting[language=yaml, style=mystyle, caption=SARSA.yaml]{../minigrid_world/sweep_sarsa.yaml}
 		\lstinputlisting[language=yaml, style=mystyle, caption=Q-Learning.yaml]{../minigrid_world/sweep_config.yaml}

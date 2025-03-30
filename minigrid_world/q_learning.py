@@ -4,7 +4,6 @@ import os
 from gym_minigrid.wrappers import *
 
 def softmax_action(q_value, temperature):
-    """Return an action selected via softmax exploration."""
     exp_values = np.exp(q_value / temperature)
     probabilities = exp_values / np.sum(exp_values)
     return np.random.choice(len(q_value), p=probabilities)
@@ -22,13 +21,11 @@ def train_qlearning_softmax(temperature, alpha, episodes=4000, gamma=0.99, seeds
         for ep in range(episodes):
             env.reset()
             terminated, truncated = False, False
-            # Compute state indices
             x1 = env.agent_pos[0] * 5 + env.agent_pos[1]
             x2 = env.agent_dir
             front_cell = env.grid.get(*env.front_pos)
             x3 = 1 if (front_cell and front_cell.type != "goal") else 0
             
-            # Select action using softmax
             action = softmax_action(q_value[:, x1, x2, x3], temperature)
             
             while not (terminated or truncated):
@@ -38,13 +35,11 @@ def train_qlearning_softmax(temperature, alpha, episodes=4000, gamma=0.99, seeds
                 front_cell = env.grid.get(*env.front_pos)
                 new_x3 = 1 if (front_cell and front_cell.type != "goal") else 0
                 
-                # Q-learning update with softmax exploration
                 best_next_action = np.argmax(q_value[:, new_x1, new_x2, new_x3])
                 q_value[action, x1, x2, x3] += alpha * (
                     reward + gamma * q_value[best_next_action, new_x1, new_x2, new_x3] - q_value[action, x1, x2, x3]
                 )
                 
-                # Move to next state
                 x1, x2, x3 = new_x1, new_x2, new_x3
                 action = softmax_action(q_value[:, x1, x2, x3], temperature)
                 total_reward[ep] += reward

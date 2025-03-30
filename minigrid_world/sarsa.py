@@ -5,16 +5,12 @@ from gym_minigrid.wrappers import *
 import random
 
 def take_action(q_value, epsilon):
-    """Choose an action using an epsilon-greedy strategy."""
     if np.random.random() < epsilon:
-        return np.random.randint(0, 3)  # Explore
-    return np.argmax(q_value)  # Exploit
+        return np.random.randint(0, 3)  
+    return np.argmax(q_value)  
 
 def train_minigrid(epsilon, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 300, 400, 500]):
-    """
-    Runs SARSA on the MiniGrid-Dynamic-Obstacles-Random-5x5-v0 environment.
-    Returns the all-time average episodic reward.
-    """
+    
     all_rewards = []
 
     for seed in seeds:
@@ -27,7 +23,6 @@ def train_minigrid(epsilon, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 3
         for ep in range(episodes):
             env.reset()
             terminated, truncated = False, False
-            # Calculate state indices
             x1 = env.agent_pos[0] * 5 + env.agent_pos[1]
             x2 = env.agent_dir
             front_cell = env.grid.get(*env.front_pos)
@@ -43,7 +38,6 @@ def train_minigrid(epsilon, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 3
                 new_x3 = 1 if (front_cell and front_cell.type != "goal") else 0
                 new_action = take_action(q_value[:, new_x1, new_x2, new_x3], epsilon)
 
-                # SARSA update rule
                 q_value[action, x1, x2, x3] += alpha * (
                     reward + gamma * q_value[new_action, new_x1, new_x2, new_x3] - q_value[action, x1, x2, x3]
                 )
@@ -56,8 +50,7 @@ def train_minigrid(epsilon, alpha, episodes=2000, gamma=0.99, seeds=[100, 200, 3
         all_rewards.append(total_reward)
         env.close()
 
-    # Convert rewards to numpy array and calculate overall average across episodes and seeds
     all_rewards = np.array(all_rewards)
     mean_rewards = np.mean(all_rewards, axis=0)
     all_time_avg_reward = np.mean(mean_rewards)
-    return all_time_avg_reward, mean_rewards  # Returning mean_rewards for further logging if desired
+    return all_time_avg_reward, mean_rewards  

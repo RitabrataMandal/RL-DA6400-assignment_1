@@ -13,7 +13,7 @@ def softmax_action(q_value, temperature):
 # Hyperparameters
 seeds = [100, 200, 300, 400, 500]
 episodes = 2000
-temperature = 0.50035  # Temperature for softmax
+temperature = 0.50035  
 gamma = 0.99
 alpha = 0.10866
 
@@ -41,11 +41,9 @@ for seed in seeds:
             front_cell = env.grid.get(*env.front_pos)
             new_x3 = 1 if (front_cell and front_cell.type != "goal") else 0
             
-            # Q-learning update
             best_next_action = np.argmax(q_value[:, new_x1, new_x2, new_x3])
             q_value[action, x1, x2, x3] += alpha * (reward + gamma * q_value[best_next_action, new_x1, new_x2, new_x3] - q_value[action, x1, x2, x3])
             
-            # Move to next state
             x1, x2, x3 = new_x1, new_x2, new_x3
             action = softmax_action(q_value[:, x1, x2, x3], temperature)
             total_reward[ep] += reward
@@ -55,7 +53,6 @@ for seed in seeds:
     all_rewards.append(total_reward)
     env.close()
 
-# Save and plot results
 all_rewards = np.array(all_rewards)
 mean_rewards = np.mean(all_rewards, axis=0)
 variance_rewards = np.var(all_rewards, axis=0)
@@ -67,9 +64,9 @@ plt.legend()
 plt.xlabel("Episodes")
 plt.ylabel("Return")
 plt.title("Episodic Return vs Episode Number (Q-learning with Softmax)")
-plt.grid()
+# plt.grid()
 plt.show()
 
-base_file_name = f"q_learning_softmax_alpha_{alpha}_tau_{temperature}_episodes_{episodes}.npy"
+# base_file_name = f"q_learning_softmax_alpha_{alpha}_tau_{temperature}_episodes_{episodes}.npy"
 # os.makedirs("results", exist_ok=True)
-save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})
+# save(os.path.join("results", base_file_name), {'mean': mean_rewards, 'variance': variance_rewards})

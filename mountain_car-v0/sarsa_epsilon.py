@@ -3,10 +3,6 @@ import numpy as np
 import random
 
 def train_sarsa(epsilon, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 200, 300, 400, 500]):
-    """
-    Runs SARSA with epsilon-greedy exploration on the MountainCar-v0 environment.
-    Returns the all-time average mean reward across episodes.
-    """
     env = gym.make('MountainCar-v0', render_mode='rgb_array')
     env_low = env.observation_space.low
     env_high = env.observation_space.high
@@ -19,9 +15,9 @@ def train_sarsa(epsilon, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 2
 
     def chooseAction(pos, vel, q_table, epsilon):
         if random.random() < epsilon:
-            action = env.action_space.sample()  # Explore
+            action = env.action_space.sample()  
         else:
-            action = np.argmax(q_table[pos][vel])  # Exploit
+            action = np.argmax(q_table[pos][vel]) 
         return action
 
     all_rewards = []
@@ -46,7 +42,6 @@ def train_sarsa(epsilon, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 2
                 next_pos, next_vel = getState(next_state)
                 next_action = chooseAction(next_pos, next_vel, q_table, epsilon)
 
-                # SARSA update rule
                 if done:
                     q_table[pos][vel][action] += alpha * (reward - q_table[pos][vel][action])
                 else:
@@ -63,7 +58,6 @@ def train_sarsa(epsilon, alpha, episode=2000, gamma=0.99, bins=30, seeds=[100, 2
 
     env.close()
 
-    # Calculate mean rewards across seeds (per episode)
     mean_rewards = np.mean(all_rewards, axis=0)
     all_time_avg_reward = np.mean(mean_rewards)
     return all_time_avg_reward
